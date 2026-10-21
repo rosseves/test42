@@ -1,0 +1,2881 @@
+Ackee, canned, drained|2.9|0.8|15.2
+Agar, dried|1.3|0.0|1.2
+Agar, dried, soaked and drained|0.2|0.0|0.1
+Alfalfa sprouts, raw|4.0|0.4|0.7
+Allspice, ground|6.1|0.0|8.7
+Almonds, flaked and ground|21.1|6.9|55.8
+Almonds, toasted|21.0|5.9|52.5
+Almonds, weighed with shells|7.8|1.9|18.5
+Almonds, whole kernels|21.2|5.3|49.9
+Amaranth leaves, boiled in unsalted water|3.0|0.3|0.3
+Amaranth leaves, raw|3.5|0.3|0.3
+Amla|0.5|13.7|0.1
+Anchovies, canned in oil, drained|25.2|0.0|10.0
+Anise seeds|17.6|0.0|15.9
+Apple juice concentrate, unsweetened, commerical|0.5|57.6|0.6
+Apple juice, clear, ambient and chilled|0.1|9.7|0.0
+Apple sauce, homemade|0.3|20.2|0.2
+Apples, cooking, baked with sugar, flesh only|0.2|17.1|0.4
+Apples, cooking, baked with sugar, flesh only, weighed with skin|0.2|14.3|0.3
+Apples, cooking, baked without sugar, flesh only|0.2|11.4|0.4
+Apples, cooking, baked without sugar, flesh only, weighed with skin|0.2|9.6|0.3
+Apples, cooking, raw, flesh only, peeled|0.3|8.9|0.3
+Apples, cooking, raw, flesh only, weighed with skin and core|0.2|6.5|0.2
+Apples, cooking, stewed with sugar, flesh only|0.2|20.8|0.3
+Apples, cooking, stewed without sugar, flesh only|0.2|9.7|0.3
+Apples, eating, dried|2.0|60.1|0.5
+Apples, eating, raw, flesh and skin|0.6|11.6|0.5
+Apples, eating, raw, flesh and skin, weighed with core|0.5|10.0|0.4
+Apricots, dried|4.8|43.4|0.7
+Apricots, dried, stewed with sugar|1.9|22.0|0.3
+Apricots, dried, stewed without sugar|2.0|17.8|0.3
+Apricots, raw, flesh and skin|0.9|7.2|0.1
+Apricots, raw, flesh and skin, weighed with stones|0.8|6.6|0.1
+Apricots, ready-to-eat, semi-dried|2.2|39.4|0.5
+Apricots, stewed with sugar|0.7|18.3|0.1
+Apricots, stewed with sugar, weighed with stones|0.6|17.1|0.1
+Apricots, stewed without sugar|0.7|6.2|0.1
+Apricots, stewed without sugar, weighed with stones|0.7|5.8|0.1
+Arrowhead, boiled in unsalted water|4.2|17.8|0.3
+Arrowhead, raw|5.0|21.5|0.3
+Arrowroot|0.4|94.0|0.1
+Artichoke, globe, base of leaves and heart, boiled in unsalted water|2.9|2.7|0.2
+Artichoke, globe, boiled, weighed as served|1.2|1.2|0.1
+Artichoke, globe, raw|2.8|2.7|0.2
+Artichoke, Jerusalem, boiled in unsalted water, flesh only|1.6|10.6|0.1
+Asafoetida|4.0|0.0|1.1
+Asparagus, grilled|3.5|2.0|0.4
+Asparagus, raw|2.9|2.0|0.6
+Asparagus, roasted in rapeseed oil|3.5|2.0|1.5
+Asparagus, steamed|2.9|1.6|0.4
+Aubergine, flesh and skin, boiled in unsalted water|0.7|1.8|0.5
+Aubergine, flesh and skin, roasted in rapeseed oil|2.1|5.2|3.8
+Aubergine, fried in butter|1.2|2.8|31.9
+Aubergine, fried in corn oil|1.2|2.8|31.9
+Aubergine, fried in rapeseed oil|1.2|2.8|31.9
+Aubergine, raw|0.9|2.2|0.4
+Aubergine, stuffed with lentils and vegetables|2.0|3.9|4.6
+Aubergine, stuffed with rice|1.9|15.9|2.1
+Aubergine, stuffed with vegetables, cheese topping|5.0|3.6|9.7
+Avocado, Fuerte, flesh only|2.1|1.9|19.3
+Avocado, Fuerte, flesh only, weighed with skin and stone|1.5|1.3|13.7
+Avocado, Hass, flesh only|1.8|1.8|17.4
+Avocado, Hass, flesh only, weighed with skin and stone|1.3|1.3|12.0
+Ayr, raw|15.9|0.0|1.3
+Babaco, flesh only|1.1|3.1|0.1
+Bacha, raw|18.1|0.0|5.6
+Bacon loin steaks, lean, grilled|28.9|1.1|4.3
+Bacon rashers, back, dry-cured, grilled|28.4|0.0|15.9
+Bacon rashers, back, dry-fried|24.2|0.0|22.0
+Bacon rashers, back, fat trimmed, grilled|25.7|0.0|12.3
+Bacon rashers, back, fat trimmed, raw|18.8|0.0|6.7
+Bacon rashers, back, grilled|23.2|0.0|21.6
+Bacon rashers, back, grilled crispy|36.0|0.0|18.8
+Bacon rashers, back, microwaved|24.2|0.0|23.3
+Bacon rashers, back, raw|16.5|0.0|16.5
+Bacon rashers, back, reduced salt, grilled|24.1|0.0|20.6
+Bacon rashers, back, smoked, grilled|23.4|0.0|22.1
+Bacon rashers, back, sweetcure, grilled|23.8|1.6|17.4
+Bacon rashers, back, 'tendersweet', grilled|26.4|0.0|11.9
+Bacon rashers, middle, fried in corn oil|23.4|0.0|28.5
+Bacon rashers, middle, grilled|24.8|0.0|23.1
+Bacon rashers, middle, raw|15.2|0.0|20.0
+Bacon rashers, streaky, fried in corn oil|23.8|0.0|26.6
+Bacon rashers, streaky, grilled|23.8|0.0|26.9
+Bacon rashers, streaky, raw|15.8|0.0|23.6
+Bacon, fat only, average, cooked|9.3|0.0|72.8
+Bacon, fat only, average, raw|4.8|0.0|80.9
+Bagels, plain|10.0|57.8|1.8
+Baked beans, canned in barbecue sauce|5.3|14.0|0.4
+Baked beans, canned in tomato sauce|5.0|15.0|0.5
+Baked beans, canned in tomato sauce, reduced sugar, reduced salt|5.0|13.5|0.5
+Baked beans, canned in tomato sauce, with pork sausages|6.0|11.0|4.5
+Baking fat and margarine (75-90% fat), hard block|0.0|0.0|76.4
+Baking powder|5.2|37.8|0.0
+Banana bread, homemade|4.4|53.9|12.4
+Banana split, homemade|2.3|23.9|11.8
+Bananas, flesh only|1.2|20.3|0.1
+Bananas, raw, flesh only, weighed with skin|0.8|12.8|0.0
+Bannocks, made with beremeal, homemade|9.3|56.8|1.7
+Bannocks, made with wheat flour, homemade|8.5|65.5|1.3
+Barbecue sauce|1.0|36.1|0.1
+Barbecue sauce, homemade|2.7|26.1|21.0
+Barcelona nuts, Kernel only|10.9|5.2|64.0
+Barcelona nuts, kernel only, weighed with shells|6.8|3.2|39.7
+Barley water, diluted|0.1|4.7|0.0
+Barley water, undiluted|0.3|23.7|0.0
+Barley, pearl, boiled|2.7|27.6|0.6
+Barley, pearl, raw|7.9|83.6|1.7
+Basil, dried, ground|14.4|43.2|4.0
+Basil, fresh|3.1|5.1|0.8
+Bass, sea, flesh only, baked|23.2|0.0|6.8
+Bass, sea, flesh only, baked, weighed with bones and skin|20.6|0.0|6.1
+Bass, sea, flesh only, raw|20.0|0.0|9.8
+Bass, sea, flesh only, raw, weighed with bones and skin|17.2|0.0|8.4
+Bay leaf, dried|7.6|48.6|8.4
+Bean loaf, mixed beans, homemade|6.6|15.1|7.2
+Beanburger, aduki, fried in rapeseed oil, homemade|8.1|24.1|7.3
+Beanburger, butter bean, fried in rapeseed oil, homemade|5.7|20.2|10.6
+Beanburger, red kidney bean, fried in rapeseed oil|6.2|21.7|10.7
+Beanburger, soya, fried in rapeseed oil|10.5|14.5|10.7
+Beans, aduki, whole, dried, boiled in unsalted water|9.3|22.5|0.2
+Beans, aduki, whole, dried, raw|19.9|50.1|0.5
+Beans, balor, ends trimmed, raw|2.7|3.0|0.1
+Beans, blackeye, whole, dried, boiled in unsalted water|8.8|19.9|0.7
+Beans, blackeye, whole, dried, raw|23.5|54.1|1.6
+Beans, broad, dried, raw|26.1|32.5|2.1
+Beans, broad, whole, boiled in unsalted water|9.0|12.3|1.0
+Beans, broad, whole, raw|5.7|7.2|1.0
+Beans, butter, canned, re-heated, drained|5.9|13.0|0.5
+Beans, butter, dried, boiled in unsalted water|8.1|16.8|1.1
+Beans, butter, dried, raw|19.1|52.9|1.7
+Beans, cannellini, canned, re-heated, drained|7.6|15.9|1.6
+Beans, chick peas, canned, re-heated, drained|8.4|18.3|3.0
+Beans, chick peas, Kabuli, split, dried, boiled in unsalted water|7.7|17.4|2.0
+Beans, chick peas, Kabuli, split, dried, raw|22.7|49.6|5.4
+Beans, chick peas, Kabuli, whole, dried, boiled in unsalted water|8.4|18.3|3.0
+Beans, chick peas, Kabuli, whole, dried, raw|21.3|49.6|5.4
+Beans, cluster, raw|2.6|3.0|0.1
+Beans, edamame, frozen, boiled in unsalted water|12.2|6.5|7.6
+Beans, green, boiled in unsalted water|2.1|4.0|0.3
+Beans, green, raw|2.1|3.1|0.4
+Beans, haricot, canned, re-heated, drained|7.1|15.6|1.0
+Beans, haricot, whole, dried, boiled in unsalted water|6.6|17.2|0.5
+Beans, haricot, whole, dried, raw|21.4|49.7|1.6
+Beans, mung, dahl, dried, boiled in unsalted water|7.8|15.3|0.4
+Beans, mung, dahl, dried, raw|26.8|46.3|1.1
+Beans, mung, whole, dried, boiled in unsalted water|8.6|15.8|0.7
+Beans, mung, whole, dried, raw|23.9|46.3|1.1
+Beans, papri, raw|5.4|4.2|0.3
+Beans, pigeon peas, dahl, dried, boiled in unsalted water|8.7|21.2|0.5
+Beans, pigeon peas, dahl, dried, raw|21.8|58.6|1.9
+Beans, pigeon peas, whole, dried, boiled in unsalted water|8.5|21.2|0.5
+Beans, pigeon peas, whole, dried, raw|20.0|58.6|1.9
+Beans, pinto, dried, boiled in unsalted water|8.9|23.9|0.7
+Beans, pinto, dried, raw|21.1|57.1|1.6
+Beans, pinto, re-fried beans|6.2|15.3|1.1
+Beans, red kidney, canned in water, re-heated, drained|8.6|15.1|1.0
+Beans, red kidney, dried, boiled in unsalted water|8.6|15.1|1.0
+Beans, red kidney, dried, raw|22.1|44.1|1.4
+Beans, runner, boiled in unsalted water|1.1|1.9|0.5
+Beans, runner, raw|1.6|3.2|0.4
+Beans, soya, dried, boiled in unsalted water|14.0|5.1|7.3
+Beans, soya, dried, raw|35.9|15.8|18.6
+Beans, sword, raw|2.5|7.2|0.3
+Beansprouts, mung, boiled in unsalted water|2.5|2.8|0.5
+Beansprouts, mung, raw|2.9|4.0|0.5
+Beansprouts, mung, stir-fried in rapeseed oil|1.9|2.5|6.1
+Beef bourguignon, homemade|13.8|2.5|6.2
+Beef bourguignonne, made with lean beef, homemade|14.1|2.5|4.2
+Beef extract|40.4|3.2|0.6
+Beef olives, homemade|13.9|1.6|11.0
+Beef steak pudding, homemade|11.5|18.7|10.2
+Beef Stroganoff, homemade|15.3|2.5|11.2
+Beef Wellington, homemade|16.3|16.2|25.5
+Beef, braising steak, braised, lean and fat|32.9|0.0|12.7
+Beef, braising steak, braised, lean only|34.4|0.0|9.7
+Beef, braising steak, raw, lean|21.8|0.0|5.7
+Beef, braising steak, raw, lean and fat|20.7|0.0|8.6
+Beef, braising steak, slow cooked, lean|31.4|0.0|7.9
+Beef, braising steak, slow cooked, lean and fat|29.0|0.0|11.2
+Beef, brisket, boiled, lean|31.4|0.0|11.0
+Beef, brisket, boiled, lean and fat|27.8|0.0|17.4
+Beef, brisket, raw, lean|21.1|0.0|6.1
+Beef, brisket, raw, lean and fat|18.4|0.0|16.0
+Beef, fat, average, cooked|15.5|0.0|52.3
+Beef, fat, average, raw|18.9|0.0|53.6
+Beef, fat, average, raw, extra trimmed|6.8|0.0|72.2
+Beef, fillet steak, fried in corn oil, lean|28.2|0.0|7.9
+Beef, fillet steak, fried in corn oil, lean and fat|28.0|0.0|8.9
+Beef, fillet steak, from steakhouse, lean|28.7|0.0|7.0
+Beef, fillet steak, from steakhouse, lean and fat|28.5|0.0|7.8
+Beef, fillet steak, grilled, lean|29.1|0.0|8.0
+Beef, fillet steak, grilled, lean and fat|28.7|0.0|9.5
+Beef, fillet steak, raw, lean|21.2|0.0|6.1
+Beef, fillet steak, raw, lean and fat|20.9|0.0|7.9
+Beef, flank, pot-roasted, lean|31.8|0.0|14.0
+Beef, flank, pot-roasted, lean and fat|27.1|0.0|22.3
+Beef, flank, raw, lean|22.7|0.0|9.3
+Beef, flank, raw, lean and fat|19.7|0.0|20.8
+Beef, fore-rib/rib-roast, microwaved, lean|35.0|0.0|11.4
+Beef, fore-rib/rib-roast, microwaved, lean and fat|30.4|0.0|20.5
+Beef, fore-rib/rib-roast, microwaved, lean and fat, weighed with bone|25.2|0.0|17.0
+Beef, fore-rib/rib-roast, raw, lean|21.5|0.0|6.5
+Beef, fore-rib/rib-roast, raw, lean and fat|18.8|0.0|19.8
+Beef, fore-rib/rib-roast, roasted, lean|33.3|0.0|11.4
+Beef, fore-rib/rib-roast, roasted, lean and fat|29.1|0.0|20.4
+Beef, fore-rib/rib-roast, roasted, lean and fat, weighed with bone|24.4|0.0|17.1
+Beef, lean, average, raw|22.5|0.0|4.3
+Beef, lean, average, raw, extra trimmed|21.6|0.0|5.1
+Beef, mince patties, barbecued|29.6|0.0|16.2
+Beef, mince, extra lean, stewed|24.7|0.0|4.2
+Beef, mince, frozen, stewed|19.3|0.0|14.1
+Beef, mince, microwaved|26.4|0.0|17.5
+Beef, mince, raw|19.7|0.0|16.2
+Beef, mince, raw, extra lean|21.9|0.0|4.2
+Beef, mince, stewed|10.9|2.5|9.9
+Beef, mince, with vegetables, stewed|9.2|5.7|7.2
+Beef, minced, stewed with onions, extra lean|12.1|2.5|3.6
+Beef, rump steak, barbecued, lean|31.2|0.0|5.7
+Beef, rump steak, barbecued, lean and fat|29.5|0.0|9.4
+Beef, rump steak, fried in corn oil, lean and fat|28.4|0.0|12.7
+Beef, rump steak, fried in corn oil, lean only|30.9|0.0|6.6
+Beef, rump steak, from steakhouse, lean and fat|27.5|0.0|11.4
+Beef, rump steak, from steakhouse, lean only|29.8|0.0|4.7
+Beef, rump steak, grilled, lean only|31.0|0.0|5.9
+Beef, rump steak, raw, lean|22.0|0.0|4.1
+Beef, rump steak, raw, lean and fat|20.7|0.0|10.1
+Beef, rump steak, strips, stir-fried in corn oil, lean|32.3|0.0|8.8
+Beef, rump steak, strips, stir-fried in corn oil, lean and fat|29.7|0.0|14.4
+Beef, silverside, pot-roasted, lean|34.0|0.0|6.3
+Beef, silverside, pot-roasted, lean and fat|31.0|0.0|13.7
+Beef, silverside, raw, lean|23.8|0.0|4.3
+Beef, silverside, raw, lean and fat|20.4|0.0|14.8
+Beef, silverside, salted, boiled, lean|30.4|0.0|6.9
+Beef, silverside, salted, boiled, lean and fat|27.9|0.0|12.5
+Beef, silverside, salted, raw, lean|19.2|0.0|7.0
+Beef, silverside, salted, raw, lean and fat|16.3|0.0|18.0
+Beef, sirloin joint, roasted, lean|32.4|0.0|6.5
+Beef, sirloin joint, roasted, lean and fat|29.8|0.0|12.6
+Beef, sirloin steak, fried in corn oil, lean|28.8|0.0|8.2
+Beef, sirloin steak, fried in corn oil, lean and fat|26.8|0.0|14.0
+Beef, sirloin steak, from steakhouse, lean|31.5|0.0|5.1
+Beef, sirloin steak, from steakhouse, lean and fat|29.6|0.0|10.7
+Beef, sirloin steak, grilled medium-rare, lean|26.6|0.0|7.7
+Beef, sirloin steak, grilled medium-rare, lean and fat|24.8|0.0|12.6
+Beef, sirloin steak, grilled rare, lean|26.4|0.0|6.7
+Beef, sirloin steak, grilled rare, lean and fat|25.1|0.0|12.8
+Beef, sirloin steak, grilled well-done, lean|33.9|0.0|9.9
+Beef, sirloin steak, grilled well-done, lean and fat|31.8|0.0|14.4
+Beef, sirloin steak, raw, lean|23.5|0.0|4.5
+Beef, sirloin steak, raw, lean and fat|21.6|0.0|12.7
+Beef, stewing steak, frozen, stewed, lean|29.7|0.0|8.5
+Beef, stewing steak, frozen, stewed, lean and fat|26.9|0.0|11.6
+Beef, stewing steak, pressure cooked, lean|35.1|0.0|6.5
+Beef, stewing steak, pressure cooked, lean and fat|34.0|0.0|9.0
+Beef, stewing steak, raw, lean|22.6|0.0|3.5
+Beef, stewing steak, raw, lean and fat|22.1|0.0|6.4
+Beef, stewing steak, stewed, lean|32.0|0.0|6.3
+Beef, stewing steak, stewed, lean and fat|29.2|0.0|9.6
+Beef, stir-fried with green peppers, homemade|11.8|6.1|8.0
+Beef, topside, microwaved, lean|35.0|0.0|4.6
+Beef, topside, microwaved, lean and fat|32.1|0.0|11.1
+Beef, topside, raw, lean|23.0|0.0|2.7
+Beef, topside, raw, lean and fat|20.4|0.0|12.9
+Beef, topside, roasted medium-rare, lean|32.2|0.0|5.1
+Beef, topside, roasted medium-rare, lean and fat|29.9|0.0|11.4
+Beef, topside, roasted well-done, lean|36.2|0.0|6.3
+Beef, topside, roasted well-done, lean and fat|32.8|0.0|12.5
+Beer, bitter, average (<4% ABV)|0.3|2.2|0.0
+Beer, bitter, best, premium|0.3|2.2|0.0
+Beer, bitter, strong (>5% ABV)|0.3|2.2|0.0
+Beetroot, cooked in unsalted water|1.6|11.6|0.3
+Beetroot, pickled, drained|1.2|5.6|0.2
+Beetroot, raw|1.7|7.6|0.1
+Bele, raw|15.3|0.0|0.7
+Betel leaves, fresh|6.4|8.6|0.1
+Betel nuts|5.2|56.7|10.2
+Bhaji, aubergine and potato, homemade|1.8|13.4|8.8
+Bhaji, aubergine, pea, potato and cauliflower, homemade|2.9|10.7|2.5
+Bhaji, cabbage and pea, with butter ghee, homemade|3.4|9.7|14.2
+Bhaji, cabbage and pea, with rapeseed oil, homemade|3.4|9.7|14.5
+Bhaji, cabbage and potato, with butter, homemade|2.7|9.7|5.6
+Bhaji, cabbage and potato, with rapeseed oil, homemade|2.2|9.1|7.0
+Bhaji, cabbage and potato, with vegetable oil|2.7|9.6|6.8
+Bhaji, cabbage and spinach|3.6|7.8|17.1
+Bhaji, cabbage, homemade|2.8|6.8|4.5
+Bhaji, carrot, potato and pea, with butter, homemade|2.2|12.9|6.6
+Bhaji, carrot, potato and pea, with vegetable oil, homemade|2.1|12.9|7.9
+Bhaji, cauliflower and potato, homemade|3.3|10.1|6.8
+Bhaji, cauliflower and vegetable, homemade|3.1|6.6|9.1
+Bhaji, cauliflower, homemade|2.9|5.5|20.1
+Bhaji, cauliflower, potato and pea, with butter|3.5|8.2|11.3
+Bhaji, cauliflower, potato and pea, with vegetable oil|3.4|8.2|13.7
+Bhaji, green bean|2.2|5.0|7.6
+Bhaji, karela, with butter ghee, homemade|1.8|1.2|10.6
+Bhaji, karela, with vegetable oil, homemade|1.8|1.2|10.6
+Bhaji, mushroom, homemade|1.2|4.1|16.6
+Bhaji, mustard leaves and spinach, homemade|3.1|3.8|6.5
+Bhaji, mustard leaves, homemade|3.0|4.6|6.3
+Bhaji, okra, Bangladeshi, with butter ghee, homemade|2.4|7.7|6.2
+Bhaji, okra, Bangladeshi, with vegetable oil, homemade|2.4|7.7|6.4
+Bhaji, okra, Islami, homemade|4.6|8.9|17.1
+Bhaji, pea, homemade|5.0|9.3|34.6
+Bhaji, potato and fenugreek leaves, homemade|3.7|18.8|15.9
+Bhaji, potato and green pepper, homemade|1.5|12.7|9.0
+Bhaji, potato and onion, homemade|2.1|16.7|10.1
+Bhaji, potato, onion and mushroom, homemade|1.7|12.1|17.3
+Bhaji, potato, spinach and cauliflower, homemade|2.2|7.1|15.1
+Bhaji, potato, with butter ghee, homemade|2.2|16.6|9.8
+Bhaji, potato, with vegetable oil, homemade|2.2|16.6|10.0
+Bhaji, spinach and potato, homemade|3.6|13.4|14.1
+Bhaji, spinach, homemade|3.3|2.5|6.9
+Bhaji, turnip and onion, homemade|1.2|7.1|10.6
+Bhaji, turnip, homemade|1.3|6.5|16.4
+Bhaji, vegetable, Punjabi, with butter|3.5|8.2|7.2
+Bhaji, vegetable, Punjabi, with vegetable oil|3.5|8.2|8.6
+Bhaji, vegetable, with butter, homemade|1.9|10.3|15.3
+Bhaji, vegetable, with rapeseed oil, homemade|1.8|10.1|18.5
+Bicarbonate of soda|0.0|0.0|0.0
+Biryani, chicken, takeaway|8.5|16.6|7.4
+Biscuits, cheese flavoured|10.5|53.2|28.1
+Biscuits, cookies, chocolate chip, American style|5.2|60.6|21.3
+Biscuits, cookies, chocolate chip, standard|5.4|60.0|24.9
+Biscuits, digestive, half coated in chocolate|6.3|61.8|25.7
+Biscuits, digestive, plain|6.2|65.6|21.3
+Biscuits, digestive, with oats, plain|6.4|66.4|22.9
+Biscuits, fully coated with chocolate|6.4|62.8|27.2
+Biscuits, fully coated with chocolate, with cream|5.2|59.0|28.2
+Biscuits, fully coated with chocolate, with marshmallow|4.5|59.9|19.0
+Biscuits, ginger nuts|4.8|75.3|15.7
+Biscuits, gingernut, homemade|4.5|70.0|19.8
+Biscuits, iced|4.8|77.1|10.8
+Biscuits, jam filled|5.2|74.0|14.4
+Biscuits, melting moments, homemade|3.4|57.8|37.1
+Biscuits, oat based, chocolate, half coated|6.6|63.9|24.9
+Biscuits, plain, homemade|6.2|66.0|22.1
+Biscuits, plain, reduced fat|6.6|75.7|13.5
+Biscuits, sandwich, cream|5.0|65.8|23.3
+Biscuits, semi-sweet|6.4|75.4|15.1
+Biscuits, short or sweet, half coated in chocolate|6.0|70.3|24.2
+Biscuits, short, sweet|5.6|71.7|20.9
+Biscuits, wholemeal, homemade|12.7|66.6|7.5
+Black gram, chilki urad dahl, dried, split, boiled in unsalted water|8.0|13.6|0.4
+Black gram, chilki urad dahl, split, dried, raw|26.0|42.5|1.4
+Black gram, duhli urad dahl, split, dried, boiled in unsalted water|8.1|15.1|0.4
+Black gram, duhli urad dahl, split, dried, raw|27.2|44.0|1.4
+Black gram, urad gram, whole, dried, boiled in unsalted water|7.8|13.6|0.4
+Black gram, urad gram, whole, dried, raw|24.9|40.8|1.4
+Black pudding, dry-fried|10.3|16.6|21.5
+Black pudding, raw|9.1|14.8|20.6
+Blackberries, raw|1.1|5.6|0.2
+Blackberries, stewed with sugar|0.7|13.8|0.2
+Blackberries, stewed without sugar|0.8|4.4|0.2
+Blackberry and apple, stewed with sugar|0.4|15.8|0.2
+Blackberry and apple, stewed without sugar|0.5|6.4|0.2
+Blackcurrant juice drink/squash, diluted|0.0|7.2|0.0
+Blackcurrant juice drink/squash, undiluted|0.1|54.2|0.0
+Blackcurrants, raw|0.9|6.6|0.0
+Blackcurrants, stewed with sugar|0.7|15.0|0.0
+Blackcurrants, stewed without sugar|0.8|5.6|0.0
+Blancmange, homemade|3.3|18.1|1.6
+Bloater, flesh only, grilled|23.5|0.0|17.4
+Bloater, flesh only, grilled, weighed with bones and skin|15.3|0.0|11.3
+Blueberries|0.9|9.1|0.2
+Boal, raw|15.4|0.0|2.7
+Bolognese sauce (with meat), homemade|11.8|2.8|11.6
+Bolognese sauce (with meat), made with extra lean minced beef, homemade|13.0|2.8|4.9
+Bombay duck|61.7|0.0|4.0
+Bombay mix|18.8|35.1|32.9
+Bouillabaisse, homemade|11.3|2.0|10.5
+Bounty bar and own brand equivalents|3.7|61.0|26.3
+Brain, lamb, boiled|11.6|0.0|8.8
+Bran, wheat|14.8|20.6|5.5
+Brandy snaps, homemade|2.8|72.1|22.5
+Brawn|12.4|0.0|11.5
+Brazil nuts, kernel only|14.3|3.1|68.2
+Brazil nuts, kernel only, weighed with shells|6.5|1.4|31.4
+Bread pudding, homemade|5.9|48.0|7.7
+Bread rolls, brown, crusty|10.3|50.4|2.8
+Bread rolls, brown, soft|9.9|44.8|3.2
+Bread rolls, malted wheat|10.0|42.7|4.2
+Bread rolls, white, crusty|9.2|54.9|2.2
+Bread rolls, white, soft|9.3|51.5|2.6
+Bread rolls, wholemeal|10.4|46.1|3.3
+Bread sauce, made with semi-skimmed milk, HOMEMADE|4.0|15.6|2.5
+Bread sauce, made with skimmed milk, homemade|4.2|15.5|1.4
+Bread sauce, made with whole milk, homemade|4.1|15.4|3.7
+Bread, brown, average|7.9|42.1|2.0
+Bread, brown, toasted|10.1|54.0|2.6
+Bread, ciabatta|10.2|52.0|3.9
+Bread, garlic and herb, retail|7.0|45.1|16.7
+Bread, malt, fruited|7.8|64.9|2.3
+Bread, malted wheat|9.6|47.4|2.3
+Bread, naan, peshwari naan, takeaway and retail|7.6|39.8|7.9
+Bread, naan, retail|7.8|50.2|7.3
+Bread, pitta, white|9.1|55.1|1.3
+Bread, seeded|9.9|43.8|7.4
+Bread, soda, made with white flour, homemade|7.6|57.3|1.6
+Bread, wheatgerm|11.1|39.5|3.1
+Bread, white, average|8.7|48.7|2.1
+Bread, white, crusty bloomer, unsliced, fresh, large|9.2|52.3|1.6
+Bread, white, Danish style|9.1|44.5|2.7
+Bread, white, farmhouse or split tin|9.0|49.9|2.0
+Bread, white, French stick|9.0|56.1|1.9
+Bread, white, premium|8.3|47.0|2.3
+Bread, white, sliced|7.9|46.1|1.6
+Bread, white, sliced, fried in rapeseed oil|8.1|46.8|32.2
+Bread, white, toasted|9.7|56.2|2.0
+Bread, white, 'with added fibre'|8.7|45.1|2.2
+Bread, white, 'with added fibre', toasted|10.4|53.7|2.6
+Bread, wholemeal, average|9.4|42.0|2.5
+Bread, wholemeal, toasted|11.2|49.2|2.9
+Breadfruit, boiled in unsalted water|1.6|29.0|0.4
+Breadfruit, raw|1.3|23.1|0.3
+Breadnut seeds, dried|8.6|73.8|1.7
+Breadsticks, plain|10.9|72.9|8.1
+Breakfast cereal, bran flakes, fortified|9.6|73.3|2.2
+Breakfast cereal, bran type cereal, fortified|12.4|49.7|3.4
+Breakfast cereal, cornflakes, crunchy / honey nut coated, fortified|5.3|86.6|4.2
+Breakfast cereal, cornflakes, fortified|7.1|90.9|0.8
+Breakfast cereal, cornflakes, frosted, fortified|4.7|87.0|0.5
+Breakfast cereal, cornflakes, unfortified|7.1|91.4|0.8
+Breakfast cereal, crunchy clusters type, without nuts, unfortified|7.2|71.0|11.6
+Breakfast cereal, crunchy/crispy muesli type cereal, with nuts, unfortified|8.4|61.9|20.5
+Breakfast cereal, fruit and fibre type, fortified|8.0|70.3|5.8
+Breakfast cereal, honey loops and hoops, including Honey and Nut Cheerios, fortified|6.6|78.7|3.1
+Breakfast cereal, instant hot oat, plain, raw, fortified|11.0|64.6|7.3
+Breakfast cereal, malted flake, fortified|11.8|83.4|1.4
+Breakfast cereal, malted wheat, fortified|8.7|75.7|2.3
+Breakfast cereal, multigrain hoops, fortified|7.9|80.7|3.8
+Breakfast cereal, Oat, instant, flavoured, unfortified, made up with semi-skimmed milk|4.4|15.6|2.4
+Breakfast cereal, oat, instant, plain, fortified, cooked, made up with semi-skimmed milk|4.9|14.2|2.5
+Breakfast cereal, puffed wheat, honey coated, fortified|4.7|86.8|1.2
+Breakfast cereal, puffed wheat, unfortified|13.2|72.0|2.0
+Breakfast cereal, rice, chocolate flavoured, fortified|4.6|89.6|2.3
+Breakfast cereal, rice, toasted/crisp, fortified|5.7|91.2|1.0
+Breakfast cereal, Ricicles, Kellogg's|3.8|95.4|0.4
+Breakfast cereal, shredded wheat type with fruit, unfortified|8.4|74.0|1.7
+Breakfast cereal, shredded wheat type, unfortified|10.9|71.2|2.5
+Breakfast cereal, Shredded Wheat, honey nut, Nestle|9.8|72.8|5.4
+Breakfast cereal, wheat and multigrain, chocolate flavoured, fortified|6.5|83.2|4.1
+Breakfast cereal, wheat biscuits, Weetabix type, fortified|10.5|72.7|1.9
+Breakfast cereal, wheat biscuits, Weetabix type, unfortified|10.5|72.7|1.9
+Bream, Sea, raw|17.5|0.0|2.9
+Broccoli in cheese sauce, made with semi-skimmed milk, homemade|7.3|5.9|7.5
+Broccoli in cheese sauce, made with skimmed milk, homemade|7.3|5.9|6.9
+Broccoli in cheese sauce, made with whole milk, homemade|7.3|5.8|8.2
+Broccoli, green, boiled in salted water|3.3|2.8|0.5
+Broccoli, green, boiled in unsalted water|3.3|2.8|0.5
+Broccoli, green, raw|4.3|3.2|0.6
+Broccoli, green, steamed|4.1|3.5|0.5
+Broccoli, purple sprouting, boiled in unsalted water|2.1|1.3|0.6
+Broccoli, purple sprouting, raw|3.9|2.6|1.1
+Brown fruity sauce|1.2|22.2|0.1
+Brown sauce, reduced salt/sugar|0.7|20.0|0.1
+Brownies, chocolate, homemade|6.2|54.3|30.8
+Brussels sprouts, boiled in unsalted water|3.1|4.2|0.4
+Brussels sprouts, raw|3.5|4.1|1.4
+Bubble and squeak, fried in rapeseed oil, homemade|1.7|10.1|9.0
+Bubble and squeak, fried in sunflower oil, homemade|1.7|10.2|9.1
+Buckwheat, groats|8.1|84.9|1.5
+Build up, powder, shake, assorted flavours|20.5|63.0|0.7
+Build-up powder, soup, assorted flavours|14.4|57.3|14.9
+Burger, beef, 62-85% beef, raw|15.9|4.9|15.2
+Burger, beef, 62-85%, beef, grilled|18.3|8.5|13.8
+Burger, beef, 98-99% beef, fried in vegetable oil|28.5|0.1|23.9
+Burger, beef, 98-99% beef, grilled|26.5|0.1|24.4
+Burger, beef, 98-99% beef, raw|17.1|0.1|24.7
+Burger, beef, fried in rapeseed oil, homemade|23.9|1.1|21.9
+Burger, beef, grilled, homemade|25.0|1.1|20.3
+Burger, beef, with bun, fried in rapeseed oil, homemade|21.0|10.3|18.6
+Burger, beef, with bun, grilled, homemade|21.9|10.3|17.4
+Burger, Big Mac, takeaway|13.1|20.9|11.2
+Burger, cheeseburger, takeaway|13.6|28.3|10.4
+Burger, chicken, takeaway|12.5|23.4|10.8
+Burger, chicken/turkey, coated, retail, grilled|14.2|18.7|15.5
+Burger, hamburger, takeaway|13.5|31.2|8.3
+Burger, Quarter Pounder with cheese, takeaway|16.3|21.2|13.2
+Burger, Whopper, takeaway|10.4|19.2|12.1
+Butter, salted|0.6|0.6|82.2
+Butter, spreadable (75-80% fat)|0.4|0.5|79.1
+Butter, spreadable, light (60% fat)|0.5|0.8|60.2
+Butter, unsalted|0.6|0.6|82.2
+Butteroil, unsalted|0.6|0.0|99.3
+Cabbage leaves, stuffed with lamb and rice, homemade|7.1|8.3|4.2
+Cabbage, average, boiled in unsalted water|1.1|2.8|0.2
+Cabbage, average, raw|1.8|4.4|0.2
+Cabbage, Chinese, raw|1.0|1.4|0.2
+Cabbage, green, boiled in unsalted water|1.5|2.3|0.2
+Cabbage, green, raw|2.4|4.1|0.2
+Cabbage, red, boiled in unsalted water|0.8|2.3|0.3
+Cabbage, red, cooked with apple|0.9|7.9|2.6
+Cabbage, red, raw|1.1|3.7|0.3
+Cabbage, white, boiled in unsalted water|0.8|3.2|0.1
+Cabbage, white, raw|1.2|4.8|0.1
+Cake bars, chocolate|5.0|57.5|21.6
+Cake rusks|8.7|55.7|23.1
+Cake, battenberg, retail|4.4|65.9|9.9
+Cake, carrot, iced, retail|4.2|46.8|20.2
+Cake, carrot, with topping, homemade|4.0|37.7|21.1
+Cake, cherry, homemade|5.0|66.5|14.4
+Cake, chocolate fudge|5.2|55.7|14.3
+Cake, chocolate, not filled, homemade|7.3|51.3|24.1
+Cake, chocolate, with butter icing, homemade|5.8|53.8|25.2
+Cake, chocolate, with filling and icing, retail|4.5|48.6|23.7
+Cake, coconut, homemade|6.7|52.6|22.1
+Cake, fruit, retail|4.5|55.2|12.1
+Cake, fruit, rich, homemade|4.0|61.5|11.1
+Cake, fruit, rich, iced, homemade|3.7|67.0|9.6
+Cake, fruit, wholemeal, homemade|5.8|52.4|14.1
+Cake, lardy, homemade|6.7|53.7|15.7
+Cake, loaf, retail|3.3|56.2|11.0
+Cake, sponge, fatless, homemade|9.9|53.9|5.6
+Cake, sponge, homemade|6.4|53.1|26.4
+Cake, sponge, soft iced, retail|4.8|55.0|15.8
+Cake, sponge, with butter icing, homemade|4.5|56.2|27.3
+Cake, sponge, with dairy cream and jam, frozen|4.3|43.9|10.9
+Cake, sponge, with jam and butter cream, retail|3.7|55.1|14.8
+Cake, Swiss roll, homemade|7.4|58.4|4.2
+Cake, Swiss rolls, chocolate covered and filled, retail|4.5|51.0|22.7
+Cakes from 'healthy eating' ranges|3.3|58.8|2.5
+Cakes, crispie, homemade|5.5|73.7|18.0
+Cakes, fancy iced, individual, retail|3.3|57.6|16.8
+Calamari, coated in batter, baked|8.5|25.9|17.5
+Callaloo and cho cho, homemade|1.9|2.6|6.6
+Callaloo and okra, homemade|1.8|2.2|6.4
+Cannelloni, spinach, homemade|5.2|15.4|6.9
+Cannelloni, vegetable, homemade|4.9|15.5|8.5
+Caramel bars and sweets, chocolate covered|4.2|70.2|23.6
+Caraway seeds|19.8|0.0|14.6
+Carbonnade of Beef, homemade|12.7|5.2|6.5
+Cardamom, ground|10.8|0.0|6.7
+Carp, raw|17.5|0.0|4.7
+Carrot juice|0.5|5.7|0.1
+Carrots, old, boiled in unsalted water|0.5|6.0|0.5
+Carrots, old, microwaved|0.6|7.5|0.2
+Carrots, old, raw|0.5|7.7|0.4
+Carrots, young, boiled in unsalted water|0.6|4.4|0.4
+Carrots, young, canned in water, re-heated, drained|0.5|4.2|0.3
+Carrots, young, raw|0.7|6.0|0.5
+Cashew fruit, flesh only|0.9|6.8|0.4
+Cashew nuts, kernel only, plain|17.7|18.1|48.2
+Cashew nuts, kernel only, roasted and salted|20.5|18.8|50.9
+Cassava, baked|0.7|40.1|0.2
+Cassava, boiled in unsalted water|0.5|33.5|0.2
+Cassava, frozen, raw|0.6|36.3|0.2
+Cassava, raw|0.6|36.8|0.2
+Cassava, steamed|0.6|36.8|0.2
+Casserole, bean and mixed vegetable, homemade|2.7|6.6|0.7
+Casserole, bean and root vegetable, homemade|3.0|8.4|0.6
+Casserole, beef, made with cook-in sauce|15.0|4.8|6.6
+Casserole, pork and apple, homemade|11.0|7.5|2.9
+Casserole, pork, made with cook-in sauce|17.0|4.0|7.9
+Casserole, rabbit, homemade|11.4|2.2|4.8
+Casserole, sausage, homemade|11.9|5.2|10.9
+Casserole, sweet potato and green banana, homemade|1.2|31.2|6.5
+Casserole, vegetable, homemade|2.1|10.6|0.4
+Catfish, flesh only, steamed|21.4|0.0|3.7
+Catfish, flesh only, steamed, weighed with bones|18.2|0.0|3.1
+Catfish, raw|17.6|0.0|2.8
+Cauliflower cheese, made with semi-skimmed milk, homemade|5.3|6.2|5.9
+Cauliflower cheese, made with skimmed milk, homemade|5.3|6.2|5.6
+Cauliflower cheese, made with whole milk, homemade|5.3|6.1|6.4
+Cauliflower cheese, retail|4.2|5.0|5.8
+Cauliflower in white sauce, made with semi-skimmed milk, homemade|2.7|6.0|3.2
+Cauliflower in white sauce, made with skimmed milk, homemade|2.8|6.0|2.8
+Cauliflower in white sauce, made with whole milk, homemade|2.7|6.2|4.2
+Cauliflower with onions and chilli pepper, homemade|1.8|4.6|3.4
+Cauliflower, boiled in unsalted water|1.9|3.5|0.9
+Cauliflower, raw|2.5|4.4|0.4
+Caviare, bottled in brine, drained|10.9|0.0|5.4
+Celeriac, boiled in unsalted water|0.9|1.9|0.5
+Celeriac, raw|1.2|2.3|0.4
+Celery seeds|18.1|0.0|25.3
+Celery, boiled in unsalted water|0.3|0.8|0.1
+Celery, raw|0.5|1.4|0.1
+Cereal bars, with fruit and/or nuts, no chocolate, unfortified|5.6|62.9|10.7
+Cereal bars, with fruit and/or nuts, with chocolate, unfortified|6.0|66.0|18.3
+Chapatis, made with fat, retail|8.1|48.3|12.8
+Chapatis, made without fat|7.3|43.7|1.0
+Chard, Swiss, boiled in unsalted water|1.9|3.2|0.1
+Chard, Swiss, raw|1.8|2.9|0.2
+Cheese and onion rolls, pastry, retail|8.2|30.4|20.0
+Cheese pudding, homemade|10.6|11.7|9.3
+Cheese sauce, made with semi-skimmed milk, homemade|8.2|9.0|12.8
+Cheese sauce, made with skimmed milk, homemade|8.2|9.1|11.6
+Cheese sauce, made with whole milk, homemade|8.2|8.9|14.6
+Cheese sauce, packet mix, made up with semi-skimmed milk, homemade|5.8|9.7|5.2
+Cheese sauce, packet mix, made up with skimmed milk, homemade|5.6|9.2|2.4
+Cheese sauce, packet mix, made up with whole milk, homemade|5.5|9.0|5.7
+Cheese spread, plain|11.3|6.5|18.6
+Cheese spread, plain, reduced fat|15.0|7.9|7.2
+Cheese straws/twists, retail|14.1|48.3|30.3
+Cheese, Brie, with outer rind removed|20.3|0.0|29.1
+Cheese, Caerphilly|23.2|0.1|31.3
+Cheese, Camembert|21.5|0.0|22.7
+Cheese, Cheddar type, '30% less fat'|27.9|0.8|22.1
+Cheese, Cheddar type, half fat|32.7|0.0|15.8
+Cheese, Cheddar, English|25.4|0.1|34.9
+Cheese, cottage, plain|9.4|3.1|6.0
+Cheese, cottage, plain, reduced fat|10.6|3.3|1.5
+Cheese, Danish blue|20.5|0.0|28.9
+Cheese, Derby|24.2|0.1|33.9
+Cheese, Dolcelatte, rind removed|18.0|0.0|35.8
+Cheese, Double Gloucester|24.4|0.1|35.0
+Cheese, Edam|26.7|0.0|26.0
+Cheese, Emmental|30.2|0.0|30.9
+Cheese, Feta|15.6|1.5|20.2
+Cheese, goats milk, full fat, soft, white rind|21.1|1.0|25.8
+Cheese, Gouda|25.3|0.0|30.6
+Cheese, Gruyere|27.2|0.0|33.3
+Cheese, Halloumi|23.9|1.7|23.5
+Cheese, hard, average|24.9|0.1|34.5
+Cheese, Lancashire|24.1|0.1|31.7
+Cheese, Mascarpone|4.6|4.3|44.5
+Cheese, Mozzarella, fresh|18.6|0.0|20.3
+Cheese, Paneer|26.0|0.9|24.5
+Cheese, Parmesan, fresh|36.2|0.9|29.7
+Cheese, Port Salut, St Paulin type|25.5|0.0|25.7
+Cheese, processed, plain|17.8|5.0|23.0
+Cheese, processed, slices, reduced fat|16.7|9.7|9.6
+Cheese, processed, smoked|20.5|0.2|24.5
+Cheese, Quark|14.6|4.0|0.0
+Cheese, Red Leicester|25.0|0.1|33.6
+Cheese, Red Windsor|24.4|0.0|33.7
+Cheese, Ricotta|9.4|2.0|11.0
+Cheese, Roquefort|19.7|0.0|32.9
+Cheese, Sage Derby|24.2|0.1|33.9
+Cheese, spreadable, full fat, soft, white|5.3|3.0|24.4
+Cheese, spreadable, medium fat, soft, white|9.8|3.5|11.2
+Cheese, spreadable, soft white, low fat|11.9|5.0|3.6
+Cheese, Stilton, blue|23.7|0.1|35.0
+Cheese, Stilton, white|19.9|0.1|31.3
+Cheese, Wensleydale|23.7|0.1|31.8
+Cheese, White Cheshire|23.4|0.1|31.8
+Cheese, white, average|23.7|0.1|31.8
+Cheesecake, fruit, frozen|4.0|35.2|16.2
+Cheesecake, fruit, individual|6.1|34.5|12.3
+Cheesecake, homemade|6.2|25.4|22.8
+Chelsea buns, homemade|7.8|57.8|12.5
+Cherries, flesh and skin, raw|1.2|14.6|0.4
+Cherries, flesh and skin, raw, weighed with stones|1.1|13.4|0.4
+Cherries, glace|0.4|78.1|0.0
+Cherries, stewed with sugar|0.7|21.0|0.1
+Cherries, stewed with sugar, weighed with stones|0.6|18.1|0.1
+Cherries, stewed without sugar|0.8|10.1|0.1
+Cherries, stewed without sugar, weighed with stones|0.6|8.6|0.1
+Cherries, West Indian, flesh only|0.4|5.0|0.4
+Chervil, dried|23.2|37.8|3.9
+Chestnuts, dried|3.7|69.0|5.1
+Chestnuts, kernel only, raw|2.0|36.6|2.7
+Chestnuts, kernel only, raw, weighed with shells|1.6|30.4|2.2
+Chevda/chevra/chewra, homemade|18.6|35.5|31.8
+Chicken breast/steak, coated, baked|17.7|15.8|11.6
+Chicken chasseur, homemade|13.5|2.3|1.5
+Chicken chasseur, homemade, weighed with bone|12.0|2.0|1.3
+Chicken fricassee, homemade|10.0|2.8|6.1
+Chicken fricassee, reduced fat, homemade|10.2|3.2|4.2
+Chicken in white sauce, made with semi-skimmed milk|17.0|5.0|7.7
+Chicken in white sauce, made with whole milk|17.0|5.2|9.0
+Chicken pieces, coated, takeaway|18.5|17.6|14.1
+Chicken portions, battered, deep fried, takeaway|24.8|4.8|12.8
+Chicken satay, takeaway|21.7|3.0|10.3
+Chicken slices|23.2|2.0|1.5
+Chicken soup, cream of, canned, condensed, as served|1.3|3.0|2.9
+Chicken wings, marinated, meat and skin, barbecued|27.4|4.1|16.6
+Chicken wings, marinated, meat and skin, barbecued, weighed with bone|17.8|2.7|10.8
+Chicken, breast, casseroled, meat and skin|26.9|0.0|8.5
+Chicken, breast, casseroled, meat and skin, weighed with bone|24.2|0.0|7.6
+Chicken, breast, casseroled, meat only|28.4|0.0|5.2
+Chicken, breast, grilled with skin, meat only|29.8|0.0|3.1
+Chicken, breast, grilled without skin, meat only|32.0|0.0|2.2
+Chicken, breast, grilled, meat and skin|28.9|0.0|6.4
+Chicken, breast, strips, stir-fried in corn oil|29.7|0.0|4.6
+Chicken, corn-fed, raw, dark meat only|19.5|0.0|7.2
+Chicken, corn-fed, raw, light meat only|23.0|0.0|2.8
+Chicken, corn-fed, raw, meat only|21.4|0.0|4.8
+Chicken, corn-fed, raw, skin only|10.1|0.0|52.7
+Chicken, corn-fed, roasted, dark meat only|24.0|0.0|9.8
+Chicken, corn-fed, roasted, light meat only|25.8|0.0|4.2
+Chicken, corn-fed, roasted, meat only|24.9|0.0|7.2
+Chicken, dark meat, raw|20.9|0.0|2.8
+Chicken, dark meat, roasted|24.4|0.0|10.9
+Chicken, drumsticks, casseroled, meat and skin|22.3|0.0|14.2
+Chicken, drumsticks, casseroled, meat and skin, weighed with bone|14.5|0.0|9.2
+Chicken, drumsticks, casseroled, meat only|24.3|0.0|9.7
+Chicken, drumsticks, roasted, meat and skin|25.8|0.0|9.1
+Chicken, drumsticks, roasted, meat and skin, weighed with bone|16.2|0.0|5.7
+Chicken, drumsticks, roasted, meat only|26.6|0.0|5.1
+Chicken, leg quarter, casseroled, meat and skin|22.9|0.0|13.9
+Chicken, leg quarter, casseroled, meat and skin, weighed with bone|14.4|0.0|8.8
+Chicken, leg quarter, casseroled, meat only|25.0|0.0|8.4
+Chicken, leg quarter, raw, meat and skin|18.3|0.0|13.3
+Chicken, leg quarter, raw, meat and skin, weighed with bone|12.6|0.0|9.2
+Chicken, leg quarter, roasted, meat and skin|20.9|0.0|16.9
+Chicken, leg quarter, roasted, meat and skin, weighed with bone|10.7|0.0|8.6
+Chicken, light meat, raw|24.0|0.0|1.1
+Chicken, light meat, roasted|30.2|0.0|3.6
+Chicken, meat, average, raw|22.3|0.0|2.1
+Chicken, meat, average, roasted|27.3|0.0|7.5
+Chicken, portions, not coated, deep-fried, meat and skin|26.9|0.0|16.8
+Chicken, portions, not coated, deep-fried, meat and skin, weighed with bone|18.6|0.0|11.6
+Chicken, skin, casseroled|13.4|0.0|39.3
+Chicken, skin, raw|9.7|0.0|48.3
+Chicken, skin, roasted/grilled, dry|21.5|0.0|46.1
+Chicken, skin, roasted/grilled, moist|17.0|0.0|42.6
+Chicken, stir-fried with mushrooms and cashew nuts, homemade|18.4|4.8|7.0
+Chicken, stir-fried with peppers in black bean sauce, homemade|19.0|2.7|4.2
+Chicken, stir-fried with rice and vegetables, retail, reheated|6.5|17.1|4.6
+Chicken, thighs, casseroled, meat and skin|21.5|0.0|16.3
+Chicken, thighs, casseroled, meat and skin, weighed with bone|17.8|0.0|13.5
+Chicken, thighs, casseroled, meat only, diced|25.6|0.0|8.6
+Chicken, whole, corn-fed, raw, meat and skin|18.8|0.0|15.9
+Chicken, whole, corn-fed, raw, meat and skin, weighed with bone|12.2|0.0|10.3
+Chicken, whole, corn-fed, roasted, meat and skin|24.0|0.0|13.2
+Chicken, whole, corn-fed, roasted, meat and skin, weighed with bone|14.4|0.0|7.9
+Chicken, whole, raw, meat and skin|19.1|0.0|13.8
+Chicken, whole, raw, meat and skin, weighed with bone|12.4|0.0|9.0
+Chicken, whole, roasted, meat and skin|26.3|0.0|12.5
+Chicken, whole, roasted, meat and skin, weighed with bone|16.6|0.0|7.9
+Chicken, wing quarter, casseroled, meat and skin|24.4|0.0|12.5
+Chicken, wing quarter, casseroled, meat and skin, weighed with bone|16.3|0.0|8.4
+Chicken, wing quarter, casseroled, meat only|26.9|0.0|6.3
+Chicken, wing quarter, raw, meat and skin|20.3|0.0|12.4
+Chicken, wing quarter, raw, meat and skin, weighed with bone|13.4|0.0|8.2
+Chicken, wing quarter, roasted, meat and skin|24.8|0.0|14.1
+Chicken, wing quarter, roasted, meat and skin, weighed with bone|13.1|0.0|7.5
+Chicken/turkey pasties/slices, puff pastry|8.1|23.9|18.5
+Chicken/turkey pieces, coated, baked|14.4|19.6|13.9
+Chicory, pale variety, boiled in unsalted water|0.6|2.1|0.3
+Chicory, pale variety, raw|0.5|2.8|0.6
+Chilli con carne, homemade|9.2|4.4|7.5
+Chilli con carne, retail, reheated|7.7|7.1|4.3
+Chilli con carne, retail, reheated, with rice|5.8|18.1|2.7
+Chilli powder|13.5|0.0|14.3
+Chilli sauce|1.3|7.3|0.8
+Chilli, bean and lentil, homemade|5.3|13.2|2.5
+Chilli, Quorn, homemade|5.3|6.9|3.6
+Chilli, vegetable, homemade|2.5|8.6|0.8
+Chinese 5 spice|9.5|0.0|8.7
+Chital, raw|18.1|0.0|1.9
+Chives, fresh|3.3|1.9|0.7
+Cho cho fritters, fried in rapeseed oil, homemade|4.7|16.6|12.4
+Cho cho, boiled in unsalted water|0.5|2.9|0.1
+Cho cho, raw|0.7|3.7|0.1
+Chocolate covered bar with caramel and cereal|5.2|66.2|25.8
+Chocolate covered caramel and biscuit fingers|5.0|70.0|23.6
+Chocolate covered wafer biscuit|5.5|61.1|28.6
+Chocolate nut spread|6.2|60.5|33.0
+Chocolate nut sundae|2.6|33.5|15.0
+Chocolate spread|3.3|59.4|37.7
+Chocolate, dark, with crème or mint fondant centres|3.7|71.9|16.3
+Chocolate, fancy and filled|4.9|62.9|21.3
+Chocolate, milk|7.3|56.0|31.1
+Chocolate, plain|5.0|63.5|28.0
+Chocolate, white|8.0|58.3|30.9
+Chorizo|24.0|2.4|32.2
+Choux buns, homemade|5.3|17.9|34.1
+Chow mein, beef, retail, reheated|6.7|14.7|6.0
+Chow mein, chicken, takeaway|8.5|12.7|7.2
+Chow mein, pork and chicken, homemade|9.2|5.8|1.9
+Chutney, apple, homemade|0.8|49.2|0.2
+Chutney, mango, sweet|0.7|48.3|0.1
+Chutney, tomato|1.2|31.0|0.2
+Chutney, tomato, homemade|1.0|40.8|0.2
+Cider, dry|0.0|2.6|0.0
+Cider, low alcohol|0.0|3.6|0.0
+Cider, strong|0.0|7.3|0.0
+Cider, sweet|0.0|4.3|0.0
+Cinnamon, ground|4.0|0.0|1.2
+Citrus fruit, soft/easy peelers, flesh only|0.7|9.6|0.2
+Citrus fruit, soft/easy peelers, flesh only, weighed with peel and pips|0.5|7.5|0.2
+Cockles, boiled|12.0|0.0|0.6
+Coco fritters, fried in rapeseed oil, homemade|4.7|26.1|22.5
+Cocoa butter|0.0|0.0|99.5
+Cocoa powder|18.5|11.5|21.7
+Cocoa powder, made up with semi-skimmed milk|3.7|6.7|2.0
+Cocoa powder, made up with skimmed milk|3.7|6.7|0.6
+Cocoa powder, made up with whole milk|3.6|6.6|3.9
+Coconut ice, homemade|1.8|67.1|12.3
+Coconut milk|0.3|4.9|0.3
+Coconut milk, reduced fat, retail|0.7|2.0|7.7
+Coconut milk, retail|1.1|3.3|16.9
+Coconut, desiccated|5.6|6.4|62.0
+Coconut, flesh only, fresh|3.2|3.7|36.0
+Cod, dried, salted, boiled|32.5|0.0|0.9
+Cod, flesh only, baked|23.9|0.0|0.5
+Cod, flesh only, baked, weighed with bones and skin|21.3|0.0|0.4
+Cod, flesh only, grilled|24.6|0.0|0.8
+Cod, flesh only, microwaved|23.5|0.0|0.4
+Cod, flesh only, poached in milk, butter and salt added|20.9|0.0|1.1
+Cod, flesh only, poached in milk, butter and salt added, weighed with bones and skin|18.2|0.0|1.0
+Cod, flesh only, raw|17.5|0.0|0.6
+Cod, flesh only, salted and smoked, raw|18.3|0.0|0.6
+Cod, flesh only, steamed|22.8|0.0|0.8
+Cod, flesh only, steamed, weighed with bones and skin|19.9|0.0|0.7
+Cod, in batter, baked|12.3|19.7|11.8
+Cod, in batter, fried in dripping, takeaway|16.8|10.7|14.7
+Cod, in batter, fried in rapeseed oil|12.6|19.5|17.9
+Cod, in batter, fried in sunflower oil, takeaway|16.8|19.5|14.7
+Cod, in batter, fried, takeaway|16.8|10.7|14.7
+Cod, in breadcrumbs, baked|13.7|19.8|8.3
+Coffee and chicory essence, with water|0.1|2.4|0.0
+Coffee, cappuccino, latte|2.0|3.2|0.8
+Coffee, infusion, average|0.2|0.3|0.0
+Coffee, infusion, average, with semi-skimmed milk|0.6|0.7|0.2
+Coffee, infusion, average, with single cream|0.4|0.3|1.2
+Coffee, infusion, average, with whole milk|0.5|0.5|0.4
+Coffee, infusion, strong|0.2|0.3|0.0
+Coffee, infusion, weak|0.2|0.3|0.0
+Coffee, instant, made up with water|0.0|0.0|0.0
+Coffee, instant, made up with water and semi-skimmed milk|0.6|0.7|0.2
+Coffee, instant, made up with water and whole milk|0.5|0.6|0.4
+Coffee, Irish|0.4|2.7|8.8
+Coffee, powder, instant|14.6|4.5|0.0
+Coffeemate, whitener powder|2.1|57.3|34.5
+Cola|0.0|10.9|0.0
+Cola, diet|0.0|0.0|0.0
+Cole leaves, dried, boiled in unsalted water|1.7|1.2|0.8
+Coleslaw, not low calorie, retail|0.8|6.0|16.3
+Coleslaw, with reduced calorie dressing, retail|0.9|6.5|9.1
+Coley, flesh only, baked|24.4|0.0|1.5
+Coley, flesh only, grilled|27.2|0.0|1.4
+Coley, flesh only, poached|25.0|0.0|1.5
+Coley, flesh only, raw|18.0|0.0|1.1
+Coley, flesh only, steamed|23.0|0.0|1.4
+Coley, flesh only, steamed, weighed with bones and skin|20.9|0.0|1.3
+Complan powder, original and sweet|15.6|64.8|14.7
+Complan powder, savoury|16.1|62.5|15.6
+Complan powder, savoury, made up with water|3.6|13.9|3.5
+Complan powder, sweet, made up with semi-skimmed milk|6.1|17.8|4.5
+Complan powder, sweet, made up with skimmed milk|6.1|17.9|3.4
+Complan powder, sweet, made up with water|3.5|14.6|3.3
+Complan powder, sweet, made up with whole milk|6.1|17.7|6.0
+Coo-coo, homemade|2.4|17.7|1.8
+Cooking fat, compound, not polyunsaturated|0.0|0.0|100.0
+Coq au vin, homemade|11.0|3.3|11.0
+Coq au vin, homemade, weighed with bone|9.0|2.7|9.0
+Coriander leaves, dried|21.8|41.7|4.8
+Coriander leaves, fresh|2.1|1.2|0.5
+Coriander seeds|12.4|0.0|17.8
+Corn fritters, fried in rapeseed oil, homemade|5.8|32.9|15.2
+Corn pudding, homemade|4.7|8.9|2.9
+Corn snacks|6.0|60.8|30.4
+Corned beef hash, homemade|10.5|12.3|5.9
+Corned beef, canned|25.9|1.0|10.9
+Cornetto type ice cream cone|3.5|39.6|14.4
+Cornish pasty, homemade|6.7|27.8|19.2
+Cornish pasty, retail|7.0|24.0|17.8
+Cornmeal, sifted|9.4|73.1|3.3
+Coronation chicken, homemade|16.6|3.5|31.4
+Coronation chicken, reduced fat, homemade|16.6|4.2|14.8
+Courgette, boiled in unsalted water|1.3|1.8|0.3
+Courgette, dried|23.3|41.2|3.6
+Courgette, fried in butter|2.6|2.6|4.8
+Courgette, fried in corn oil|2.6|2.6|4.8
+Courgette, fried in rapeseed oil|2.6|2.6|4.8
+Courgette, raw|1.3|2.3|0.2
+Courgette, roasted in rapeseed oil|2.0|3.5|1.9
+Courgettes with eggs, homemade|3.9|2.2|9.7
+Couscous, plain, cooked|7.2|37.5|1.0
+Couscous, plain, raw|12.0|79.2|2.1
+Crab, brown meat, purchased cooked|18.8|0.0|7.8
+Crab, canned in brine, drained|18.1|0.0|0.5
+Crab, purchased cooked|19.7|0.0|4.1
+Crab, white and brown meat, purchased cooked, weighed with shell|8.6|0.0|1.8
+Crab, white meat, purchased cooked|20.5|0.0|0.3
+Crackers, wholemeal, homemade|9.8|76.7|10.5
+Cranberries|0.4|3.4|0.1
+Cranberry fruit juice drink|0.0|12.1|0.0
+Crayfish, raw|14.9|0.0|0.8
+Cream crackers|8.9|69.7|16.4
+Cream of tartar|0.0|0.0|0.0
+Cream substitute, double|2.6|3.6|35.7
+Cream substitute, single|3.1|4.0|14.5
+Cream, dairy, extra thick (24% fat)|2.9|3.4|23.5
+Cream, dairy, UHT, canned spray, 85% cream|1.9|7.2|24.2
+Cream, dairy, UHT, half fat, canned spray|2.8|7.6|17.3
+Cream, fresh, clotted|1.6|2.3|63.5
+Cream, fresh, double, including Jersey cream|1.6|1.7|53.7
+Cream, fresh, single|3.3|2.2|19.1
+Cream, fresh, whipping|2.0|2.7|40.3
+Cream, half, fresh|3.0|4.3|13.3
+Crème caramel, homemade|5.1|28.7|3.3
+Creme caramel, retail|3.0|20.6|1.6
+Creme egg|4.0|71.0|15.9
+Creme fraiche, full fat|2.2|2.4|40.0
+Creme fraiche, half fat|2.7|4.4|15.0
+Crispbread, rye|8.6|63.4|1.4
+Croissants|8.3|43.3|19.7
+Crumble, apple, homemade|1.7|35.0|6.4
+Crumble, fruit, homemade|2.0|34.5|6.4
+Crumble, fruit, retail|2.4|36.0|8.3
+Crumble, fruit, wholemeal, homemade|2.5|32.7|7.3
+Crumble, vegetable, with tinned tomatoes, homemade|3.1|20.1|9.6
+Crumble, vegetable, with tinned tomatoes, wholemeal, homemade|3.6|18.1|9.7
+Crumble, vegetable, with white sauce, homemade|4.9|19.6|7.9
+Crumble, vegetable, with white sauce, wholemeal, homemade|5.4|20.8|7.9
+Crumble, with pie filling, homemade|1.9|37.2|6.6
+Crumpets, toasted|6.9|45.4|1.0
+Cucumber, raw, flesh and skin|1.0|1.2|0.6
+Cumin seeds|17.8|0.0|22.3
+Curly kale, boiled in unsalted water|2.7|1.0|1.3
+Curly kale, raw|3.4|1.4|1.6
+Currant buns, retail|8.0|52.6|5.6
+Currant buns, toasted|8.9|58.4|6.2
+Currants|2.3|67.8|0.4
+Curry leaves, fresh|7.9|13.3|1.3
+Curry paste|4.7|11.3|21.3
+Curry powder|9.5|26.1|10.8
+Curry powder, mixed flavours|13.0|34.7|13.9
+Curry, almond, homemade|5.7|3.3|33.4
+Curry, beef and spinach, homemade|11.4|3.6|4.4
+Curry, beef, homemade|17.7|1.2|15.4
+Curry, beef, reduced fat, homemade|18.8|1.3|7.1
+Curry, beef, retail, reheated|13.5|6.3|6.6
+Curry, beef, retail, reheated, with rice|9.5|18.2|4.6
+Curry, bhindi subji, homemade|2.9|4.9|4.6
+Curry, black gram, whole and red kidney bean, homemade|4.5|8.4|5.0
+Curry, black gram, whole, Bengali, homemade|4.4|8.5|2.8
+Curry, black gram, whole, Gujerati, homemade|8.4|15.3|6.7
+Curry, black-eye bean, homemade|8.1|18.4|4.4
+Curry, black-eye bean, Punjabi, homemade|6.0|13.7|4.0
+Curry, Bombay potato, homemade|1.8|13.8|6.7
+Curry, cabbage, masala, homemade|1.7|8.1|4.9
+Curry, cauliflower and potato, homemade|2.6|6.7|2.0
+Curry, chick pea dahl and spinach, with butter, homemade|6.4|12.9|12.0
+Curry, chick pea dahl and spinach, with vegetable oil, homemade|6.3|12.8|14.2
+Curry, chick pea dhal, homemade|7.9|17.8|6.1
+Curry, chick pea, UK type, homemade|5.9|14.3|3.5
+Curry, chick pea, whole and potato, homemade|5.9|12.6|5.4
+Curry, chick pea, whole and tomato, Gujerati, with butter ghee, homemade|7.7|20.1|14.4
+Curry, chick pea, whole and tomato, Gujerati, with vegetable oil, homemade|7.7|20.1|14.7
+Curry, chick pea, whole and tomato, Punjabi, with butter, homemade|5.6|12.4|4.3
+Curry, chick pea, whole and tomato, Punjabi, with vegetable oil, homemade|5.6|12.4|4.9
+Curry, chick pea, whole, Gujerati type, homemade|9.7|21.8|7.6
+Curry, chicken balti, retail|10.5|4.8|5.0
+Curry, chicken korma, homemade|14.6|4.6|5.1
+Curry, chicken tandoori, retail, reheated|27.4|2.0|10.8
+Curry, chicken tikka masala, retail, reheated|12.4|4.9|9.8
+Curry, chicken vindaloo, homemade|18.5|2.6|12.5
+Curry, chicken vindaloo, reduced fat, homemade|19.6|2.7|4.1
+Curry, chicken, average, retail, reheated|12.1|5.4|8.9
+Curry, chicken, average, retail, reheated with rice|8.5|18.2|5.8
+Curry, chicken, average, takeaway|11.7|2.5|9.8
+Curry, chicken, made with cook-in sauce|18.6|5.5|5.4
+Curry, chicken, Thai green, takeaway and restaurant|8.8|1.5|8.7
+Curry, courgette and potato, homemade|1.8|9.6|5.9
+Curry, dudhi, kofta, homemade|2.6|9.3|6.9
+Curry, egg and potato, homemade|7.5|6.5|9.3
+Curry, egg, in sweet sauce, UK type, homemade|6.3|5.9|7.3
+Curry, egg, with butter, homemade|5.4|4.7|10.6
+Curry, egg, with rapeseed oil, homemade|5.3|4.7|12.2
+Curry, fish and vegetable, Bangladeshi, homemade|9.1|1.4|8.7
+Curry, fish, Bangladeshi, homemade|12.4|1.5|8.0
+Curry, fish, homemade|11.3|1.9|9.6
+Curry, green bean, masala, homemade|1.7|4.4|12.5
+Curry, haddock, Bengali, homemade|11.4|4.2|22.0
+Curry, herring, Bengali, homemade|11.4|4.2|29.6
+Curry, karela, homemade|1.6|4.6|9.7
+Curry, lamb biryani, homemade|7.1|20.9|9.2
+Curry, lamb biryani, reduced fat, homemade|7.4|21.9|3.7
+Curry, lamb rogan josh, homemade|14.4|3.9|9.1
+Curry, lamb vindaloo, homemade|19.8|2.7|12.9
+Curry, lamb, made with cook-in sauce|15.5|5.5|17.7
+Curry, lentil, red/masoor dahl and mung bean dahl, homemade|4.8|10.1|6.7
+Curry, lentil, red/masoor dahl and tomato, Punjabi, homemade|3.2|8.5|5.5
+Curry, lentil, red/masoor dahl and tomato, with butter, homemade|4.3|10.6|5.3
+Curry, lentil, red/masoor dahl and tomato, with vegetable oil, homemade|4.3|10.6|6.3
+Curry, lentil, red/masoor dahl and vegetable, UK type, homemade|5.7|14.8|3.8
+Curry, lentil, red/masoor dahl, mung bean dahl and tomato, homemade|4.4|9.7|4.3
+Curry, lentil, red/masoor dahl, Punjabi, homemade|7.2|19.3|4.6
+Curry, lentil, red/masoor dahl, with butter, homemade|7.6|19.3|6.6
+Curry, lentil, red/masoor dahl, with vegetable oil, homemade|7.6|19.2|7.9
+Curry, lentil, whole/masoor, Gujerati, homemade|6.5|17.0|5.3
+Curry, lentil, whole/masoor, Punjabi, homemade|5.7|13.9|8.3
+Curry, mung bean dahl and spinach, homemade|7.8|12.3|2.9
+Curry, mung bean dahl and tomato, homemade|5.6|11.2|3.6
+Curry, mung bean dahl, Bengali, homemade|4.2|7.4|3.4
+Curry, mung bean, whole and turnip leaves, homemade|4.4|6.2|14.4
+Curry, mung bean, whole, Gujerati, homemade|6.0|13.2|5.9
+Curry, mung bean, whole, Punjabi, homemade|4.2|8.8|2.8
+Curry, pea and potato, homemade|2.5|10.2|11.0
+Curry, pigeon pea dahl and tomato, homemade|2.3|7.3|2.2
+Curry, pigeon pea dahl with tomatoes and peanuts, homemade|6.9|16.9|3.3
+Curry, pigeon pea dahl, with butter, homemade|4.6|13.5|4.7
+Curry, pigeon pea dahl, with vegetable oil, homemade|4.6|13.5|5.5
+Curry, potato and pea, homemade|2.7|13.0|3.7
+Curry, potato, Gujerati, homemade|1.5|11.8|5.4
+Curry, potato, Punjabi, homemade|1.8|13.8|4.0
+Curry, prawn and mushroom, homemade|5.7|2.7|14.3
+Curry, Prawn bhuna, takeaway|8.6|1.8|8.7
+Curry, Prawn madras, takeaway|7.8|2.5|8.3
+Curry, prawn, takeaway|8.2|2.3|8.5
+Curry, red kidney and mung bean, whole, homemade|3.9|7.6|12.1
+Curry, red kidney bean, Gujerati, homemade|4.0|9.7|6.1
+Curry, red kidney bean, Punjabi, homemade|4.7|10.1|5.6
+Curry, spinach and potato, masala, homemade|2.2|7.4|8.2
+Curry, Thai, stir-fry vegetable, takeaway and restaurant|3.8|3.3|8.2
+Curry, tinda gourd and potato, homemade|1.6|8.5|3.9
+Curry, vegetable, frozen mixed vegetables, homemade|2.5|7.2|6.1
+Curry, vegetable, in sweet sauce, UK type, homemade|1.3|7.3|2.1
+Curry, vegetable, Islami, homemade|2.2|8.4|4.6
+Curry, vegetable, Pakistani, homemade|2.3|9.2|2.6
+Curry, vegetable, ready meal, without rice, cooked|2.1|8.4|6.0
+Curry, vegetable, retail, with rice|3.0|20.2|4.1
+Curry, vegetable, West Indian, homemade|2.4|4.1|4.0
+Curry, vegetable, with yogurt, UK type, homemade|2.2|4.7|4.0
+Custard apple/Bullock's heart, flesh only|1.5|16.1|0.4
+Custard powder|0.6|92.0|0.7
+Custard, confectioners'|6.6|24.8|3.8
+Custard, egg|5.9|10.9|3.4
+Custard, made up with semi-skimmed milk|4.0|16.4|2.0
+Custard, made up with skimmed milk|4.0|16.5|0.3
+Custard, made up with whole milk|4.0|16.3|4.2
+Custard, ready to eat, canned and tetra-pak|2.7|16.3|2.9
+Cuttlefish, raw|16.1|0.0|0.7
+Dab, raw|15.7|0.0|1.2
+Dahl, mixed, homemade|4.9|9.1|0.7
+Dal Dhokari, homemade|5.6|19.2|3.3
+Damsons, flesh and skin, raw|0.5|9.6|0.0
+Damsons, flesh and skin, raw, weighed with stones|0.5|8.6|0.0
+Damsons, stewed with sugar|0.4|19.3|0.0
+Damsons, stewed with sugar, weighed with stones|0.4|17.6|0.0
+Damsons, stewed without sugar|0.5|8.7|0.0
+Damsons, stewed without sugar, weighed with stones|0.4|7.9|0.0
+Dates, dried, flesh and skin|2.4|58.7|0.6
+Dates, dried, flesh and skin, weighed with stones|2.0|49.3|0.5
+Dates, raw, flesh and skin|1.5|31.3|0.1
+Dates, raw, flesh and skin, weighed with stones|1.3|26.9|0.1
+Desserts, dairy, chocolate|4.3|26.7|10.7
+Devilled kidneys, homemade|13.7|1.4|7.7
+Dill seeds|16.0|0.0|14.5
+Dill, dried|19.9|42.2|4.4
+Dill, fresh|3.7|0.9|0.8
+Dips, sour-cream based, assorted flavours|2.9|4.0|37.0
+Dips, sour-cream based, reduced fat|3.9|7.3|15.2
+Doner kebab in pitta bread with salad|14.1|12.5|16.0
+Doner kebabs, meat only|23.5|0.0|31.4
+Dosa, filling, vegetable, homemade|1.8|10.2|6.3
+Doughnuts, ring, iced|5.8|42.3|25.7
+Doughnuts, with jam|5.4|48.4|13.1
+Dover sole, raw|18.1|0.0|1.8
+Dressing, blue cheese|2.0|9.8|35.9
+Dressing, French|0.3|11.7|32.2
+Dressing, French, fat free|0.1|8.7|0.0
+Dressing, French, homemade|0.1|0.2|74.9
+Dressing, oil and lemon, homemade|0.1|3.4|72.4
+Dressing, thousand island|0.7|15.9|16.4
+Dressing, yogurt, homemade|5.3|7.1|2.7
+Dried mixed fruit|2.3|68.1|0.4
+Drinking chocolate powder, made up with semi-skimmed milk|3.7|10.9|2.0
+Drinking chocolate powder, made up with skimmed milk|3.7|10.9|0.7
+Drinking chocolate powder, made up with whole milk|3.6|10.8|3.8
+Drinking chocolate, powder|6.4|79.7|5.8
+Drinking chocolate, powder, reduced fat|6.4|82.1|2.3
+Dripping, beef|0.0|0.0|99.0
+Drumstick leaves, boiled in unsalted water|6.6|11.2|1.0
+Drumstick leaves, raw|7.4|9.2|1.5
+Drumstick pods, boiled in unsalted water|2.1|6.1|0.2
+Drumstick pods, raw|2.1|7.2|0.2
+Duck a l'orange, excluding fat and skin, homemade|11.2|4.0|6.5
+Duck a l'orange, including fat and skin, homemade|9.8|3.7|20.0
+Duck with pineapple, homemade|13.8|6.7|25.5
+Duck, crispy, chinese style, meat and skin|27.9|0.3|24.2
+Duck, meat only, raw|19.7|0.0|6.5
+Duck, raw, meat only, weighed with fat, skin and bone|5.5|0.0|1.8
+Duck, raw, meat, fat and skin|13.1|0.0|37.3
+Duck, roasted, meat only|25.3|0.0|10.4
+Duck, roasted, meat only, weighed with fat, skin and bone|5.3|0.0|2.2
+Duck, roasted, meat, fat and skin|20.0|0.0|38.1
+Dumplings, homemade|2.7|25.4|11.7
+Durian, flesh only|2.4|28.4|1.4
+Eccles cakes, retail|4.4|48.8|18.3
+Eel, conger, flesh only, grilled|21.7|0.0|5.5
+Eel, conger, flesh only, grilled, weighed with bones and skin|11.3|0.0|2.9
+Eel, conger, flesh only, raw|18.1|0.0|4.6
+Eel, yellow, raw|16.6|0.0|11.3
+Egg fu yung|10.2|2.5|19.3
+Egg nog, homemade|4.0|9.6|2.3
+Eggs, chicken, scrambled, with semi-skimmed milk|11.0|0.7|21.2
+Eggs, chicken, white, boiled|13.0|0.0|0.0
+Eggs, chicken, white, dried|81.7|0.0|0.0
+Eggs, chicken, white, raw|10.8|0.0|0.0
+Eggs, chicken, whole, boiled|14.1|0.0|9.6
+Eggs, chicken, whole, dried|48.6|0.0|34.7
+Eggs, chicken, whole, fried in sunflower oil|14.7|0.0|15.7
+Eggs, chicken, whole, fried, without fat|16.0|0.0|11.4
+Eggs, chicken, whole, poached|13.3|0.0|10.6
+Eggs, chicken, whole, raw|12.6|0.0|9.0
+Eggs, chicken, whole, scrambled, without milk|14.6|0.0|10.4
+Eggs, chicken, yolk, boiled|16.7|0.0|32.6
+Eggs, chicken, yolk, raw|16.4|0.0|31.3
+Eggs, duck, boiled and salted|14.6|0.0|15.5
+Eggs, duck, whole, raw|14.3|0.0|11.8
+Eggs, quail, whole, raw|12.9|0.0|11.1
+Eggs, turkey, whole, raw|13.7|0.0|12.2
+Elderberries, whole fruit|0.7|7.4|0.5
+Enchiladas, beef, homemade|9.6|11.1|8.2
+Endive, raw|1.8|1.0|0.2
+Energy drink, carbonated|0.0|11.1|0.0
+Faggots in gravy, retail, reheated|8.2|12.6|7.5
+Fajita, chicken, meat only, takeaway and restaurant|16.8|0.3|6.3
+Falafel, fried in rapeseed oil, homemade|6.4|15.9|11.2
+Fat spread, low fat (26-39%), not polyunsaturated, including dairy type|0.2|0.7|39.0
+Fat spread, low fat (26-39%), not polyunsaturated, with olive oil|0.1|0.5|38.9
+Fat spread, low fat (26-39%), polyunsaturated|0.0|1.8|36.9
+Fat spread, reduced fat (41-62%), not polyunsaturated|0.4|1.3|60.6
+Fat spread, reduced fat (41-62%), not polyunsaturated, with olive oil|0.2|1.1|59.1
+Fat spread, reduced fat (41-62%), polyunsaturated|0.0|0.0|59.2
+Fat spread, reduced fat (62-75%), not polyunsaturated|0.3|0.0|73.2
+Fat spread, reduced fat (62-75%), polyunsaturated|0.4|0.6|68.5
+Feijoa, flesh only|0.9|10.3|0.5
+Fennel seeds|15.8|0.0|14.9
+Fennel, Florence, boiled in unsalted water|0.9|1.5|0.2
+Fennel, Florence, raw|0.9|1.8|0.2
+Fenugreek leaves, raw|4.6|4.8|0.2
+Fenugreek seeds|23.8|0.0|7.4
+Fig Rolls|4.2|66.8|10.6
+Figs, dried, stewed with sugar|1.9|34.3|0.8
+Figs, dried, stewed without sugar|2.0|29.4|0.9
+Figs, ready-to-eat, semi-dried|3.1|43.3|1.2
+Figs, whole fruit, dried|3.6|52.9|1.6
+Figs, whole green fruit, raw|1.3|9.5|0.3
+Fish balls, steamed|11.8|5.5|0.5
+Fish fingers, cod, fried in rapeseed oil|13.0|19.9|12.6
+Fish fingers, cod, fried in sunflower oil|13.0|19.9|12.6
+Fish fingers, cod, grilled/baked|14.3|22.0|9.2
+Fish fingers, pollock, grilled|13.9|20.0|9.2
+Fish fingers, salmon, grilled/baked|17.2|20.7|11.2
+Fish paste|15.3|3.7|10.5
+Fishcakes, cod, homemade|11.3|15.2|14.7
+Fishcakes, salmon, coated in breadcrumbs, baked|11.4|20.4|13.7
+Fishcakes, salmon, homemade|11.4|15.2|20.5
+Fishcakes, white fish, coated in breadcrumbs, baked|9.3|22.6|9.4
+Flan case, pastry, homemade|7.0|58.9|30.9
+Flan case, sponge, homemade|9.6|54.4|5.6
+Flan, cheese and mushroom, homemade|10.8|16.0|19.9
+Flan, cheese and mushroom, wholemeal, homemade|11.3|17.1|18.1
+Flan, cheese, onion and potato, homemade|13.0|18.0|26.2
+Flan, cheese, onion and potato, wholemeal, homemade|13.6|19.1|24.3
+Flan, lentil and tomato, homemade|7.4|23.6|5.7
+Flan, lentil and tomato, wholemeal, homemade|7.7|22.0|5.8
+Flan, pastry, with fruit, homemade|1.2|18.3|3.5
+Flan, spinach, homemade|8.6|13.4|14.7
+Flan, spinach, wholemeal, homemade|9.0|11.3|13.4
+Flan, sponge, with fruit, homemade|2.3|21.5|1.2
+Flan, vegetable, homemade|5.3|18.2|15.6
+Flan, vegetable, wholemeal, homemade|5.4|16.7|11.9
+Flapjacks, homemade|4.4|61.6|24.0
+Flapjacks, retail|5.1|55.7|22.8
+Flapjacks, retail, chocolate covered|5.3|55.7|23.5
+Flounder, flesh only, steamed|20.3|0.0|2.2
+Flounder, flesh only, steamed, weighed with bones and skin|11.4|0.0|1.2
+Flounder, raw|16.4|0.0|1.8
+Flour, chapati, brown|10.3|73.0|1.9
+Flour, chapati, white|9.7|78.3|1.4
+Flour, corn|0.6|92.0|0.7
+Flour, gari (cassava flour)|0.7|95.1|0.2
+Flour, gram|22.7|57.0|5.4
+Flour, millet, foxtail|5.8|75.4|1.7
+Flour, rice|6.4|80.1|0.8
+Flour, rye|7.3|73.5|1.6
+Flour, soya|34.3|18.7|22.4
+Flour, wheat, bread/strong, white|11.3|79.2|1.2
+Flour, wheat, brown|12.2|72.5|2.0
+Flour, wheat, brown, bread/strong|13.4|72.0|1.9
+Flour, wheat, white, plain, soft|9.1|80.9|1.4
+Flour, wheat, white, self raising|8.9|79.6|1.5
+Flour, wheat, wholemeal|11.6|69.9|2.0
+Flour, wheat, wholemeal, bread/strong|14.2|66.7|2.2
+Flour, wheat, wholemeal, self raising|10.8|69.3|1.9
+Flying fish, raw|21.0|0.0|0.3
+Frankfurter|13.6|1.1|25.4
+Frankfurter with bun|10.7|35.6|9.8
+Frankfurter with bun, ketchup, fried onions and mustard|6.8|26.5|7.4
+Fromage frais, fruit, children's, fortified|5.8|13.2|2.9
+Fromage frais, virtually fat free, fruit|6.8|5.6|0.2
+Fromage frais, virtually fat free, natural|7.7|4.6|0.1
+Fruit cocktail, canned in juice, whole contents|0.4|11.7|0.0
+Fruit cocktail, canned in syrup, whole contents|0.4|14.8|0.0
+Fruit fool, homemade|1.0|20.2|9.3
+Fruit gums/jellies|6.5|79.5|0.0
+Fruit juice drink, carbonated, no added sugar, ready to drink|0.0|0.6|0.0
+Fruit juice drink, carbonated, ready to drink|0.0|7.2|0.0
+Fruit juice drink, no added sugar, ready to drink|0.2|0.9|0.0
+Fruit juice drink/squash, diluted|0.0|1.8|0.0
+Fruit juice drink/squash, no sugar added, diluted|0.0|0.3|0.0
+Fruit juice drink/squash, no sugar added, undiluted|0.1|1.4|0.0
+Fruit juice drink/squash, ready to drink|0.1|9.8|0.0
+Fruit juice drink/squash, undiluted|0.1|8.9|0.0
+Fruit juice, mixed|0.4|10.3|0.0
+Fruit pastilles|2.8|84.2|0.0
+Fruit salad, homemade|0.7|14.3|0.3
+Fudge, homemade|3.4|80.8|13.1
+Fu-fu, sweet potato, homemade|1.6|25.9|0.3
+Fu-fu, yam, homemade|2.1|37.4|0.3
+Gajjeralla|3.6|39.3|12.3
+Garam masala|15.6|45.2|15.1
+Garlic mushrooms, not coated, homemade|1.2|0.5|14.1
+Garlic powder|18.7|42.7|1.2
+Garlic, raw|7.9|16.3|0.6
+Gateau, chocolate based, frozen|3.5|37.2|15.7
+Gateau, fruit, frozen|3.2|33.3|12.3
+Gelatine|84.4|0.0|0.0
+Ghee made from vegetable oil|0.1|0.0|100.0
+Ghee, butter|0.1|0.0|97.6
+Gherkins, pickled, drained|0.9|2.6|0.1
+Gherkins, raw|1.0|1.8|0.1
+Giblets, chicken, boiled|22.9|0.0|7.1
+Giblets, chicken, raw|17.1|0.0|8.2
+Giblets, turkey, boiled|28.1|0.0|8.8
+Ginger, fresh|1.8|8.1|0.8
+Ginger, ground|7.4|60.0|3.3
+Gingerbread, homemade|5.6|65.9|11.3
+Glucose liquid, BP|0.0|84.7|0.0
+Goose, meat, raw, fat and skin|16.5|0.0|32.8
+Goose, meat, roasted, fat and skin|27.5|0.0|21.2
+Gooseberries, cooking, raw|1.1|3.0|0.4
+Gooseberries, cooking, stewed with sugar|0.7|12.9|0.3
+Gooseberries, cooking, stewed without sugar|0.9|2.5|0.3
+Gooseberries, dessert, raw|0.7|9.2|0.3
+Goulash, homemade|6.9|6.5|3.0
+Gourd, ash, raw|0.5|2.3|0.1
+Gourd, bottle, raw|0.4|2.7|0.1
+Gourd, kantola, raw|1.9|3.0|1.0
+Gourd, karela, raw|1.6|0.8|0.2
+Gourd, ridge, raw|0.8|3.3|0.1
+Gourd, snake, raw|0.5|4.1|0.3
+Gourd, tinda, raw|1.4|3.6|0.2
+Grape juice, unsweetened|0.3|16.0|0.1
+Grapefruit juice, unsweetened|0.4|8.3|0.1
+Grapefruit, canned in juice, whole contents|0.6|7.3|0.0
+Grapefruit, flesh only, raw|0.9|6.9|0.5
+Grapefruit, flesh only, raw, weighed with peel and pips|0.6|4.9|0.4
+Grapes, average|0.7|16.1|0.2
+Grapes, average, weighed with pips|0.7|15.8|0.2
+Grapes, green|0.7|15.2|0.2
+Grapes, red|0.6|17.0|0.1
+Gravy instant granules|4.4|65.2|16.1
+Gravy instant granules, made up with water|0.3|4.7|1.2
+Green beans, dried|21.6|31.9|4.4
+Greengages, raw|0.8|9.7|0.1
+Greengages, raw, weighed with stones|0.7|9.2|0.1
+Greengages, stewed with sugar|0.7|20.7|0.1
+Greengages, stewed with sugar, weighed with stones|0.7|19.9|0.1
+Greengages, stewed without sugar, weighed with stones|0.6|8.3|0.1
+Greengages, stones, removed, stewed without sugar|0.7|8.7|0.1
+Grenadillas, flesh and seeds|2.8|7.5|0.3
+Grouse, meat only, roasted|27.6|0.0|2.0
+Grouse, meat only, roasted, weighed with bone|12.7|0.0|0.9
+Guacamole, homemade|1.4|2.2|12.7
+Guava, flesh only, raw|0.8|5.0|0.5
+Guava, raw, weighed with skin and pips|0.7|4.5|0.5
+Gulab jamen/jambu, homemade|6.5|49.9|6.6
+Gulab jamen/jambu, retail|7.2|43.3|12.8
+Haddock, coated in crumbs, frozen, fried in blended oil|14.7|12.6|10.0
+Haddock, coated in crumbs, frozen, fried in blended oil, weighed with bones and skin|11.8|10.1|8.0
+Haddock, coated in crumbs, frozen, raw|13.8|10.5|5.2
+Haddock, fillets, flesh only, in flour, fried in blended oil, weighed with bones and skin|18.4|3.9|3.6
+Haddock, fillets, flesh only, in flour, fried in dripping|21.1|4.5|4.1
+Haddock, fillets, flesh only, in flour, fried in dripping, weighed with bones and skin|18.4|3.9|3.6
+Haddock, fillets, flesh only, in flour, fried in sunflower oil|21.1|4.5|4.1
+Haddock, fillets, flesh only, in flour, fried in sunflower oil, weighed with bones and skin|18.4|3.9|3.6
+Haddock, flesh only, grilled|23.9|0.0|0.3
+Haddock, flesh only, grilled, fillets weighed with bones and skin|21.0|0.0|0.3
+Haddock, flesh only, poached|22.8|0.0|0.5
+Haddock, flesh only, poached, fillets weighed with bones and skin|19.8|0.0|0.5
+Haddock, flesh only, raw|17.8|0.0|0.4
+Haddock, flesh only, smoked, poached|21.8|0.0|0.5
+Haddock, flesh only, smoked, poached, fillets weighed with bones and skin|19.2|0.0|0.4
+Haddock, flesh only, smoked, raw|19.7|0.0|0.5
+Haddock, flesh only, smoked, steamed|22.5|0.0|0.5
+Haddock, flesh only, smoked, steamed, weighed with bones and skin|20.0|0.0|0.5
+Haddock, flesh only, steamed|21.8|0.0|0.6
+Haddock, flesh only, steamed, fillets weighed with bones and skin|19.0|0.0|0.5
+Haddock, in batter, fried in blended oil|17.1|10.0|14.0
+Haddock, in batter, fried in dripping|17.1|10.0|14.0
+Haddock, in batter, fried in retail blend oil|17.1|10.0|14.0
+Haddock, in batter, fried in sunflower oil|17.1|10.0|14.0
+Haggis, boiled|10.7|19.2|21.7
+Hake, flesh only, grilled|22.2|0.0|2.7
+Hake, flesh only, grilled, weighed with bones and skin|14.4|0.0|1.8
+Hake, flesh only, raw|18.0|0.0|2.2
+Halibut, flesh only, grilled|25.3|0.0|2.2
+Halibut, flesh only, poached|24.7|1.1|5.7
+Halibut, flesh only, poached, weighed with bones and skin|22.7|1.0|5.3
+Halibut, flesh only, raw|21.5|0.0|1.9
+Halibut, grilled, weighed with bones and skin|19.7|0.0|1.7
+Halva, carrot, homemade|4.8|44.0|16.6
+Halva, semolina, homemade|2.2|49.1|16.7
+Ham|18.4|1.0|3.3
+Ham, gammon joint, boiled|23.3|0.0|12.3
+Ham, gammon joint, raw|17.5|0.0|7.5
+Ham, gammon rashers, grilled|27.5|0.0|9.9
+Hare, meat only, stewed|29.9|0.0|8.0
+Hare, meat only, stewed, weighed with bone|21.8|0.0|5.8
+Hazelnuts, kernel only|14.1|6.0|63.5
+Hazelnuts, kernel only, weighed with shells|5.4|2.3|24.1
+Heart, lamb, raw|17.1|0.0|6.8
+Heart, lamb, roasted|25.3|0.0|13.9
+Heart, ox, raw|18.2|0.0|3.5
+Heart, ox, stewed|27.8|0.0|5.1
+Heart, pig, raw|17.1|0.0|3.2
+Heart, pig, stewed|25.1|0.0|6.8
+Herring, flesh only, grilled|20.1|0.0|11.2
+Herring, flesh only, grilled, weighed with bones and skin|13.7|0.0|7.6
+Herring, flesh only, raw|17.8|0.0|13.2
+Herring, pickled|16.7|10.0|11.1
+High juice drink, diluted|0.1|8.5|0.0
+High juice drink, no added sugar, undiluted|0.3|4.6|0.0
+High juice drink, undiluted|0.3|42.6|0.0
+Hilsa, raw|21.8|0.0|19.4
+Hoki, grilled|24.1|0.0|2.7
+Hoki, raw|16.9|0.0|1.9
+Hollandaise sauce, homemade|5.1|0.9|77.9
+Honey|0.4|76.4|0.0
+Honey and comb|0.6|74.4|4.6
+Horlicks powder, made up with semi-skimmed milk|4.1|13.5|1.8
+Horlicks powder, made up with skimmed milk|4.1|13.5|0.6
+Horlicks powder, made up with whole milk|4.1|13.3|3.5
+Horlicks, powder|9.4|83.7|3.1
+Horseradish sauce|2.5|17.9|8.4
+Horseradish, raw|4.5|11.0|0.3
+Hot cross buns, homemade|7.3|58.3|5.8
+Hot pot, lamb/beef with potatoes, retail, reheated|7.2|10.6|4.4
+Houmous|6.8|10.5|26.7
+Ice cream bars/choc ices, chocolate coated, luxury|3.9|34.9|21.1
+Ice cream bars/choc ices, non-dairy, with chocolate flavoured coating|3.2|23.2|21.7
+Ice cream desserts, frozen|3.5|21.0|17.6
+Ice cream sauce, topping, strawberry and chocolate flavours|0.4|72.7|0.2
+Ice cream with cone, non-dairy, vanilla|2.9|32.0|7.5
+Ice cream with wafers, non-dairy, vanilla|2.9|31.7|7.5
+Ice cream, dairy, luxury, with chocolate/caramel|4.2|32.2|13.9
+Ice cream, dairy, vanilla, soft scoop|3.2|22.0|8.2
+Ice cream, non dairy, vanilla, soft scoop|2.6|29.8|7.7
+Ice cream, virtually fat free alternative|4.4|20.6|0.8
+Iced buns, retail|6.0|60.8|7.8
+Icing, butter, homemade|0.2|63.4|29.4
+Icing, fondant, homemade|1.3|90.1|0.0
+Icing, glace, homemade|0.0|88.9|0.0
+Icing, Royal, homemade|1.1|93.4|0.0
+Instant dessert powder, made up with skimmed milk|3.3|14.4|3.2
+Instant dessert powder, made up with whole milk|3.2|14.3|6.0
+Instant drinks powder, chocolate, low calorie|16.0|52.0|11.1
+Instant drinks powder, malted, unfortified|5.7|82.5|6.2
+Jackfish, raw|21.7|0.0|2.4
+Jackfruit, raw|1.3|21.4|0.3
+Jaffa cakes|4.4|69.3|8.5
+Jam tarts, retail|3.2|58.2|13.5
+Jam, fruit with edible seeds|0.6|69.0|0.0
+Jam, reduced sugar|0.5|31.9|0.1
+Jam, stone fruit|0.4|69.3|0.0
+Jambu fruit, flesh only|0.7|12.4|0.3
+Jellabi, homemade|4.2|57.5|14.9
+Jelly, made with skimmed milk|2.6|16.8|0.0
+Jelly, made with water|1.2|15.1|0.0
+Jelly, sugar free, made with water|1.6|0.0|0.0
+John Dory, raw|19.0|0.0|1.4
+Jujube, flesh only|1.5|19.7|0.3
+Kalabasu, raw|14.7|0.0|1.0
+Katla, raw|19.5|0.0|2.4
+Kebabs, pork and pineapple, homemade|14.4|5.9|9.9
+Kedgeree, homemade|15.9|9.1|7.7
+Khadhi|3.4|6.6|2.8
+Khatiyu|8.5|25.8|7.0
+Kheema, beef, homemade|11.7|4.6|10.8
+Kheema, lamb, homemade|11.0|4.0|13.4
+Kheema, lamb, reduced fat, homemade|11.4|3.2|9.4
+Khichadi, with butter ghee|4.8|27.3|5.2
+Khichadi, with vegetable oil|4.8|27.0|5.2
+Kidney, lamb, fried in corn oil|23.7|0.0|10.3
+Kidney, lamb, raw|17.0|0.0|2.6
+Kidney, ox, raw|17.2|0.0|2.1
+Kidney, ox, stewed|24.5|0.0|4.4
+Kidney, pig, fried|29.2|0.0|9.5
+Kidney, pig, raw|15.5|0.0|2.7
+Kidney, pig, stewed|24.4|0.0|6.1
+Kippers, flesh only, boil in the bag, with butter, cooked|18.6|0.0|13.2
+Kippers, flesh only, grilled|21.7|0.0|17.6
+Kippers, flesh only, grilled, fillets weighed with bones and skin|19.3|0.0|15.7
+Kiwi fruit, flesh only, raw|0.8|8.6|0.9
+Kiwi fruit, flesh only, raw, weighed with skin|0.6|6.2|0.7
+Knickerbocker glory, homemade|2.4|16.4|6.3
+Kofta, beef, homemade|25.3|1.3|20.5
+Kofta, lamb, coated with breadcrumbs, homemade|23.8|9.7|16.0
+Kohl rabi, boiled in unsalted water|1.2|3.1|0.2
+Kohl rabi, raw|1.6|3.7|0.2
+Kulfi, homemade|5.7|13.8|42.4
+Kumquats, whole fruit, raw|0.9|9.3|0.5
+Lager, alcohol-free|0.4|1.5|0.0
+Lager, extra strong|0.3|2.4|0.0
+Lager, low alcohol|0.3|0.5|0.0
+Lager, premium|0.3|0.0|0.0
+Lager, standard|0.3|0.0|0.0
+Lamb stir-fried with vegetables, homemade|16.4|2.3|18.4
+Lamb, average, raw, lean and fat|19.0|0.0|12.3
+Lamb, best end neck cutlets, barbecued, lean|27.7|0.0|13.9
+Lamb, best end neck cutlets, barbecued, lean and fat|24.3|0.0|27.2
+Lamb, best end neck cutlets, barbecued, lean and fat, weighed with bone|17.5|0.0|19.6
+Lamb, best end neck cutlets, barbecued, lean, weighed with fat and bone|14.1|0.0|7.1
+Lamb, best end neck cutlets, grilled, lean|28.5|0.0|13.8
+Lamb, best end neck cutlets, grilled, lean and fat|24.5|0.0|29.9
+Lamb, best end neck cutlets, grilled, lean and fat, weighed with bone|17.6|0.0|21.0
+Lamb, best end neck cutlets, grilled, lean, weighed with fat and bone|13.7|0.0|6.6
+Lamb, best end neck cutlets, raw, lean and fat|16.3|0.0|27.9
+Lamb, best end neck cutlets, raw, lean and fat, weighed with bone|11.9|0.0|20.4
+Lamb, breast, raw, lean|19.6|0.0|11.2
+Lamb, breast, raw, lean and fat|16.2|0.0|24.7
+Lamb, breast, roasted, lean|26.7|0.0|18.5
+Lamb, breast, roasted, lean and fat|22.4|0.0|29.9
+Lamb, chump chops, fried, lean|28.1|0.0|11.2
+Lamb, chump chops, fried, lean and fat|24.7|0.0|23.2
+Lamb, chump chops, fried, lean and fat, weighed with bone|20.5|0.0|19.3
+Lamb, chump chops, fried, lean, weighed with fat and bone|17.7|0.0|7.1
+Lamb, chump chops, raw, lean and fat|18.3|0.0|18.8
+Lamb, chump chops, raw, lean and fat, weighed with bone|15.9|0.0|16.4
+Lamb, chump steaks, fried, lean and fat|24.8|0.0|20.4
+Lamb, chump steaks, raw, lean and fat|18.6|0.0|16.4
+Lamb, fat, average, cooked|15.4|0.0|56.3
+Lamb, fat, average, raw|13.3|0.0|51.6
+Lamb, fat, raw, average, extra trimmed|6.5|0.0|77.2
+Lamb, lean only, raw, average|20.2|0.0|8.0
+Lamb, lean only, raw, average, extra trimmed|20.0|0.0|7.5
+Lamb, leg chops, grilled, lean and fat|28.3|0.0|12.0
+Lamb, leg chops, grilled, lean and fat, weighed with bone|23.8|0.0|10.1
+Lamb, leg joint, roasted, lean|30.8|0.0|9.6
+Lamb, leg joint, roasted, lean and fat|29.7|0.0|13.0
+Lamb, leg steaks, grilled, lean|29.2|0.0|9.0
+Lamb, leg steaks, grilled, lean and fat|28.0|0.0|13.2
+Lamb, leg, half fillet, braised, lean|27.3|0.0|10.5
+Lamb, leg, half fillet, braised, lean and fat|25.6|0.0|17.1
+Lamb, leg, half knuckle, pot-roasted, lean|29.4|0.0|9.3
+Lamb, leg, half knuckle, pot-roasted, lean and fat|28.1|0.0|13.8
+Lamb, leg, half knuckle, pot-roasted, lean and fat, weighed with bone|20.5|0.0|10.1
+Lamb, leg, whole, roasted well done, lean|31.3|0.0|9.2
+Lamb, leg, whole, roasted well done, lean and fat|29.8|0.0|13.6
+Lamb, leg, whole, roasted, lean and fat|28.1|0.0|14.2
+Lamb, leg, whole, roasted, lean only|29.7|0.0|9.4
+Lamb, loin chops, grilled, lean|29.2|0.0|10.7
+Lamb, loin chops, grilled, lean and fat|26.5|0.0|22.1
+Lamb, loin chops, grilled, lean and fat, weighed with bone|21.5|0.0|17.9
+Lamb, loin chops, grilled, lean, weighed with fat and bone|17.8|0.0|6.5
+Lamb, loin chops, microwaved, lean|32.4|0.0|12.5
+Lamb, loin chops, microwaved, lean and fat|27.5|0.0|26.9
+Lamb, loin chops, microwaved, lean and fat, weighed with bone|22.5|0.0|22.1
+Lamb, loin chops, microwaved, lean, weighed with fat and bone|18.8|0.0|7.3
+Lamb, loin chops, raw, lean and fat|17.6|0.0|23.0
+Lamb, loin chops, raw, lean and fat, weighed with bone|13.7|0.0|17.9
+Lamb, loin chops, roasted, lean|34.4|0.0|13.3
+Lamb, loin chops, roasted, lean and fat|29.1|0.0|26.9
+Lamb, loin chops, roasted, lean and fat, weighed with bone|22.4|0.0|20.7
+Lamb, loin chops, roasted, lean, weighed with fat and bone|19.3|0.0|7.4
+Lamb, loin joint, raw, lean and fat|16.9|0.0|26.6
+Lamb, loin joint, raw, lean and fat, weighed with bone|13.0|0.0|20.5
+Lamb, loin joint, roasted, lean|28.2|0.0|10.7
+Lamb, loin joint, roasted, lean and fat|25.3|0.0|22.4
+Lamb, loin joint, roasted, lean and fat, weighed with bone|18.7|0.0|16.6
+Lamb, mince, raw|19.1|0.0|13.3
+Lamb, mince, stewed|24.4|0.0|12.3
+Lamb, mince, stewed with onions|10.6|2.8|8.5
+Lamb, neck fillet, raw, lean|19.4|0.0|13.9
+Lamb, neck fillet, raw, lean and fat|18.4|0.0|17.6
+Lamb, neck fillet, slices, grilled, lean|27.9|0.0|19.1
+Lamb, neck fillet, slices, grilled, lean and fat|26.3|0.0|21.9
+Lamb, neck fillet, strips, stir-fried  in corn oil, lean|24.4|0.0|20.0
+Lamb, neck fillet, strips, stir-fried in corn oil, lean and fat|23.2|0.0|23.1
+Lamb, New Zealand, leg, whole, chilled, roasted, lean|28.8|0.0|10.2
+Lamb, New Zealand, leg, whole, chilled, roasted, lean and fat|28.0|0.0|13.1
+Lamb, New Zealand, leg, whole, frozen, raw, lean and fat, weighed with bone|15.0|0.0|11.1
+Lamb, New Zealand, leg, whole, frozen, roasted, lean|30.6|0.0|9.3
+Lamb, New Zealand, leg, whole, frozen, roasted, lean and fat|29.0|0.0|14.1
+Lamb, New Zealand, leg, whole, frozen, roasted, lean and fat, weighed with bone|21.2|0.0|10.3
+Lamb, New Zealand, loin chops, frozen, grilled, lean|31.4|0.0|13.7
+Lamb, New Zealand, loin chops, frozen, grilled, lean and fat|26.9|0.0|28.5
+Lamb, New Zealand, loin chops, frozen, grilled, lean and fat, weighed with bone|21.2|0.0|22.5
+Lamb, New Zealand, loin chops, frozen, grilled, lean, weighed with fat and bone|18.5|0.0|8.1
+Lamb, New Zealand, mince, frozen, stewed|20.9|0.0|17.7
+Lamb, New Zealand, shoulder, whole, frozen, roasted, lean|27.6|0.0|15.6
+Lamb, New Zealand, shoulder, whole, frozen, roasted, lean and fat|24.6|0.0|27.9
+Lamb, rack of, lean, roasted|27.1|0.0|13.0
+Lamb, rack of, raw, lean and fat|17.3|0.0|23.8
+Lamb, rack of, raw, lean and fat, weighed with bone|12.5|0.0|17.1
+Lamb, rack of, roasted, lean and fat|23.0|0.0|30.1
+Lamb, shoulder joint, roasted, lean|28.4|0.0|13.5
+Lamb, shoulder joint, roasted, lean and fat|25.9|0.0|19.8
+Lamb, shoulder, diced, kebabs, grilled, lean and fat|28.5|0.0|19.3
+Lamb, shoulder, half bladeside, pot-roasted, lean|26.2|0.0|14.3
+Lamb, shoulder, half bladeside, pot-roasted, lean and fat|23.5|0.0|25.6
+Lamb, shoulder, half knuckle, braised, lean|25.1|0.0|12.4
+Lamb, shoulder, half knuckle, braised, lean and fat|22.9|0.0|23.4
+Lamb, shoulder, raw, lean and fat|17.6|0.0|18.3
+Lamb, shoulder, raw, lean and fat, weighed with bone|14.1|0.0|14.6
+Lamb, shoulder, whole, roasted, lean|27.2|0.0|12.1
+Lamb, shoulder, whole, roasted, lean and fat|24.7|0.0|22.1
+Lamb, shoulder, whole, roasted, lean and fat, weighed with bone|19.5|0.0|17.5
+Lamb, stewing, pressure cooked, lean|28.7|0.0|14.8
+Lamb, stewing, pressure cooked, lean and fat|25.7|0.0|20.9
+Lamb, stewing, raw, lean and fat|22.5|0.0|12.6
+Lamb, stewing, raw, lean and fat, weighed with bone|15.1|0.0|8.4
+Lamb, stewing, stewed, lean|26.6|0.0|14.8
+Lamb, stewing, stewed, lean and fat|24.4|0.0|20.1
+Lamb's heart casserole, homemade|11.8|9.9|8.1
+Lancashire hotpot, homemade|7.3|7.4|6.9
+Langoustine, boiled|19.7|0.0|0.8
+Lard|0.0|0.0|99.0
+Lasagne, homemade|9.6|15.2|9.6
+Lasagne, homemade, with extra lean minced beef|10.1|15.2|7.0
+Lasagne, retail, reheated|7.4|15.7|6.1
+Lasagne, spinach, wholemeal, homemade|4.2|13.0|3.1
+Lasagne, vegetable, retail|4.8|13.4|5.3
+Lasagne, vegetable, wholemeal, homemade|4.8|12.4|4.6
+Lassi, sweetened|2.6|12.3|0.9
+Laverbread|3.2|1.6|3.7
+Leeks in cheese sauce, made with semi-skimmed milk, homemade|4.0|4.6|5.5
+Leeks in cheese sauce, made with skimmed milk, homemade|4.0|4.6|5.0
+Leeks in cheese sauce, made with whole milk, homemade|4.0|4.5|6.0
+Leeks, boiled in unsalted water|1.2|2.5|0.2
+Leeks, raw|1.5|4.1|0.2
+Leeks, roasted in rapeseed oil|1.7|4.5|1.9
+Lemon chicken, homemade|16.9|7.1|6.2
+Lemon curd|0.6|58.4|4.9
+Lemon curd, homemade|4.2|50.7|16.0
+Lemon juice, fresh|0.3|1.6|0.0
+Lemon juice, fresh, weighed as whole fruit|0.1|0.6|0.0
+Lemon peel|1.5|0.0|0.3
+Lemon sole, flesh only, grilled|21.5|0.0|0.6
+Lemon sole, flesh only, raw|16.7|0.0|0.7
+Lemon sole, flesh only, steamed|21.7|0.0|0.9
+Lemon sole, flesh only, steamed, weighed with bones and skin|16.7|0.0|0.7
+Lemon sole, goujons, baked|16.0|14.7|14.6
+Lemonade|0.0|5.8|0.0
+Lemonade, homemade|0.0|16.7|0.0
+Lemons, flesh only, raw, weighed with peel and pips|0.5|1.4|0.2
+Lemons, peeled, flesh only|0.8|2.2|0.3
+Lemons, whole, without pips|1.0|3.2|0.3
+Lentil and nut roast, homemade|10.6|18.8|12.1
+Lentil and nut roast, with egg, homemade|10.8|17.6|12.1
+Lentil and potato pie, homemade|5.3|18.6|2.2
+Lentil and rice roast, homemade|5.1|25.2|1.8
+Lentil and rice roast, with egg, homemade|5.5|24.1|2.1
+Lentil cutlets, fried in vegetable oil, homemade|8.5|24.2|8.3
+Lentil pie, homemade|6.9|29.1|4.3
+Lentil roast, homemade|7.7|21.9|3.0
+Lentil roast, with egg, homemade|8.2|20.3|3.6
+Lentils, green and brown, whole, dried, boiled in unsalted water|7.8|14.5|0.7
+Lentils, green and brown, whole, dried, raw|24.3|48.8|1.9
+Lentils, red, split, dried, boiled in unsalted water|8.1|16.9|0.7
+Lentils, red, split, dried, raw|25.6|51.2|1.8
+Lettuce, average, raw|1.2|1.4|0.1
+Lime juice cordial, diluted|0.0|6.0|0.0
+Lime juice cordial, undiluted|0.1|29.8|0.0
+Lime juice, fresh|0.4|1.6|0.1
+Limes, flesh only|0.7|0.8|0.3
+Limes, flesh only, weighed with peel and pips|0.5|0.6|0.2
+Ling, raw|18.8|0.0|0.7
+Liqueurs, cream|3.0|21.8|13.0
+Liqueurs, high strength|0.0|24.4|0.0
+Liqueurs, low-medium strength|0.0|32.8|0.0
+Liquorice allsorts|3.7|76.7|5.2
+Liquorice powder|6.3|0.0|1.7
+Liver and bacon, fried, homemade|28.9|0.0|14.7
+Liver and onions, stewed, homemade|14.7|5.4|6.9
+Liver sausage|13.4|6.0|16.7
+Liver, calf, fried in corn oil|22.3|0.0|9.6
+Liver, calf, raw|18.3|0.0|3.4
+Liver, chicken, fried in corn oil|22.1|0.0|8.9
+Liver, chicken, raw|17.7|0.0|2.3
+Liver, lamb, fried in corn oil|30.1|0.0|12.9
+Liver, lamb, raw|20.3|0.0|6.2
+Liver, ox, raw|21.1|0.0|7.8
+Liver, ox, stewed|24.8|3.6|9.5
+Liver, pig, raw|21.3|0.0|3.1
+Liver, pig, stewed|25.6|3.6|8.1
+Lobster, boiled|22.1|0.0|1.6
+Lobster, boiled, weighed with shell|8.0|0.0|0.6
+Loganberries, raw|1.1|3.4|0.0
+Loganberries, stewed with sugar|0.8|12.5|0.0
+Loganberries, stewed without sugar|0.9|2.9|0.0
+Lollies, containing ice-cream|1.4|20.9|3.8
+Lollies, with real fruit juice|0.1|18.6|0.3
+Longans, canned in syrup, drained|0.4|17.1|0.3
+Longans, canned in syrup, whole contents|0.3|16.5|0.2
+Longans, flesh only, dried|4.9|72.0|0.4
+Loquats, flesh only, raw|0.7|6.3|0.2
+Lotus tubers, raw|2.1|11.0|0.1
+Lucozade|0.0|16.0|0.0
+Luncheon meat, Chinese, steamed|11.9|10.5|22.3
+Lychees, flesh only, raw, weighed with skin and stone|0.5|8.9|0.1
+Lychees, raw, flesh only|0.9|14.3|0.1
+Macadamia nuts, salted|7.9|4.8|77.6
+Macaroni cheese, homemade|7.8|19.8|8.6
+Macaroon, homemade|9.9|64.0|17.8
+Mace, ground|6.7|0.0|32.4
+Mackerel, flesh only, grilled|20.3|0.0|22.4
+Mackerel, flesh only, grilled, fillets weighed with bones and skin|19.9|0.0|22.0
+Mackerel, flesh only, raw|18.0|0.0|17.9
+Mackerel, flesh only, smoked|21.1|0.0|24.1
+Maltesers and similar products|7.6|63.0|23.3
+Mammie apple, flesh only|0.5|14.4|0.4
+Mandarin oranges, canned in juice, whole contents|0.7|7.7|0.0
+Mango, unripe, green flesh, raw|0.5|11.2|0.2
+Mangoes, ripe, flesh only, raw|0.7|10.7|0.6
+Mangoes, ripe, flesh only, raw, weighed with skin and stone|0.4|6.7|0.4
+Mangosteen, flesh only|0.6|16.4|0.5
+Marjoram, dried|12.7|42.5|7.0
+Marmalade|0.1|69.5|0.0
+Marrow, boiled in unsalted water|0.4|1.6|0.2
+Marrow, parwal, raw|1.6|2.1|0.0
+Marrow, raw|0.5|2.2|0.2
+Mars bar and own brand equivalents|4.1|66.6|15.3
+Marshmallows|3.9|83.1|0.0
+Marzipan, homemade|10.4|50.1|25.7
+Marzipan, white and yellow, retail|5.3|67.6|12.7
+Matoki, boiled in unsalted water|1.3|22.3|0.2
+Matoki, raw|1.2|22.3|0.2
+Mayonnaise, homemade|1.7|0.1|84.2
+Mayonnaise, reduced fat|1.0|8.2|28.1
+Mayonnaise, standard, retail|1.1|2.4|74.8
+Mchicha, homemade|3.6|4.0|4.7
+Meat loaf, homemade|16.6|12.7|10.9
+Meat samosas, takeaway|11.4|18.9|17.3
+Meat spread|15.7|2.3|13.4
+Meatballs, pork and beef, in tomato sauce, homemade|10.0|4.6|7.2
+Medlars, flesh only|0.5|10.6|0.0
+Melon seeds|28.5|9.9|47.7
+Melon, Canteloupe-type, flesh only|0.6|4.2|0.1
+Melon, Canteloupe-type, flesh only, weighed whole|0.4|2.5|0.1
+Melon, Canteloupe-type, flesh only, weighed with skin|0.4|2.8|0.1
+Melon, flesh only, average|0.5|5.5|0.1
+Melon, flesh only, average, weighed whole|0.3|3.5|0.1
+Melon, flesh only, average, weighed with skin|0.3|3.7|0.1
+Melon, Galia, flesh only|0.5|5.6|0.1
+Melon, Galia, flesh only, weighed whole|0.3|3.6|0.1
+Melon, Galia, flesh only, weighed with skin|0.3|3.8|0.1
+Melon, Honeydew, flesh only, weighed whole|0.3|4.0|0.1
+Melon, Honeydew, flesh only, weighed with skin|0.3|4.3|0.1
+Melon, watermelon, flesh only|0.5|7.1|0.3
+Melon, watermelon, flesh only, weighed whole|0.3|4.0|0.2
+Melon, yellow flesh, flesh only|0.5|6.8|0.1
+Meringue, homemade|6.3|96.0|0.0
+Meringue, with cream, homemade|2.9|27.2|24.2
+Methi aloo, homemade|2.7|10.1|10.4
+Milk bread, homemade|8.8|50.8|7.0
+Milk drink, fermented, with probiotics|3.0|12.7|1.2
+Milk shake, powder|1.3|98.3|1.6
+Milk shake, powder, made up with semi-skimmed milk|3.3|11.2|1.7
+Milk shake, powder, made up with skimmed milk|3.3|11.3|0.3
+Milk shake, powder, made up with whole milk|3.3|11.1|3.5
+Milk, 1% fat, pasteurised|3.5|4.8|1.0
+Milk, Channel Islands, whole, pasteurised|3.5|4.3|4.7
+Milk, Channel islands, whole, summer|3.9|4.1|4.7
+Milk, Channel islands, whole, winter|3.2|4.4|4.7
+Milk, condensed, whole, sweetened|7.4|55.5|8.0
+Milk, evaporated, light|7.8|10.3|4.1
+Milk, evaporated, whole|8.4|12.7|9.4
+Milk, flavoured, pasteurised, chocolate|3.6|11.7|1.5
+Milk, flavoured, pasteurised, strawberry, banana|3.6|9.6|1.5
+Milk, goats, pasteurised|3.1|4.4|3.7
+Milk, human, colostrum|2.0|6.6|2.6
+Milk, human, mature|1.3|7.2|4.1
+Milk, human, transitional|1.5|6.9|3.7
+Milk, semi-skimmed, pasteurised, average|3.5|4.7|1.7
+Milk, semi-skimmed, pasteurised, summer and autumn|3.5|4.5|1.7
+Milk, semi-skimmed, pasteurised, winter and spring|3.4|4.9|1.7
+Milk, semi-skimmed, UHT|3.3|4.9|1.6
+Milk, sheeps, raw|5.4|5.1|5.8
+Milk, skimmed, dried, fortified|36.1|52.9|0.6
+Milk, skimmed, pasteurised, average|3.5|4.8|0.3
+Milk, skimmed, pasteurised, summer|3.5|4.4|0.2
+Milk, skimmed, pasteurised, winter|3.5|4.2|0.2
+Milk, skimmed, UHT|3.4|4.9|0.1
+Milk, soya, non-dairy alternative to milk, sweetened, fortified|3.1|2.5|2.4
+Milk, soya, non-dairy alternative to milk, unsweetened, fortified|2.4|0.5|1.6
+Milk, whole, pasteurised, average|3.4|4.6|3.6
+Milk, whole, pasteurised, summer and autumn|3.4|4.1|3.6
+Milk, whole, pasteurised, winter and spring|3.3|5.0|3.6
+Milk, whole, UHT|3.2|4.8|3.9
+Milkshake, thick, takeaway|3.7|15.3|1.8
+Milky Way and own brand equivalents|3.8|76.6|15.7
+Mince pies, homemade, individual|4.2|55.5|23.5
+Mince pies, retail|3.8|60.7|14.9
+Mincemeat|0.6|62.1|4.3
+Mincemeat, vegetarian, homemade|1.7|43.8|9.5
+Minibreads, toasted, retail|10.5|68.9|13.6
+Mint sauce|1.6|21.5|0.0
+Mint sauce, homemade|0.8|19.4|0.1
+Mint, dried|24.8|34.6|4.6
+Mint, fresh|3.8|5.3|0.7
+Mixed curry spices|13.2|0.0|13.3
+Mixed herbs, dried|12.1|36.3|8.5
+Molasses|0.0|68.8|0.1
+Monkfish, flesh only, grilled|22.7|0.0|0.6
+Monkfish, flesh only, grilled, weighed with bones|17.5|0.0|0.4
+Monkfish, flesh only, raw|15.7|0.0|0.4
+Mooli paratha, homemade|5.9|33.8|2.3
+Moussaka, homemade|8.5|4.5|8.0
+Moussaka, retail, reheated|8.3|8.6|8.3
+Moussaka, vegetable, homemade|4.4|8.7|8.6
+Moussaka, vegetable, retail|5.9|8.0|4.9
+Mousse, chocolate, low fat|5.5|18.0|3.7
+Mousse, fruit|4.5|18.0|6.4
+Muesli, Swiss style, no added sugar or salt, unfortified|9.8|70.7|5.9
+Muesli, Swiss style, unfortified|9.2|72.6|6.3
+Muffins, American style, chocolate chip, homemade|6.3|53.6|17.5
+Muffins, American, chocolate, retail|5.5|49.5|25.4
+Muffins, American, not chocolate, retail|5.0|47.8|19.5
+Muffins, bran, homemade|8.2|44.5|7.0
+Muffins, English style, white|10.0|44.2|1.9
+Muffins, English style, white, toasted|11.3|51.0|2.7
+Mulberries, whole fruit, raw|1.3|8.1|0.0
+Mulberries, whole fruit, stewed with sugar|1.0|16.2|0.0
+Mulberries, whole fruit, stewed without sugar|1.1|6.9|0.0
+Mullet, Grey, flesh only, grilled|25.7|0.0|5.2
+Mullet, Grey, flesh only, raw|19.8|0.0|4.0
+Mullet, Grey, grilled, weighed with bones and skin|14.1|0.0|2.9
+Mullet, Red, flesh only, grilled|20.4|0.0|4.4
+Mullet, Red, flesh only, grilled, weighed with bones and skin|9.6|0.0|2.1
+Mullet, Red, flesh only, raw|18.7|0.0|3.8
+Mushroom, dried|21.8|4.8|6.0
+Mushrooms, Chinese, dried, raw|10.0|59.9|1.8
+Mushrooms, Jew's ear, tender, dried, raw|6.9|62.4|1.0
+Mushrooms, Jew's ear, tender, dried, soaked, raw|0.7|5.7|0.7
+Mushrooms, Jew's ear, tough, dried, raw|4.8|68.7|2.0
+Mushrooms, Jew's ear, tough, dried, soaked, raw|1.1|15.1|0.2
+Mushrooms, oyster, raw|1.6|0.0|0.2
+Mushrooms, shiitake, cooked|1.6|12.3|0.2
+Mushrooms, shiitake, dried, raw|9.6|63.9|1.0
+Mushrooms, white, fried in corn oil|1.4|0.4|11.0
+Mushrooms, white, fried in rapeseed oil|1.4|0.4|11.0
+Mushrooms, white, fried in salted butter|1.4|0.4|11.0
+Mushrooms, white, raw|1.0|0.3|0.2
+Mushrooms, white, stewed in unsalted water|1.4|0.1|0.3
+Mussels in white wine sauce, cooked|9.7|3.7|3.2
+Mussels, purchased cooked|17.7|3.5|2.2
+Mussels, raw|12.1|2.5|1.8
+Mustard and cress, raw|1.6|0.4|0.6
+Mustard leaves, boiled in unsalted water|2.0|1.9|0.2
+Mustard leaves, raw|2.5|3.6|0.3
+Mustard powder|28.9|20.7|28.7
+Mustard seeds|24.9|0.0|28.8
+Mustard, powder, made up|14.5|10.4|14.4
+Mustard, smooth|7.1|9.7|8.2
+Mustard, wholegrain|8.2|4.2|10.2
+Nectarines, flesh and skin, raw|1.0|9.8|0.3
+Nectarines, flesh and skin, raw, weighed with stones|0.9|9.0|0.3
+Noodles, egg, dried, raw|12.0|72.6|2.0
+Noodles, egg, fine, dried, boiled in unsalted water|4.7|27.5|0.8
+Noodles, egg, fried with spring onions, homemade|5.0|30.5|12.2
+Noodles, egg, medium, dried, boiled in unsalted water|5.8|35.7|1.0
+Noodles, egg, thick, dried, boiled in unsalted water|5.0|30.7|0.9
+Noodles, rice, fine, dried, boiled in unsalted water|1.9|21.3|0.2
+Nougat, homemade|5.2|80.0|10.2
+Nut and rice roast, mixed nuts with egg, homemade|12.1|23.5|21.9
+Nut and rice roast, mixed nuts, homemade|12.0|25.2|22.6
+Nut and seed roast, mixed nuts and sunflower seeds with egg, homemade|13.0|18.1|23.9
+Nut and seed roast, mixed nuts and sunflower seeds, homemade|12.9|19.6|24.9
+Nut and vegetable roast, mixed nuts with egg, homemade|11.3|18.3|21.2
+Nut and vegetable roast, mixed nuts, homemade|11.1|19.6|21.9
+Nut croquettes, fried in sunflower oil, homemade|9.3|21.6|26.2
+Nut croquettes, fried in vegetable oil, homemade|9.3|21.6|26.2
+Nut cutlets, retail, fried in sunflower oil|4.8|18.7|22.3
+Nut cutlets, retail, fried in vegetable oil|4.8|18.7|22.3
+Nut cutlets, retail, grilled|5.1|19.9|13.0
+Nut roast, homemade|13.2|18.8|23.5
+Nut roast, mixed nuts with egg, homemade|13.3|16.9|24.7
+Nut, mushroom and rice roast, homemade|7.8|24.3|15.3
+Nutmeg, ground|5.8|0.0|36.3
+Nuts, mixed|23.8|11.6|49.1
+Oatcakes, homemade|9.5|61.4|15.9
+Oatcakes, plain, retail|9.3|62.8|20.0
+Octopus, raw|17.9|0.0|1.3
+Oil, coconut|0.0|0.0|99.9
+Oil, cod liver|0.0|0.0|99.9
+Oil, corn|0.0|0.0|99.9
+Oil, cottonseed|0.0|0.0|99.0
+Oil, evening primrose|0.0|0.0|99.9
+Oil, grapeseed|0.0|0.0|99.9
+Oil, hazelnut|0.0|0.0|99.9
+Oil, olive|0.0|0.0|99.9
+Oil, palm|0.0|0.0|99.9
+Oil, peanut (groundnut)|0.0|0.0|99.9
+Oil, rapeseed|0.0|0.0|99.9
+Oil, safflower|0.0|0.0|99.9
+Oil, sesame|0.2|0.0|99.7
+Oil, soya|0.0|0.0|99.9
+Oil, sunflower|0.0|0.0|99.9
+Oil, vegetable, average|0.0|0.0|99.9
+Oil, walnut|0.0|0.0|99.9
+Oil, wheatgerm|0.0|0.0|99.9
+Okra with tomatoes and onion, Greek, homemade|2.8|5.0|16.7
+Okra with tomatoes and onion, West Indian, homemade|3.0|4.7|7.7
+Okra, boiled in unsalted water|1.8|1.9|0.2
+Okra, raw|2.8|3.0|1.0
+Okra, stir-fried in corn oil|4.3|4.4|26.1
+Olives, green, in brine, drained, flesh and skin|0.9|0.0|11.0
+Olives, green, in brine, drained, flesh and skin, weighed with stones|0.7|0.0|8.8
+Omelette, cheese, homemade|15.9|0.0|22.7
+Omelette, curried, homemade|8.4|3.5|36.0
+Omelette, plain, homemade|10.9|0.0|16.4
+Omelette, Spanish, homemade|5.6|5.9|7.6
+Onion sauce, made with semi-skimmed milk, homemade|3.0|9.0|4.7
+Onion sauce, made with skimmed milk, homemade|3.1|9.0|3.8
+Onion sauce, made with whole milk, homemade|3.3|7.8|5.5
+Onions, baked|1.2|9.9|0.2
+Onions, boiled in unsalted water|0.7|5.4|0.3
+Onions, dried, raw|8.8|70.2|1.2
+Onions, fried in butter|1.2|11.2|5.3
+Onions, fried in corn oil|1.2|11.2|5.3
+Onions, fried in lard|1.2|11.2|5.3
+Onions, fried in rapeseed oil|1.2|11.2|5.3
+Onions, fried in sunflower oil|1.2|11.2|5.3
+Onions, pickled, drained|0.9|4.9|0.2
+Onions, raw|1.0|8.0|0.1
+Orange juice, ambient, UHT|0.6|8.5|0.0
+Orange juice, chilled|0.9|8.6|0.0
+Orange juice, freshly squeezed|0.6|8.1|0.0
+Orange juice, freshly squeezed, weighed as whole fruit|0.3|3.7|0.0
+Orange roughy, raw|14.7|0.0|7.0
+Oranges, flesh only|0.8|8.2|0.2
+Oranges, flesh only, weighed with peel and pips|0.8|5.8|0.2
+Oregano, dried, ground|9.0|0.0|4.3
+Oregano, fresh|1.8|0.0|0.9
+Ortaniques, flesh only|1.0|11.7|0.2
+Ovaltine powder, made up with semi-skimmed milk|3.9|13.4|1.7
+Ovaltine powder, made up with skimmed milk|3.9|13.5|0.4
+Ovaltine powder, made up with whole milk|3.8|13.3|3.4
+Ovaltine, powder|7.3|83.1|1.9
+Oxtail, meat only, stewed with added salt|30.5|0.0|13.4
+Oxtail, meat only, stewed, weighed with fat and bones|11.6|0.0|5.1
+Oxtail, raw|20.0|0.0|10.1
+Oysters, raw|10.8|2.7|1.3
+Oysters, raw, weighed with shells|1.5|0.4|0.2
+Pak choi, steamed|1.5|1.9|0.1
+Pakora, vegetable, takeaway and restaurant|8.4|16.5|22.0
+Pakora/bhajia, aubergine, fried in vegetable oil, homemade|7.9|17.2|22.5
+Pakora/bhajia, cauliflower, fried in vegetable oil, homemade|9.2|18.2|23.9
+Pakora/bhajia, onion, fried in vegetable oil, homemade|11.2|24.6|14.7
+Pakora/bhajia, potato and cauliflower, fried in vegetable oil, homemade|8.6|23.9|22.3
+Pakora/bhajia, potato, carrot and pea, fried in vegetable oil, homemade|12.5|28.9|22.7
+Pakora/bhajia, potato, fried in vegetable oil, homemade|9.2|28.4|19.6
+Pakora/bhajia, spinach, fried in vegetable oil, homemade|14.6|30.0|22.2
+Pakora/bhajia, vegetable, retail|6.4|21.4|14.7
+Pakoras, homemade|8.1|19.7|8.1
+Pancakes (served with crispy duck), pancakes only, takeaway|7.8|53.3|7.9
+Pancakes, savoury, made with semi-skimmed milk, homemade|6.9|26.6|8.4
+Pancakes, savoury, made with skimmed milk, homemade|6.9|26.7|7.3
+Pancakes, savoury, wholemeal, made with whole milk, homemade|7.6|23.4|10.1
+Pancakes, stuffed with vegetables, homemade|4.1|15.8|4.2
+Pancakes, stuffed with vegetables, wholemeal, homemade|4.4|14.2|5.0
+Pancakes, sweet, made with semi skimmed milk, homemade|6.3|37.9|7.4
+Pancakes, sweet, made with skimmed milk, homemade|6.3|37.9|7.4
+Pancakes, sweet, made with whole milk, homemade|6.3|37.8|9.7
+Pangasius, flesh only, baked|21.8|0.0|2.3
+Pangasius, flesh only, poached|20.5|0.0|2.2
+Pangasius, flesh only, raw|14.9|0.0|1.6
+Papadums, takeaway|11.5|28.3|38.8
+Papaya, flesh only, raw|0.7|9.5|0.6
+Papaya, flesh only, raw, weighed with skin and pips|0.4|5.7|0.4
+Papaya, unripe, green flesh, raw|0.9|5.5|0.1
+Paprika|14.1|0.0|12.9
+Paratha, homemade|7.8|45.8|14.4
+Parrot fish, raw|19.9|0.0|0.4
+Parsley, dried|15.8|14.5|7.0
+Parsley, fresh|3.0|2.7|1.3
+Parsnip, boiled in unsalted water|1.2|14.7|0.7
+Parsnip, raw|1.8|12.5|1.1
+Parsnip, roasted in rapeseed oil|2.4|28.8|4.5
+Partridge, meat only, roasted|36.7|0.0|7.2
+Partridge, meat only, roasted, weighed with bone|22.0|0.0|4.3
+Passion fruit juice|0.8|10.7|0.1
+Passion fruit, flesh and pips|2.6|5.8|0.4
+Passion fruit, flesh and pips, weighed with skin|1.7|3.5|0.2
+Pasta and sauce mixes, dried, raw|12.8|70.0|4.9
+Pasta shapes, coloured, flavoured, dried, raw|11.0|75.4|1.6
+Pasta with ham and mushroom sauce, homemade|5.7|16.2|5.3
+Pasta with meat and tomato sauce, homemade|6.6|20.4|4.1
+Pasta, egg, fresh, filled with cheese and tomato, boiled in unsalted water|8.7|28.1|5.9
+Pasta, egg, fresh, filled with cheese only, boiled in unsalted water|10.5|30.2|6.7
+Pasta, egg, fresh, filled with green vegetables/herbs and cheese, boiled in unsalted water|8.7|28.7|5.8
+Pasta, egg, fresh, filled with meat, boiled in unsalted water|10.1|31.3|4.7
+Pasta, egg, fresh, filled with mushrooms, boiled in unsalted water|8.1|27.1|4.3
+Pasta, egg, fresh, raw|10.6|57.0|2.9
+Pasta, egg, white, dried, raw|12.9|74.8|3.6
+Pasta, egg, white, tagliatelle, fresh, boiled in unsalted water|5.8|30.6|1.6
+Pasta, plain, fresh, boiled|6.6|31.8|1.5
+Pasta, ravioli, meat filling, canned in tomato sauce|2.3|14.8|1.4
+Pasta, spaghetti, canned, in tomato sauce|2.1|16.2|0.3
+Pasta, white,  twists, fusilli, dried, boiled in unsalted water|4.8|32.9|0.4
+Pasta, white, dried, boiled in unsalted water|5.5|37.2|0.8
+Pasta, white, dried, raw|11.3|75.6|1.6
+Pasta, white, spaghetti, dried, boiled in unsalted water|4.4|31.5|0.6
+Pasta, white, twists, fusilli, dried, boiled in salted water|5.0|32.9|0.7
+Pasta, wholewheat, spaghetti, dried, boiled in unsalted water|5.2|27.5|1.1
+Pasta, wholewheat, spaghetti, dried, raw|12.6|68.3|2.5
+Pastichio|7.0|17.2|6.3
+Pastries, Asian|6.3|43.0|39.1
+Pastries, chocolate eclairs, cream filled, retail|6.1|28.2|28.5
+Pastries, chocolate eclairs, fresh, homemade|4.1|38.0|24.7
+Pastries, cream filled, retail|3.3|41.4|27.4
+Pastries, Danish, retail|4.9|43.6|29.2
+Pastries, Greek, baklava, retail|6.7|54.1|25.1
+Pastry, cheese, shortcrust, homemade|13.2|39.2|32.4
+Pastry, choux, cooked, homemade|8.4|31.1|18.1
+Pastry, choux, uncooked, homemade|5.5|20.2|11.8
+Pastry, filo, retail, cooked|10.0|77.1|3.8
+Pastry, filo, retail, uncooked|7.6|58.9|2.9
+Pastry, flaky, cooked, homemade|5.7|48.3|37.4
+Pastry, flaky, uncooked, homemade|4.3|36.6|28.3
+Pastry, flaky/puff, retail, cooked|6.7|42.8|33.2
+Pastry, flaky/puff, retail, uncooked|5.3|33.7|26.2
+Pastry, shortcrust, cooked, homemade|6.6|57.1|29.9
+Pastry, shortcrust, retail, cooked|6.9|47.5|37.9
+Pastry, shortcrust, retail, uncooked|5.7|39.4|31.4
+Pastry, shortcrust, uncooked, homemade|5.7|48.8|25.5
+Pastry, wholemeal, cooked, homemade|8.3|48.9|30.0
+Pastry, wholemeal, uncooked, homemade|7.2|42.3|25.9
+Pasty, vegetable, homemade|4.2|30.0|19.1
+Pasty, vegetable, wholemeal, homemade|4.9|30.7|15.2
+Pate, liver|12.6|1.2|32.7
+Pate, meat, reduced fat|18.0|3.0|12.0
+Pate, tuna|16.2|1.5|26.8
+Patra leaves, raw|4.0|2.6|1.5
+Pavlova, toffee/chocolate, no fruit|3.8|47.4|19.7
+Pavlova, with fruit and cream|2.7|42.2|8.3
+Peach melba, homemade|1.7|18.1|10.5
+Peaches, canned in juice, whole contents|0.6|9.7|0.0
+Peaches, canned in syrup, whole contents|0.5|14.0|0.0
+Peaches, flesh and skin, raw, weighed with stone|0.9|6.8|0.1
+Peaches, raw, flesh and skin|1.0|7.6|0.1
+Peanut brittle, homemade|8.6|73.8|19.0
+Peanut butter, smooth|22.8|13.1|51.8
+Peanuts and raisins|15.4|37.5|25.9
+Peanuts, dry roasted|25.7|10.3|49.8
+Peanuts, kernel only, plain, unsalted|25.8|12.5|46.0
+Peanuts, kernel only, plain, weighed with shells|17.7|8.6|31.8
+Peanuts, raisins and chocolate chips|12.4|44.4|25.4
+Peanuts, roasted and salted|24.7|7.1|53.0
+Pears, average, flesh and skin, raw, weighed with core and stalk|0.3|9.2|0.1
+Pears, average, raw, flesh only|0.3|11.3|0.1
+Pears, average, stewed with sugar|0.2|18.8|0.1
+Pears, average, stewed without sugar|0.3|9.8|0.1
+Pears, canned in juice, whole contents|0.3|8.5|0.0
+Pears, dried|1.6|52.4|0.5
+Pears, Nashi, flesh and skin, raw|0.3|7.1|0.1
+Pears, Nashi, flesh and skin, raw, weighed with core|0.3|6.3|0.1
+Pears, raw, flesh and skin|0.3|10.9|0.1
+Pears, raw, flesh only, peeled, weighed with skin and core|0.2|7.9|0.1
+Peas, boiled in unsalted water|6.7|10.0|1.6
+Peas, canned in water, re-heated, drained|5.3|8.0|0.9
+Peas, dried, boiled in unsalted water|6.9|19.9|0.8
+Peas, dried, raw|21.6|52.0|2.4
+Peas, frozen, boiled in unsalted water|5.5|11.2|0.7
+Peas, frozen, microwaved|5.7|10.8|0.9
+Peas, frozen, raw|5.3|10.7|0.7
+Peas, mange-tout, boiled in unsalted water|3.3|4.2|0.4
+Peas, mange-tout, raw|3.6|4.2|0.2
+Peas, mange-tout, stir-fried in rapeseed oil|2.8|3.6|4.9
+Peas, marrowfat, canned, re-heated, drained|6.9|13.8|0.8
+Peas, mushy, canned, re-heated|5.8|13.8|0.7
+Peas, raw|6.9|11.3|1.5
+Peas, split, dried, boiled in unsalted water|8.3|22.7|0.9
+Peas, split, dried, raw|22.1|58.2|2.4
+Peas, sugar-snap, boiled in unsalted water|3.1|4.7|0.3
+Peas, sugar-snap, raw|3.4|5.0|0.2
+Pecan nuts, kernel only|9.2|5.8|70.1
+Pecan nuts, kernel only, weighed with shells|4.5|2.8|34.3
+Peel, mixed|0.3|74.1|0.9
+Pepper, black|10.4|0.0|3.3
+Pepper, capsicum, red, boiled in unsalted water|0.8|3.4|0.1
+Pepper, capsicum, red, raw|0.8|4.3|0.2
+Pepper, capsicum, yellow, boiled in unsalted water|0.9|5.3|0.3
+Pepper, capsicum, yellow, raw|0.8|4.6|0.2
+Pepper, cayenne, ground|12.0|31.7|17.3
+Pepper, white|10.4|0.0|2.1
+Peppermint creams, homemade|0.7|96.9|0.0
+Peppermints|0.5|102.7|0.7
+Peppers, capsicum, chilli, green, raw|2.9|0.7|0.6
+Peppers, capsicum, chilli, red, raw|1.8|4.2|0.3
+Peppers, capsicum, green, boiled in unsalted water|1.0|2.6|0.5
+Peppers, capsicum, green, raw|0.8|2.6|0.3
+Peppers, green, stuffed with rice, homemade|1.7|14.4|1.9
+Peppers, green, stuffed with vegetables, cheese topping, homemade|2.6|5.2|5.6
+Peppers, stuffed with beef, rice and vegetables, homemade|6.2|9.2|4.3
+Pesto sauce, homemade|19.0|2.4|46.2
+Pesto, green|5.6|3.9|42.5
+Pesto, red|5.0|5.9|30.6
+Pheasant, meat only, roasted|27.9|0.0|12.0
+Pheasant, meat only, roasted, weighed with bone|14.5|0.0|6.2
+Physalis, fruit only|1.8|11.1|0.2
+Piccalilli|1.0|17.6|0.5
+Pickle, sweet|0.6|28.0|0.1
+Pie, apple, one crust, homemade|1.8|29.0|9.2
+Pie, apple, pastry top and bottom, homemade|2.9|32.1|15.2
+Pie, apple, pastry, double crust, deep filled, retail|3.3|38.5|10.9
+Pie, apple, pastry, double crust, retail|3.8|30.3|12.9
+Pie, apple, wholemeal, one crust, homemade|2.3|29.9|7.7
+Pie, apple, wholemeal, pastry top and bottom, homemade|3.6|33.6|12.7
+Pie, banoffee|3.8|32.9|20.0
+Pie, beef, puff or shortcrust pastry, family size, retail|8.9|18.1|13.0
+Pie, beef, puff or shortcrust pastry, individual, retail|9.2|25.5|17.7
+Pie, cheese and potato, homemade|5.0|12.6|7.2
+Pie, chicken and mushroom, single crust, homemade|13.6|14.3|10.4
+Pie, chicken, individual, baked|9.0|24.6|17.7
+Pie, Cottage, homemade|6.3|10.4|6.3
+Pie, Cottage/Shepherd's, reheated|4.5|11.9|5.4
+Pie, fish, white fish, homemade|8.6|12.7|2.1
+Pie, fish, white fish, retail, baked|6.6|14.4|4.8
+Pie, fruit, individual, retail|3.1|60.0|13.7
+Pie, fruit, one crust, homemade|2.1|26.7|9.1
+Pie, fruit, pastry top and bottom, blackcurrant, homemade|3.2|31.0|15.1
+Pie, fruit, pastry top and bottom, homemade|3.1|30.4|15.1
+Pie, fruit, wholemeal, one crust, homemade|2.5|27.6|7.6
+Pie, fruit, wholemeal, pastry top and bottom, blackcurrant, homemade|3.9|32.5|12.5
+Pie, fruit, wholemeal, pastry top and bottom, homemade|4.0|30.0|13.9
+Pie, fruit, wholemeal, with pie filling, homemade|4.0|32.7|13.6
+Pie, fruit, with pie filling, homemade|3.2|31.1|16.4
+Pie, game, homemade|12.2|34.7|22.5
+Pie, lemon meringue, retail|2.9|43.5|8.5
+Pie, lentil and cheese, homemade|11.0|14.5|9.3
+Pie, Quorn and vegetable|7.6|13.2|10.4
+Pie, spinach, homemade|6.2|8.6|13.3
+Pie, steak and kidney, double crust, homemade|14.6|22.2|18.1
+Pie, steak and kidney, single crust, homemade|17.0|15.3|13.1
+Pie, turkey, single crust, homemade|13.8|14.9|10.4
+Pie, vegetable, homemade|2.9|17.1|9.4
+Pie, vegetable, wholemeal, homemade|3.4|18.0|7.8
+Pigeon, meat only, roasted|29.0|0.0|7.9
+Pigeon, meat only, roasted, weighed with bone|13.6|0.0|3.7
+Pilaf, rice with spinach, homemade|3.7|17.8|1.9
+Pilaf, rice with tomato, homemade|2.9|27.9|2.6
+Pilau, egg and potato, brown rice, homemade|4.7|19.5|2.8
+Pilau, egg and potato, homemade|4.4|22.4|2.5
+Pilau, mushroom, homemade|2.5|23.9|3.5
+Pilau, prawn, homemade|5.2|24.8|3.2
+Pilau, vegetable, homemade|3.3|22.6|1.5
+Pine nuts, kernel only|14.0|4.0|68.6
+Pineapple juice, unsweetened|0.3|10.5|0.1
+Pineapple, canned in juice, whole contents|0.3|12.2|0.0
+Pineapple, canned in syrup, whole contents|0.5|16.5|0.0
+Pineapple, dried|3.3|75.7|0.7
+Pineapple, flesh only, raw|0.5|11.4|0.1
+Pineapple, flesh only, raw, weighed with skin and top|0.2|5.0|0.1
+Pinni, homemade|5.4|59.5|31.4
+Pistachio nuts, kernel only, roasted and salted|17.9|8.2|55.4
+Pistachio nuts, kernel only, roasted and salted, weighed with shells|9.9|4.6|30.5
+Pizza base, raw|7.8|57.5|4.8
+Pizza, cheese and tomato, retail|12.2|36.1|9.8
+Pizza, chicken topped, retail|13.4|31.3|8.3
+Pizza, fish topped, takeaway|13.3|28.0|7.5
+Pizza, ham and pineapple, retail|13.5|34.4|8.6
+Pizza, meat topped, retail and takeaway|13.2|29.1|10.3
+Pizza, tomato, homemade|3.3|22.6|10.6
+Pizza, vegetarian, retail and takeaway|10.8|29.6|6.9
+Plaice, flesh only, baked|21.3|0.0|1.6
+Plaice, flesh only, raw|16.4|0.0|1.2
+Plaice, flesh only, steamed|19.5|0.0|1.4
+Plaice, flesh only, steamed, fillets weighed with bones and skin|14.5|0.0|1.1
+Plaice, in batter, fried in blended oil|15.2|12.0|16.8
+Plaice, in batter, fried in retail blend oil|15.2|12.0|16.8
+Plaice, in batter, fried in sunflower oil|15.2|12.0|16.8
+Plaice, in breadcrumbs, baked|14.4|21.5|11.6
+Plantain, boiled in unsalted water, flesh only|0.8|28.5|0.2
+Plantain, green flesh, raw|1.1|29.4|0.3
+Plantain, ripe, fried in rapeseed oil|1.5|47.5|9.2
+Plums, average, flesh and skin, stewed with sugar, weighed with stones|0.5|17.0|0.1
+Plums, average, flesh and skin, stewed without sugar|0.5|7.3|0.1
+Plums, average, flesh and skin, stewed without sugar, weighed with stones|0.5|6.9|0.1
+Plums, average, stewed with sugar, flesh and skin|0.5|17.9|0.1
+Plums, dessert, flesh and skin, raw|0.6|9.7|0.3
+Plums, dessert, flesh and skin, raw, weighed with stones|0.6|9.4|0.2
+Plums, Victoria, flesh and skin, raw|0.6|9.6|0.1
+Plums, Victoria, flesh and skin, raw, weighed with stones|0.5|9.0|0.1
+Plums, Victoria, stewed without sugar|0.5|8.3|0.1
+Plums, Victoria, stewed without sugar, weighed with stones|0.5|7.9|0.1
+Plums, yellow, flesh and skin, raw|0.5|5.9|0.1
+Plums, yellow, flesh and skin, raw, weighed with stones|0.5|5.7|0.1
+Polenta, hydrated, raw|1.9|15.2|0.4
+Pollock, Alaskan, flesh only, baked|28.2|0.0|1.2
+Pollock, Alaskan, flesh only, raw|16.4|0.0|0.7
+Pollock, Alaskan, flesh only, steamed|27.4|0.0|1.2
+Pomegranate juice drink|0.2|11.6|0.0
+Pomegranate, flesh and pips|1.3|11.8|0.2
+Pomegranate, flesh and pips, weighed with skin|0.9|7.7|0.1
+Pomelo, flesh only|0.6|6.8|0.2
+Pomelo, flesh only, weighed with peel and pips|0.4|4.1|0.1
+Pomfret, black, raw|18.8|0.0|2.6
+Pomfret, white, raw|18.3|0.0|2.1
+Popcorn, candied|6.9|60.7|23.8
+Popcorn, salted, retail|9.0|59.3|23.5
+Poppy seeds|20.6|0.0|47.1
+Pork chops in mustard and cream, homemade|15.5|1.0|19.4
+Pork chops in mustard and cream, homemade, weighed with bone|13.6|0.9|17.0
+Pork pie, individual|9.9|25.7|26.0
+Pork scratchings|47.9|0.2|46.0
+Pork, belly joint, roasted, lean and fat|25.1|0.0|21.4
+Pork, belly joint/slices, grilled, lean and fat|27.4|0.0|23.4
+Pork, belly joint/slices, raw, lean and fat|19.1|0.0|20.2
+Pork, belly joint/slices, raw, lean and fat, weighed with bone|17.6|0.0|18.6
+Pork, crackling, cooked|36.2|0.0|45.0
+Pork, diced, casseroled, lean|36.8|0.0|5.3
+Pork, diced, casseroled, lean and fat|36.3|0.0|6.4
+Pork, diced, kebabs, grilled, lean|37.9|0.0|5.4
+Pork, diced, kebabs, grilled, lean and fat|37.4|0.0|6.5
+Pork, diced, raw, lean|23.1|0.0|3.3
+Pork, diced, raw, lean and fat|22.8|0.0|4.5
+Pork, fat, average, cooked|14.2|0.0|50.9
+Pork, fat, average, raw|10.1|0.0|56.4
+Pork, fillet medallions, grilled lean|36.3|0.0|0.8
+Pork, fillet medallions, grilled, lean and fat|35.9|0.0|1.9
+Pork, fillet medallions, raw, lean|22.8|0.0|0.5
+Pork, fillet medallions, raw, lean and fat|22.6|0.0|1.8
+Pork, fillet strips, stir-fried in rapeseed oil, lean|35.8|0.0|2.7
+Pork, hand, shoulder joint, raw, lean|20.8|0.0|4.2
+Pork, hand, shoulder joint, raw, lean and fat|18.1|0.0|16.2
+Pork, hand, shoulder joint, roasted, lean|30.8|0.0|8.8
+Pork, hand, shoulder joint, roasted, lean and fat|27.5|0.0|16.5
+Pork, lean, average, raw|22.2|0.0|3.1
+Pork, leg joint, raw, lean|23.1|0.0|3.3
+Pork, leg joint, raw, lean and fat|19.9|0.0|15.0
+Pork, leg joint, raw, lean and fat, trimmed|22.4|0.0|5.8
+Pork, leg joint, roasted, lean and fat|29.6|0.0|15.9
+Pork, leg joint, roasted, lean and fat, trimmed|32.5|0.0|8.1
+Pork, leg joint, roasted, lean|33.3|0.0|5.9
+Pork, loin chops, grilled, lean|35.1|0.0|5.9
+Pork, loin chops, grilled, lean and fat|33.3|0.0|11.5
+Pork, loin chops, raw, lean and fat|21.3|0.0|11.7
+Pork, loin chops, raw, lean and fat, weighed with bone|18.1|0.0|10.0
+Pork, loin chops, roasted, lean|39.6|0.0|4.2
+Pork, loin chops, roasted, lean and fat|36.2|0.0|11.4
+Pork, loin chops, roasted, lean and fat, weighed with bone|27.9|0.0|8.8
+Pork, loin medallions, raw, lean|24.8|0.0|1.9
+Pork, loin medallions, raw, lean and fat|23.0|0.0|5.4
+Pork, loin medallions, raw, lean and fat, trimmed|23.4|0.0|3.1
+Pork, loin steaks, fried in rapeseed oil, lean|33.9|0.0|4.7
+Pork, loin steaks, fried in rapeseed oil, lean and fat|31.7|0.0|12.0
+Pork, loin steaks, grilled, lean|35.1|0.0|5.9
+Pork, loin steaks, grilled, lean and fat|32.7|0.0|12.9
+Pork, loin steaks, grilled, lean and fat, trimmed|34.4|0.0|8.0
+Pork, loin steaks, raw, lean|23.2|0.0|1.9
+Pork, loin steaks, raw, lean and fat|21.4|0.0|11.2
+Pork, loin steaks, raw, lean and fat, trimmed|22.5|0.0|5.5
+Pork, loin steaks, stewed, lean|33.2|0.0|2.7
+Pork, loin steaks, stewed, lean and fat|31.3|0.0|9.7
+Pork, mince, raw|19.2|0.0|9.7
+Pork, mince, stewed|24.4|0.0|10.4
+Pork, shoulder chops (collar), braised, lean|30.5|0.0|10.1
+Pork, shoulder chops (collar), braised, lean and fat|28.1|0.0|15.0
+Pork, shoulder chops (collar), braised, lean and fat, weighed with bone|21.6|0.0|11.5
+Pork, shoulder chops (collar), raw, lean and fat|18.5|0.0|12.4
+Pork, shoulder chops (collar), raw, lean and fat, weighed with bone|14.6|0.0|9.8
+Pork, shoulder joint (collar), pot-roasted, lean|30.0|0.0|9.0
+Pork, shoulder joint (collar), pot-roasted, lean and fat|24.4|0.0|18.0
+Pork, shoulder joint (collar), raw, lean and fat|17.6|0.0|16.4
+Pork, shoulder joint (collar), raw, lean and fat, weighed with bone|13.1|0.0|12.1
+Pork, shoulder steaks (collar), grilled, lean and fat|29.2|0.0|19.5
+Pork, shoulder steaks (collar), grilled, lean and fat, weighed with bone|13.1|0.0|8.8
+Pork, shoulder steaks (collar), raw, lean and fat|18.7|0.0|10.4
+Pork, shoulder steaks (collar), raw, lean and fat, weighed with bone|9.0|0.0|6.4
+Pork, spare ribs, 'barbecue style', homemade|20.8|4.9|22.3
+Pork, spare ribs, 'barbecue style', homemade, weighed with bone|9.7|2.3|10.4
+Pork, spare ribs, 'barbecue style', meat only, retail, reheated, weighed with bone|9.2|2.0|6.0
+Pork, spare ribs, 'barbecue style', meat only, retail, reheated|26.3|5.8|17.1
+Pork, spare ribs, in black bean sauce, meat and sauce only, homemade|14.3|5.8|14.5
+Pork, spare ribs, in black bean sauce, meat and sauce only, homemade, weighed with bone|8.2|3.3|8.2
+Pork, spare ribs, raw, lean and fat|18.7|0.0|13.4
+Pork, stir-fried with vegetables, homemade|16.4|2.6|2.9
+Pork, sweet and sour, made with lean pork, homemade|14.5|11.0|6.3
+Pork, sweet and sour, made with sweet and sour cook in sauce|15.3|11.4|4.9
+Pork, trotters and tails, boiled with added salt|19.8|0.0|22.3
+Porridge oats, unfortified|10.9|70.7|8.1
+Porridge oats, unfortified, cooked, made up with semi-skimmed milk|4.6|12.1|2.3
+Porridge, made with milk and water|3.1|11.2|1.9
+Porridge, made with water|1.4|8.8|1.0
+Porridge, made with whole milk|4.9|13.3|4.7
+Port|0.1|12.0|0.0
+Pot savouries|11.6|58.8|10.9
+Pot savouries, made up|3.3|16.7|3.1
+Potato cakes, fried in rapeseed oil|3.9|31.4|8.4
+Potato chips, crinkle cut, frozen, fried in corn oil|3.6|33.4|16.7
+Potato chips, fine cut, from fast food outlets|3.5|39.7|14.2
+Potato chips, fine cut, frozen, fried in blended vegetable oil|4.5|41.2|21.3
+Potato chips, fine cut, frozen, fried in corn oil|4.5|41.2|21.3
+Potato chips, fine cut, frozen, fried in dripping|4.5|41.2|21.3
+Potato chips, fried in beef dripping, from takeaway fish and chip shops|3.5|33.2|8.4
+Potato chips, fried in commercial oil, from takeaway fish and chip shops|3.5|33.2|8.4
+Potato chips, fried in palm oil, from takeaway fish and chip shops|3.5|33.2|8.4
+Potato chips, fried in rapeseed oil, from takeaway fish and chip shops|3.5|33.2|8.4
+Potato chips, homemade, fried in corn oil|3.2|33.1|6.7
+Potato chips, homemade, fried in dripping|3.2|33.1|6.7
+Potato chips, homemade, fried in rapeseed oil|3.6|34.1|6.7
+Potato chips, homemade, fried in sunflower oil|3.2|33.1|6.7
+Potato chips, microwave, cooked|3.6|32.1|9.6
+Potato chips, oven ready, no batter, baked|3.2|35.3|4.9
+Potato chips, oven ready, with batter, baked|3.4|35.6|6.1
+Potato chips, straight cut, frozen, fried in blended oil|4.1|36.0|13.5
+Potato chips, straight cut, frozen, fried in corn oil|4.1|36.0|13.5
+Potato chips, straight cut, frozen, fried in dripping|4.1|36.0|13.5
+Potato chips, thick cut, frozen, fried in corn oil|3.6|34.0|10.2
+Potato crisps, fried in sunflower oil|6.2|55.8|28.8
+Potato crisps, low fat|6.6|63.5|21.5
+Potato croquettes, fried in blended oil|3.7|21.6|13.1
+Potato powder, instant, made up with semi-skimmed milk|2.4|14.2|0.5
+Potato powder, instant, made up with skimmed milk|2.4|14.2|0.1
+Potato powder, instant, made up with water|1.5|13.5|0.1
+Potato powder, instant, made up with whole milk|2.4|14.8|1.2
+Potato powder, instant, raw|8.4|74.9|0.6
+Potato products, shaped, frozen, baked|2.5|28.1|8.3
+Potato rings|3.6|70.5|22.4
+Potato snacks, pringle-type, fried in vegetable oil|4.3|57.4|31.8
+Potato wedges, retail, cooked|2.8|30.6|5.5
+Potato, leek and celery bake|4.4|12.6|6.5
+Potatoes with onions and eggs, fried|7.8|19.1|23.8
+Potatoes, duchesse|3.1|17.5|5.1
+Potatoes, new and salad, boiled in salted water, flesh and skin|1.8|14.9|0.1
+Potatoes, new and salad, boiled in unsalted water, flesh and skin|1.8|14.9|0.1
+Potatoes, new and salad, flesh only, raw|1.7|16.1|0.1
+Potatoes, new, frozen, `roast' in corn oil|2.5|23.4|6.6
+Potatoes, old, baked, flesh and skin|2.5|22.6|0.2
+Potatoes, old, baked, flesh only|2.2|18.0|0.1
+Potatoes, old, baked, flesh only, weighed with skin|1.5|12.1|0.1
+Potatoes, old, boiled in salted water, flesh only|1.8|17.5|0.1
+Potatoes, old, boiled in unsalted water, flesh only|1.8|17.5|0.1
+Potatoes, old, mashed with butter|1.9|15.9|3.9
+Potatoes, old, mashed with reduced fat spread|1.8|15.9|2.8
+Potatoes, old, microwaved, flesh and skin|2.6|21.5|0.1
+Potatoes, old, potato wedges, with skin, cooked in sunflower oil, homemade|2.9|26.5|3.8
+Potatoes, old, raw, flesh only|1.9|19.6|0.1
+Potatoes, old, roasted in corn oil|2.6|26.4|5.7
+Potatoes, old, roasted in lard|2.6|26.4|5.7
+Potatoes, old, roasted in rapeseed oil|2.6|26.4|5.7
+Potatoes, old, roasted in sunflower oil, flesh only|2.6|26.4|5.7
+Potatoes, old, wedges, with skin, homemade, cooked in rapeseed oil|2.9|26.5|3.8
+Poussin, raw, meat and skin|19.1|0.0|13.9
+Poussin, raw, meat and skin, weighed with bone|11.1|0.0|8.1
+Prawn crackers, takeaway|0.3|58.2|39.0
+Prawns, king, grilled from raw|23.5|0.0|0.9
+Prawns, king, purchased cooked|16.2|0.0|0.4
+Prawns, king, purchased cooked, weighed with shells|8.7|0.0|0.2
+Prawns, king, raw|17.6|0.0|0.7
+Prawns, standard, dried|83.1|0.0|4.9
+Prawns, standard, purchased cooked|15.4|0.0|0.9
+Pre-mixed spirit based drinks|0.0|8.0|0.0
+Prickly pears, flesh and seeds|0.7|11.5|0.3
+Profiteroles with sauce, frozen|5.5|24.6|25.7
+Prune juice|0.5|14.4|0.1
+Prunes, canned in juice, whole contents|0.7|19.7|0.2
+Prunes, flesh and skin|2.8|38.4|0.5
+Prunes, flesh and skin, stewed with sugar|1.3|25.5|0.2
+Prunes, flesh and skin, stewed with sugar, weighed with stones|1.2|23.5|0.2
+Prunes, flesh and skin, stewed without sugar|1.4|19.5|0.3
+Prunes, flesh and skin, stewed without sugar, weighed with stones|1.3|17.8|0.2
+Prunes, flesh and skin, weighed with stones|2.4|32.3|0.4
+Prunes, ready-to-eat, semi-dried|2.3|36.5|0.3
+Prunes, ready-to-eat, semi-dried, weighed with stones|2.0|31.4|0.3
+Pudding, bread and butter, homemade|6.3|17.0|5.3
+Pudding, Christmas, homemade|5.0|54.6|9.8
+Pudding, Christmas, retail|3.0|56.3|6.9
+Pudding, Eve's pudding, homemade|3.3|31.4|13.4
+Pudding, Queen of Puddings, homemade|5.0|34.2|7.6
+Pudding, rice, canned|3.3|16.1|1.3
+Pudding, rice, canned, low fat|3.5|16.0|0.8
+Pudding, rice, homemade, with semi-skimmed milk|4.2|19.0|4.4
+Pudding, rice, homemade, with skimmed milk|4.3|19.1|2.9
+Pudding, rice, homemade, with whole milk|4.2|18.9|6.5
+Pudding, sponge, canned|3.1|45.4|9.1
+Pudding, sponge, homemade|5.7|46.2|14.6
+Pudding, sponge, with dried fruit, homemade|5.5|50.5|13.4
+Pudding, sponge, with jam or treacle, homemade|5.3|51.1|13.3
+Pudding, spotted dick, homemade|4.5|48.3|16.1
+Pudding, suet, homemade|4.8|46.4|17.6
+Pumpkin seeds|24.4|15.2|45.6
+Pumpkin, flesh only, boiled in unsalted water|0.6|1.9|0.3
+Pumpkin, flesh only, raw|0.7|2.2|0.2
+Puri, homemade|7.2|36.5|22.3
+Quiche, cheese and egg, homemade|12.5|14.6|22.3
+Quiche, cheese and egg, wholemeal, homemade|13.0|15.6|20.4
+Quiche, Lorraine, homemade|15.3|16.8|26.0
+Quiche, Lorraine, shortcrust pastry, retail|9.1|19.7|17.6
+Quiche, Lorraine, wholemeal pastry, homemade|15.8|18.0|24.9
+Quiche, mushroom, homemade|9.9|15.5|20.0
+Quiche, mushroom, wholemeal, homemade|10.5|16.6|18.1
+Quiche, vegetable, retail|8.1|21.2|19.7
+Quinces, flesh only|0.3|6.3|0.1
+Quinoa, raw|13.8|55.7|5.0
+Quorn korma|3.7|16.7|7.0
+Quorn, pieces, as purchased|14.0|1.1|1.4
+Rabbit, raw, meat only|21.9|0.0|5.5
+Rabbit, stewed, meat only|21.2|0.0|3.2
+Rabbit, stewed, meat only, weighed with bone|12.7|0.0|1.9
+Raddiccio, raw|1.4|1.7|0.2
+Radish leaves, raw|3.5|3.5|0.5
+Radish, red, flesh and skin, raw|0.7|1.4|0.4
+Radish, white/mooli, raw|0.8|2.9|0.1
+Raisins, dried|3.0|62.6|1.0
+Raita, homemade|4.4|5.8|2.4
+Raita, yogurt and gram flour, homemade|3.3|8.1|6.6
+Rambutan, flesh only|1.0|16.3|0.4
+Rape leaves, raw|3.8|4.8|0.3
+Raspberries, raw|0.8|5.1|0.3
+Raspberries, stewed with sugar|1.2|15.0|0.3
+Raspberries, stewed without sugar|1.4|4.4|0.3
+Ratatouille, homemade|1.2|3.8|7.0
+Red pea loaf|9.2|15.6|3.4
+Red rice, boiled in unsalted water|3.0|28.2|1.2
+Red snapper, flesh only, fried in blended oil, weighed with bones and skin|24.5|0.0|3.1
+Red snapper, flesh only, fried in sunflower oil|24.5|0.0|3.1
+Red snapper, flesh only, fried in sunflower oil, weighed with bones and skin|12.5|0.0|1.6
+Red snapper, flesh only, raw|19.6|0.0|1.3
+Redcurrants, raw|1.1|4.4|0.0
+Redcurrants, stewed with sugar|0.9|13.3|0.0
+Redcurrants, stewed without sugar|0.9|3.8|0.0
+Redfish, raw|18.4|0.0|2.7
+Re-fried beans|7.1|15.0|8.6
+Relish, corn/cucumber/onion|1.0|36.6|0.3
+Relish, tomato based|1.2|27.6|0.1
+Rhubarb, stems only, raw|0.9|0.8|0.1
+Rhubarb, stems only, stewed with sugar|0.9|11.5|0.1
+Rhubarb, stems only, stewed without sugar|1.0|1.2|0.6
+Rice and black-eye beans|5.6|34.1|2.2
+Rice and black-eye beans, brown rice|5.9|31.6|2.4
+Rice and pigeon peas|4.9|33.1|2.2
+Rice and pigeon peas, brown rice|5.2|30.8|2.3
+Rice and red kidney beans|5.2|31.5|2.1
+Rice and red kidney beans, brown rice|5.5|29.1|2.3
+Rice and split peas|5.8|37.3|2.5
+Rice and split peas, brown rice|6.2|34.7|2.7
+Rice, brown, basmati, boiled in unsalted water|3.3|28.7|1.1
+Rice, brown, basmati, raw|8.9|77.6|3.1
+Rice, brown, easy cook, boiled in unsalted water|3.2|35.3|1.3
+Rice, brown, easy cook, raw|7.5|82.1|3.1
+Rice, brown, wholegrain, boiled in unsalted water|3.6|29.2|0.9
+Rice, brown, wholegrain, raw|7.7|77.0|1.5
+Rice, egg fried, ready cooked, re-heated, retail, not takeaway|3.9|28.1|5.3
+Rice, egg fried, takeaway|4.3|33.3|4.9
+Rice, pilau, plain, homemade|2.5|24.3|3.7
+Rice, ready-cooked, "plain", re-heated|4.1|33.9|1.9
+Rice, red, raw|7.0|80.4|2.9
+Rice, savoury, including chicken, beef, mushroom and vegetable varieties, dried, cooked|3.7|34.0|1.4
+Rice, savoury, including chicken, beef, mushroom and vegetable varieties, dried, uncooked|8.0|83.3|2.7
+Rice, Thai fragrant, boiled in unsalted water|2.3|32.1|0.4
+Rice, Thai fragrant, raw|6.4|84.5|1.1
+Rice, white, basmati, boiled in unsalted water|2.8|26.5|0.7
+Rice, white, basmati, easy cook, boiled in unsalted water|3.5|32.2|0.4
+Rice, white, basmati, easy cook, raw|8.1|83.8|0.4
+Rice, white, basmati, raw|8.1|83.7|0.5
+Rice, white, Italian "Arborio" risotto, boiled in unsalted water|3.2|32.2|0.5
+Rice, white, Italian Arborio risotto, raw|6.4|85.2|1.0
+Rice, white, long grain, boiled in unsalted water|2.8|31.1|0.4
+Rice, white, long grain, easy cook, boiled in unsalted water|3.0|34.7|0.4
+Rice, white, long grain, easy cook, raw|7.0|82.3|1.1
+Rice, white, long grain, raw|6.7|85.1|1.0
+Rice, white, pudding, raw|5.6|85.6|0.9
+Rice, wild, boiled in unsalted water|5.3|31.7|0.6
+Rice, wild, raw|12.2|75.8|1.1
+Risotto, chicken, homemade|8.9|25.3|3.3
+Risotto, plain, homemade|3.3|35.6|4.7
+Risotto, vegetable, brown rice|4.0|17.3|6.2
+Risotto, white rice, vegetable, homemade|3.8|18.5|6.1
+Rissoles, brown rice, fried in sunflower oil|5.6|30.8|8.8
+Rissoles, brown rice, fried in vegetable oil|5.6|30.8|8.8
+Rissoles, chick pea, fried in sunflower oil|8.0|16.0|16.7
+Rissoles, chick pea, fried in vegetable oil|8.0|16.0|16.7
+Rissoles, lentil, fried in sunflower oil|8.9|22.0|10.5
+Rissoles, lentil, fried in vegetable oil|8.9|22.0|10.5
+Rissoles, vegetable, fried in sunflower oil|1.5|13.2|7.2
+Rissoles, vegetable, fried in vegetable oil|1.5|13.2|7.2
+Rock cakes, homemade|5.3|61.8|14.8
+Rock Salmon/Dogfish, in batter, fried in blended oil|14.7|10.3|21.9
+Rock Salmon/Dogfish, in batter, fried in blended oil, weighed with bones|13.7|9.6|20.4
+Rock Salmon/Dogfish, in batter, fried in dripping|14.7|10.3|21.9
+Rock Salmon/Dogfish, in batter, fried in dripping, weighed with bones|13.7|9.6|20.4
+Rock Salmon/Dogfish, in batter, fried in retail blend oil|14.7|10.3|21.9
+Rock Salmon/Dogfish, in batter, fried in retail blend oil, weighed with bones|13.7|9.6|20.4
+Rock Salmon/Dogfish, in batter, fried in sunflower oil|14.7|10.3|21.9
+Rock Salmon/Dogfish, in batter, fried in sunflower oil, weighed with bones|13.7|9.6|20.4
+Rock Salmon/Dogfish, raw|16.6|0.0|9.7
+Rocket, raw|3.6|0.0|0.4
+Roe, cod, hard, coated in batter, fried|12.4|8.9|11.8
+Roe, cod, hard, raw|21.7|0.0|1.9
+Roe, herring, soft, raw|16.8|0.0|2.6
+Rohu, raw|16.6|0.0|1.4
+Rosemary, dried|4.9|46.4|15.2
+Rosemary, fresh|1.4|13.5|4.4
+Roulade, spinach|10.1|4.5|13.3
+Rum baba, homemade|3.7|33.1|7.7
+Rusks|6.5|73.0|10.7
+Saag, homemade|3.3|5.0|8.8
+Saffron|11.4|61.5|5.9
+Sage, dried, ground|10.6|42.7|12.7
+Sage, fresh|3.9|15.6|4.6
+Sago, raw|0.2|94.0|0.2
+Salad cream|1.5|21.2|26.7
+Salad cream, reduced fat|1.0|15.5|10.6
+Salad, beetroot and onion in French dressing|1.9|9.5|3.1
+Salad, Greek|2.7|1.9|12.6
+Salad, green|1.0|1.6|0.4
+Salad, pasta, vegetables and mayonnaise|3.7|17.5|7.9
+Salad, potato, with French dressing|1.5|15.8|5.0
+Salad, potato, with mayonnaise|1.6|12.7|20.6
+Salad, potato, with mayonnaise, retail|1.5|12.3|11.8
+Salad, rice, brown|3.5|21.6|7.3
+Salad, rice, homemade|3.1|24.5|7.0
+Salad, tomato and onion|0.6|4.9|2.7
+Salad, Waldorf|1.5|7.9|17.8
+Salad, wholemeal pasta, with vegetables and mayonnaise|3.1|13.8|7.5
+Salami|20.9|0.5|39.2
+Salami snack|25.1|1.9|44.0
+Salmis of pheasant, homemade|9.9|2.4|5.6
+Salmon en croute, retail|11.8|18.0|19.1
+Salmon, farmed, flesh only, baked|25.2|0.0|14.6
+Salmon, farmed, flesh only, grilled|24.6|0.0|15.6
+Salmon, farmed, flesh only, grilled, weighed with bones and skin|21.4|0.0|13.6
+Salmon, farmed, flesh only, raw|20.4|0.0|15.0
+Salmon, farmed, flesh only, steamed|23.6|0.0|18.5
+Salmon, farmed, flesh only, steamed, fillets weighed with bones and skin|20.5|0.0|16.1
+Salmon, pink, canned in brine, drained|23.6|0.0|4.8
+Salmon, red, canned in brine, drained|23.5|0.0|7.3
+Salmon, red, canned in brine, skinless and boneless, drained|23.2|0.0|6.7
+Salmon, smoked (cold-smoked)|22.8|0.5|10.1
+Salmon, smoked (hot-smoked)|25.4|1.3|8.8
+Salmon, wild, baked|26.5|0.0|12.1
+Salmon, wild, flesh only, raw|22.1|0.0|10.1
+Salmon, wild, grilled|25.9|0.0|11.8
+Salmon, wild, steamed|25.3|0.0|11.6
+Salsify, flesh only, boiled in unsalted water|1.1|8.6|0.4
+Salsify, flesh only, raw|1.3|10.2|0.3
+Salted fish, Chinese, bones removed, steamed|33.9|0.0|2.2
+Sambar, homemade|3.1|7.7|0.9
+Samosas, lamb, baked, homemade|11.1|23.1|17.5
+Samosas, lamb, deep fried in rapeseed oil, homemade|8.1|16.9|31.5
+Samosas, vegetable, retail|5.1|30.0|9.3
+Sandwich, white bread, bacon, lettuce and tomato|8.2|24.1|11.9
+Sandwich, white bread, cheddar cheese and pickle|12.0|27.7|14.4
+Sandwich, white bread, chicken salad|10.7|22.5|4.9
+Sandwich, white bread, egg mayonnaise|8.8|28.5|11.2
+Sandwich, white bread, ham salad|8.2|25.0|4.1
+Sandwich, white bread, tuna mayonnaise|12.5|25.3|10.2
+Sapodilla, flesh only|0.6|15.5|0.9
+Sardines, canned in brine, drained|22.1|0.0|9.1
+Sardines, canned in olive oil, drained|23.3|0.0|14.1
+Sardines, canned in sunflower oil, drained|23.3|0.0|14.1
+Sardines, canned in tomato sauce, whole contents|18.5|0.9|10.8
+Sardines, flesh only, grilled|25.4|0.0|7.8
+Sardines, flesh only, grilled, weighed with skin and bones|16.0|0.0|4.9
+Sardines, flesh only, raw|19.8|0.0|6.1
+Sauce, cheese, packet mix, dry|19.3|40.9|28.4
+Sauce, Chinese cook in, sweet & sour|0.5|22.1|1.0
+Sauce, Chinese stir fry|1.4|19.9|1.3
+Sauce, curry, onion, with butter, homemade|1.2|6.6|24.7
+Sauce, curry, onion, with vegetable oil, homemade|1.0|6.5|30.0
+Sauce, curry, sweet, UK type, homemade|1.1|9.8|5.7
+Sauce, curry, tomato and onion, homemade|1.7|6.1|19.2
+Sauce, dry, casserole mix|9.7|68.2|3.9
+Sauce, dry, casserole mix, made up|1.1|7.3|0.4
+Sauce, duck a l'orange|0.5|7.1|3.7
+Sauce, Indian cook in, korma/tikka masala|1.7|10.9|9.5
+Sauce, pasta, carbonara type|4.9|3.8|13.0
+Sauce, pasta, four cheese|5.1|5.8|9.7
+Sauce, pasta, tomato based, for bolognese|1.5|6.9|1.3
+Sauce, pasta, tomato based, napoletana|1.5|6.5|3.8
+Sauce, pasta, tomato based, reduced fat|1.4|6.7|0.3
+Sauce, pasta, tomato based, with added vegetables|1.4|5.7|2.1
+Sauce, pasta, white, with ham and mushrooms, homemade|7.3|1.0|10.6
+Sauce, sweet and sour, take-away|0.2|32.8|3.4
+Sauce, tomato and mushroom, homemade|1.4|6.0|2.0
+Sauce, tomato based, homemade|1.5|6.5|4.5
+Sauce, traditional cook in, tomato based|0.9|8.1|1.0
+Sauce, traditional cook in, white sauce based|1.6|5.7|8.6
+Sauces, Indian cook in, other|1.4|8.7|3.2
+Sauerkraut|1.1|1.1|0.0
+Sausage roll, flaky pastry, ready-to-eat, retail|8.4|27.0|24.1
+Sausage rolls, short pastry, homemade|9.9|25.6|28.8
+Sausages, beef, fried in vegetable oil|17.6|10.7|17.4
+Sausages, beef, grilled|17.2|11.0|17.2
+Sausages, beef, raw|12.7|8.4|19.5
+Sausages, pork, chilled, fried in vegetable oil|13.9|9.9|23.9
+Sausages, pork, chilled, grilled|14.5|9.8|22.1
+Sausages, pork, frozen, fried in vegetable oil|13.8|10.0|24.8
+Sausages, pork, frozen, grilled|14.8|10.5|21.2
+Sausages, pork, raw|11.9|9.6|25.0
+Sausages, pork, reduced fat, fried in vegetable oil|14.9|8.8|5.7
+Sausages, pork, reduced fat, grilled|16.2|10.7|6.1
+Sausages, pork, reduced fat, raw|14.4|8.7|5.6
+Sausages, premium, fried in vegetable oil|17.9|2.5|19.5
+Sausages, premium, grilled|19.0|2.3|21.1
+Sausages, premium, raw|13.8|2.6|21.0
+Sausages, vegetarian, baked/grilled|14.9|9.2|9.4
+Saveloy, unbattered, takeaway|13.8|10.8|22.3
+Scallops, steamed|23.2|3.4|1.4
+Scampi, coated in breadcrumbs, baked|11.6|24.3|10.5
+Scampi, coated in breadcrumbs, fried in sunflower oil|10.6|22.2|13.0
+Scampi, in breadcrumbs, frozen, fried in rapeseed oil|10.6|22.2|13.0
+Scones, cheese, homemade|10.1|45.3|16.4
+Scones, fruit, retail|6.5|56.2|11.2
+Scones, fruit, wholemeal, homemade|7.7|50.8|11.1
+Scones, plain, homemade|7.2|55.9|12.7
+Scones, plain, retail|7.2|55.2|12.3
+Scones, potato, homemade|4.8|36.8|13.6
+Scones, wholemeal, homemade|8.2|46.6|12.3
+Scotch broth, homemade|6.8|4.0|3.5
+Scotch eggs, retail|12.0|13.1|16.0
+Scotch pancakes, homemade|6.6|41.1|9.8
+Scotch pancakes, retail|5.6|43.0|9.6
+Seafood selection|15.6|2.9|1.5
+Seafood sticks|7.3|14.9|1.9
+Seakale, stem only, boiled in unsalted water|1.4|0.6|0.0
+Seaweed, Irish moss, raw|1.5|0.0|0.2
+Seaweed, kombu, dried, raw|7.1|0.0|1.6
+Seaweed, nori, dried, raw|30.7|0.0|1.5
+Seaweed, wakame, dried, raw|12.4|0.0|2.4
+Semolina, raw|10.6|77.9|1.6
+Sesame prawn toast, takeaway|12.9|16.7|29.8
+Sesame seeds|18.2|0.9|58.0
+Sev/ganthia, homemade|18.8|47.1|25.1
+Sevyian, homemade|3.8|20.2|3.1
+Shallots, raw|1.5|3.3|0.2
+Shandy, 50% lager, homemade|0.2|2.9|0.0
+Shandy, bottled or canned|0.0|5.0|0.0
+Shark, raw|23.0|0.0|1.1
+Sharon fruit, flesh only|0.8|18.6|0.0
+Shepherd's pie, homemade|5.9|9.5|5.4
+Shepherd's pie, vegetable|4.5|16.1|3.9
+Shepherd's pie, vegetable, retail|1.9|13.3|4.9
+Sherry, medium|0.1|5.9|0.0
+Shish kebab in pitta bread with salad|13.6|15.4|4.1
+Shish kebab, meat only|29.0|0.0|10.0
+Shish kebabs, with onions and peppers, homemade|12.8|4.6|15.2
+Shortbread|5.3|62.2|29.0
+Shortcake, caramel, chocolate covered, retail|4.7|53.6|27.3
+Shrimps, boiled|23.8|0.0|2.4
+Shrimps, boiled, weighed with shells|7.9|0.0|0.8
+Shrimps, canned in brine, drained|20.8|0.0|1.2
+Shrimps, dried|55.8|0.0|2.4
+Shrimps, frozen|16.5|0.0|0.8
+Skate, grilled|18.9|0.0|0.5
+Skate, grilled, weighed with bones|14.0|0.0|0.3
+Skate, raw|15.1|0.0|0.4
+Smartie-type sweets|5.4|73.9|17.5
+Smoothies|0.5|12.2|0.1
+Sole, flesh only, grilled, fillets weighed with skin|16.6|0.0|0.5
+Sorbet, fruit|0.2|24.8|0.3
+Souffle, cheese, homemade|11.6|10.8|16.8
+Souffle, plain, homemade|7.7|10.5|11.9
+Soup, broccoli and stilton, carton, chilled|2.3|3.8|3.1
+Soup, carrot and coriander, carton, chilled|0.9|4.7|2.6
+Soup, carrot and orange, homemade|0.3|3.8|0.5
+Soup, chicken noodle, dried|17.1|56.0|4.8
+Soup, chicken noodle, dried, as served|1.0|3.2|0.3
+Soup, chicken, cream of, canned|1.7|4.5|3.8
+Soup, chicken, cream of, canned, condensed|2.6|6.0|5.8
+Soup, cream of tomato, canned|0.9|7.8|2.0
+Soup, French onion, homemade|0.9|5.0|2.2
+Soup, gazpacho, homemade|0.8|2.9|3.6
+Soup, goulash, homemade|7.7|7.2|5.8
+Soup, instant, dried, as purchased|5.9|64.1|13.4
+Soup, instant, dried, as served|0.6|6.2|1.3
+Soup, lentil, canned|3.1|8.5|0.2
+Soup, lentil, homemade|5.9|14.6|4.8
+Soup, low calorie, canned|0.9|6.2|0.7
+Soup, minestrone, canned|1.1|6.6|0.2
+Soup, minestrone, homemade|2.1|7.6|2.3
+Soup, mulligatawny, homemade|1.9|8.1|6.4
+Soup, mushroom, carton, chilled|1.5|4.9|2.7
+Soup, mushroom, cream of, canned|1.1|3.9|3.0
+Soup, oxtail, canned|2.4|5.1|1.7
+Soup, pea and ham, homemade|4.1|9.8|2.2
+Soup, potato and leek, homemade|1.5|6.2|2.2
+Soup, tomato, carton, chilled|0.9|4.3|1.9
+Soup, vegetable, canned|1.4|7.4|0.6
+Soup, vegetable, homemade|1.0|3.7|4.2
+Soy sauce, light and dark varieties|3.0|17.9|0.0
+Spaghetti bolognese, homemade|8.1|17.2|6.1
+Spaghetti bolognese, retail, meat and sauce only, reheated|9.3|5.3|5.7
+Spaghetti bolognese, retail, reheated, with spaghetti|6.6|20.0|2.8
+Spinach, baby, boiled in unsalted water|3.2|0.2|0.7
+Spinach, baby, raw|2.6|0.2|0.6
+Spinach, dried|24.3|13.8|6.9
+Spinach, frozen, boiled in unsalted water|3.1|0.5|0.8
+Spinach, mature, boiled in unsalted water|2.2|0.8|0.8
+Spinach, mature, raw|2.8|1.6|0.8
+Spirits, 40% volume|0.0|0.0|0.0
+Sprats, fried|24.9|0.0|35.0
+Sprats, fried, weighed with bones|14.9|0.0|21.0
+Sprats, raw|18.3|0.0|11.0
+Spring greens, boiled in unsalted water|1.9|1.6|0.7
+Spring greens, raw|3.0|3.1|1.0
+Spring onions, bulbs and tops, raw|2.0|3.0|0.5
+Spring onions, bulbs only, raw|0.9|8.5|0.0
+Spring rolls, meat, takeaway|6.5|18.2|16.4
+Squash, acorn, baked|1.1|12.6|0.1
+Squash, acorn, raw|0.8|9.0|0.1
+Squash, butternut, baked|1.4|8.4|0.2
+Squash, butternut, boiled in unsalted water|0.9|5.1|0.1
+Squash, butternut, raw|1.1|8.3|0.1
+Squash, spaghetti, baked|0.7|4.3|0.3
+Squash, spaghetti, raw|0.6|4.6|0.6
+Squid, dried|63.3|4.8|4.6
+Squid, raw|15.4|1.2|1.7
+Star fruit|0.5|7.3|0.3
+Steak and kidney pudding, homemade|10.7|18.6|10.9
+Stew, beef, homemade|11.9|4.8|4.6
+Stew, beef, made with lean beef, homemade|12.2|4.8|3.1
+Stew, beef, with dumplings, homemade|10.1|16.2|10.0
+Stew, Irish, homemade|7.3|9.4|6.2
+Stew, Irish, made with lean lamb, homemade|7.6|8.6|4.9
+Stir-fry beef with green peppers and blackbean sauce, takeaway|10.5|2.7|5.6
+Stock cubes, beef|16.8|0.0|9.2
+Stock cubes, chicken|15.4|0.0|15.4
+Stock cubes, chicken, made up with water|0.5|0.0|0.5
+Stock cubes, vegetable|13.5|0.0|17.3
+Stock gel|6.7|27.8|3.6
+Stock, chicken, ready made, retail|2.3|0.2|0.2
+Stout, Guinness|0.4|3.2|0.0
+Strawberries, raw|0.6|6.1|0.5
+Strudel, fruit filled, retail, frozen|2.7|29.1|13.5
+Stuffing mix, dried|9.9|67.2|5.2
+Stuffing mix, dried, assorted flavours, made up|2.8|19.3|1.5
+Stuffing, sage and onion, homemade|5.6|29.4|13.3
+Suet, shredded|0.0|12.1|86.7
+Suet, vegetable, reduced fat|2.5|31.1|65.7
+Sugar apple, flesh only|1.6|16.1|0.3
+Sugar, brown|0.1|101.3|0.0
+Sugar, Demerara|0.5|104.5|0.0
+Sugar, icing|0.0|104.9|0.0
+Sugar, white|0.0|105.0|0.0
+Sultanas|2.7|69.4|0.4
+Sunflower seeds|19.8|18.6|47.5
+Sunflower seeds, toasted|20.5|19.3|49.2
+Sushi, salmon nigiri|8.7|25.2|2.5
+Sushi, tuna nigiri|8.4|30.3|2.5
+Sushi, vegetable|3.4|32.8|1.3
+Swede, flesh only, boiled in unsalted water|0.7|5.8|0.1
+Swede, flesh only, raw|0.7|5.0|0.3
+Sweet and sour chicken, takeaway|7.6|19.7|10.0
+Sweet and sour pork, battered, takeaway|7.8|22.4|13.9
+Sweet and sour pork, homemade|12.7|11.6|8.3
+Sweet potato and onion layer|3.4|23.3|1.8
+Sweet potato, baked|1.6|27.9|0.4
+Sweet potato, flesh only, boiled in unsalted water|1.7|13.0|0.2
+Sweet potato, raw, flesh only|1.2|21.3|0.3
+Sweet potato, steamed|1.1|20.4|0.3
+Sweet potato, wedges, flesh and skin, baked in rapeseed oil|2.9|24.7|3.9
+Sweetbread, lamb, fried in corn oil|28.7|0.0|11.4
+Sweetbread, lamb, raw|15.3|0.0|7.8
+Sweetcorn, baby, boiled in unsalted water|2.2|4.6|0.6
+Sweetcorn, baby, stir-fried in rapeseed oil|2.5|5.4|6.0
+Sweetcorn kernels, canned in water, drained|2.6|13.9|1.7
+Sweetcorn, dried|13.4|35.5|7.1
+Sweetcorn, kernels, boiled 'on the cob' in unsalted water|3.6|9.5|1.9
+Sweetcorn, kernels, boiled 'on the cob' in unsalted water, weighed with core|2.1|5.6|1.1
+Sweetcorn, kernels, 'on-the-cob', raw, weighed with core|2.0|4.8|1.1
+Sweetcorn, kernels, raw|3.4|8.1|1.8
+Sweets, boiled|0.0|87.1|0.0
+Sweets, chew sweets|0.9|85.1|6.0
+Sweets, sherbert|0.6|93.9|0.0
+Swordfish, flesh only, grilled|22.9|0.0|5.2
+Swordfish, flesh only, grilled, weighed with bones and skin|20.4|0.0|4.6
+Swordfish, flesh only, raw|18.0|0.0|4.1
+Syrup, corn, dark|0.0|76.6|0.0
+Syrup, golden|0.3|79.0|0.0
+Szechuan prawns with vegetables, takeaway|7.8|2.5|4.7
+Tabouleh|2.6|17.2|4.6
+Tahini paste|18.5|0.9|58.9
+Tamarillos, flesh and seeds|2.0|4.7|0.3
+Tamarind|2.3|56.5|0.3
+Tamarind leaves, fresh|5.8|18.2|2.1
+Tamarind pulp, flesh only|3.2|64.5|0.3
+Tannia, raw|1.3|24.5|0.4
+Tapioca, raw|0.4|95.0|0.1
+Taramasalata|3.2|7.4|52.9
+Taro leaves, raw|4.4|2.6|0.9
+Taro leaves, steamed|2.4|1.4|0.5
+Taro, baked|1.7|32.4|0.2
+Taro, boiled in unsalted water|1.2|22.4|0.2
+Taro, raw|1.4|26.2|0.2
+Taro, steamed|1.3|24.5|0.2
+Tarragon, dried, ground|22.8|42.8|7.2
+Tarragon, fresh|3.4|6.3|1.1
+Tart, bakewell, homemade|6.9|40.8|30.4
+Tart, custard, large, homemade|5.8|25.2|17.4
+Tart, mincemeat, one crust, homemade|3.1|56.4|17.9
+Tartare sauce|1.3|17.9|24.6
+Tartlets, strawberry, homemade|2.4|27.2|10.1
+Tarts, bakewell, iced, retail|3.1|65.9|16.8
+Tarts, custard, individual|6.7|28.7|14.3
+Tarts, jam, homemade|3.4|58.0|16.8
+Tarts, jam, wholemeal, homemade|4.2|59.6|14.0
+Tea, black, infusion, average|0.1|0.0|0.0
+Tea, black, infusion, strong|0.1|0.0|0.0
+Tea, black, infusion, weak|0.1|0.0|0.0
+Tea, Chinese, leaves, infusion|0.1|0.2|0.0
+Tea, green, infusion|0.1|0.0|0.0
+Tea, herbal, infusion|0.0|0.2|0.0
+Tea, infusion, average, with semi-skimmed milk|0.5|0.7|0.2
+Tea, infusion, average, with whole milk|0.4|0.5|0.4
+Tempeh|20.7|6.4|6.4
+Tempeh burgers, fried in vegetable oil|8.3|22.2|7.9
+Thyme, dried, ground|9.1|45.3|7.4
+Thyme, fresh|3.0|15.1|2.5
+Tigernuts|4.3|45.7|23.8
+Tilapia, raw|17.8|0.0|1.5
+Tinda subji, homemade|1.6|4.1|8.1
+Tiramisu|4.2|27.1|14.0
+Toad in the hole, homemade|12.0|20.2|17.9
+Toad in the hole, made with skimmed milk and reduced fat sausages, homemade|13.6|19.7|5.2
+Toffees, mixed|2.1|62.9|15.9
+Tofu burger, baked|7.3|13.2|4.0
+Tofu spread|4.4|2.4|20.1
+Tofu, soya bean, steamed|8.1|0.7|4.2
+Tofu, soya bean, steamed, fried|23.5|2.0|17.7
+Tomato juice|0.8|3.0|0.0
+Tomato ketchup|1.6|28.6|0.1
+Tomato puree|4.4|12.9|0.2
+Tomato sauce, homemade|2.2|8.6|5.5
+Tomatoes, canned, whole contents|1.1|3.8|0.1
+Tomatoes, cherry, raw|1.1|3.6|0.5
+Tomatoes, standard, fried in corn oil|0.8|4.5|7.7
+Tomatoes, standard, fried in rapeseed oil|0.8|4.5|7.7
+Tomatoes, standard, grilled, flesh and seeds only|0.6|3.4|0.2
+Tomatoes, standard, raw|0.5|3.0|0.1
+Tomatoes, stuffed with rice|2.1|22.2|13.4
+Tomatoes, stuffed with vegetables|1.7|8.9|6.0
+Tongue, lamb, raw|15.3|0.0|14.6
+Tongue, ox, meat only, pickled, raw|15.7|0.0|17.5
+Tongue, ox, meat only, pickled, stewed|19.5|0.0|23.9
+Tongue, ox, meat only, stewed|19.4|0.0|18.3
+Tongue, sheep, meat only, stewed|18.2|0.0|24.0
+Tonic water|0.0|5.9|0.0
+Topic/Snickers and own brand equivalents|7.5|52.1|28.2
+Tori ki subji, homemade|1.9|3.9|9.5
+Torte, fruit|3.8|27.7|15.5
+Tortilla chips fried in sunflower oil|7.2|60.8|27.4
+Tortilla, wheat, soft|7.8|53.9|5.7
+Trail mix|9.1|37.2|28.5
+Treacle tart, homemade|3.8|59.2|15.9
+Treacle, black|1.2|67.2|0.0
+Trifle, fruit, retail|2.6|19.5|9.0
+Trifle, homemade|2.7|21.6|7.9
+Trifle, with Dream Topping|2.8|22.1|5.9
+Tripe and onions, stewed, homemade|8.4|9.4|1.4
+Tripe, dressed, raw|7.1|0.0|0.5
+Tripe, dressed, stewed in milk|14.8|0.0|4.5
+Trout, brown, raw|19.4|0.0|3.8
+Trout, brown, steamed|23.5|0.0|4.5
+Trout, brown, steamed, weighed with bones|15.5|0.0|3.0
+Trout, rainbow, baked, flesh only, fillets weighed with bones and skin|20.7|0.0|5.3
+Trout, rainbow, flesh only, baked|23.8|0.0|6.1
+Trout, rainbow, flesh only, raw|19.9|0.0|5.3
+Truffles, mocha, homemade|6.2|63.8|24.9
+Truffles, rum, homemade|6.0|54.2|32.9
+Tuna, canned in brine, drained|24.9|0.0|1.0
+Tuna, canned in sunflower oil, drained|25.4|0.0|6.4
+Tuna, flesh only, baked|32.3|0.0|0.8
+Tuna, flesh only, raw|25.2|0.0|0.7
+Turbot, flesh only, grilled|22.7|0.0|3.5
+Turbot, flesh only, grilled, weighed with bones and skin|14.1|0.0|2.1
+Turbot, flesh only, raw|17.7|0.0|2.7
+Turkey and pasta bake, homemade|12.0|7.2|5.6
+Turkey slices|23.0|1.2|1.9
+Turkey, breast, fillet, grilled, meat only|35.0|0.0|1.7
+Turkey, dark meat, raw|20.4|0.0|2.5
+Turkey, dark meat, roasted|29.4|0.0|6.6
+Turkey, drumsticks, roasted, meat and skin|27.4|0.0|8.5
+Turkey, drumsticks, roasted, meat and skin, weighed with bone|19.7|0.0|6.1
+Turkey, drumsticks, roasted, meat only|27.5|0.0|5.8
+Turkey, light meat, raw|24.4|0.0|0.8
+Turkey, light meat, roasted|33.7|0.0|2.0
+Turkey, meat, average, raw|22.6|0.0|1.6
+Turkey, meat, average, roasted|31.2|0.0|4.6
+Turkey, mince, stewed|28.6|0.0|6.8
+Turkey, self-basting, light meat, roasted|31.7|0.0|4.0
+Turkey, skin, dry, roasted|29.9|0.0|40.2
+Turkey, skin, moist, roasted|21.6|0.0|31.7
+Turkey, skin, raw|14.0|0.0|30.7
+Turkey, stir-fried with vegetables, homemade|11.1|3.6|2.3
+Turkey, strips, stir-fried in corn oil|31.0|0.0|4.5
+Turkey, thighs, diced, casseroled, meat only|28.3|0.0|7.5
+Turkey, whole, raw|21.6|0.0|5.2
+Turkey, whole, raw, weighed with bone|15.1|0.0|3.6
+Turkey, whole, roasted, meat and skin|30.9|0.0|7.4
+Turkey, whole, roasted, meat and skin, weighed with bone|20.1|0.0|4.8
+Turkish delight, with nuts, homemade|4.1|82.0|2.6
+Turkish delight, without nuts|0.6|77.9|0.0
+Turmeric, ground|6.7|0.0|7.0
+Turnip tops, boiled in unsalted water|2.7|0.2|0.0
+Turnip, boiled in unsalted water|0.6|2.0|0.2
+Turnip, flesh only, raw|0.9|4.7|0.3
+Twiglets|12.3|63.3|11.8
+Tzatziki|3.4|3.4|5.5
+Urad dahl, homemade|4.8|8.7|3.2
+Veal, escalope, fried in corn oil|33.7|0.0|6.8
+Veal, escalope, raw|22.7|0.0|1.7
+Veal, mince, raw|20.3|0.0|7.0
+Veal, mince, stewed|26.3|0.0|11.1
+Vegeburger, retail, grilled|16.6|8.0|7.2
+Vegetable and cheese grill/burger, in crumbs, baked/grilled|7.0|23.0|14.0
+Vegetable bake, homemade|4.3|13.7|5.9
+Vegetable stir fry mix, fried in corn oil|2.0|6.4|3.6
+Vegetable stir fry mix, fried in rapeseed oil|2.0|6.4|3.6
+Vegetable stir fry mix, fried in sunflower oil|2.0|6.4|3.6
+Vegetables, mixed, cooked with onion, spice and tomatoes, homemade|2.4|6.6|5.3
+Vegetables, mixed, frozen, boiled in unsalted water|3.3|6.6|0.5
+Vegetables, mixed, stir-fry type, frozen, fried in rapeseed oil|2.0|6.4|3.6
+Vegetables, stir-fried, takeaway|1.8|2.1|4.1
+Venison in red wine and port, homemade|9.7|3.4|2.5
+Venison, meat only, raw|22.2|0.0|1.6
+Venison, roast|35.6|0.0|2.5
+Vermouth, dry|0.1|3.0|0.0
+Vine leaves, stuffed with rice|2.6|23.8|17.8
+Vinegar|0.4|0.6|0.0
+Wafers, plain ice cream wafers, not filled|10.5|79.7|3.0
+Waffles, homemade|9.0|43.0|15.3
+Walnuts, kernel only|14.7|3.3|68.5
+Walnuts, kernel only, weighed with shells|6.3|1.4|29.4
+Water chestnuts, raw|1.4|10.4|0.2
+Water, distilled|0.0|0.0|0.0
+Watercress, raw|1.9|0.0|0.3
+Welsh cakes, homemade|5.5|61.9|17.8
+Welsh cheesecakes, homemade|5.3|49.2|23.8
+Welsh rarebit, homemade|13.9|23.1|28.4
+Welsh rarebit, wholemeal, homemade|14.4|22.1|27.4
+Wheat, bulgur, raw|10.6|77.8|2.0
+Wheatgerm|27.3|44.7|8.4
+Whelks, boiled|19.5|0.0|1.2
+Whelks, boiled, weighed with shells|6.6|0.0|0.4
+White fish, dried, salted|34.5|0.0|1.1
+White sauce, savoury, made with semi-skimmed milk, homemade|4.4|11.1|8.0
+White sauce, savoury, made with skimmed milk, homemade|4.5|11.1|6.5
+White sauce, savoury, made with whole milk, homemade|4.4|11.6|10.8
+White sauce, sweet, made with semi-skimmed milk, homemade|4.0|18.6|6.7
+White sauce, sweet, made with skimmed milk, homemade|4.1|18.7|5.3
+White sauce, sweet, made with whole milk, homemade|4.0|18.6|8.6
+Whitebait, in flour, fried|19.5|5.3|47.5
+Whitecurrants, raw|1.3|5.6|0.0
+Whitecurrants, stewed with sugar|1.0|14.2|0.0
+Whitecurrants, stewed without sugar|1.1|4.8|0.0
+Whiting, flesh only, raw|18.7|0.0|0.7
+Whiting, flesh only, steamed|20.9|0.0|0.9
+Whiting, flesh only, steamed, weighed with bones and skin|19.4|0.0|0.8
+Whiting, in crumbs, fried in blended oil|18.1|7.0|10.3
+Whiting, in crumbs, fried in blended oil, weighed with bones and skin|16.3|6.3|9.3
+Whiting, in crumbs, fried in dripping|18.1|7.0|10.3
+Whiting, in crumbs, fried in dripping, weighed with bones and skin|16.3|6.3|9.3
+Whiting, in crumbs, fried in sunflower oil|18.1|7.0|10.3
+Whiting, in crumbs, fried in sunflower oil, weighed with bones and skin|16.3|6.3|9.3
+Wiener schnitzel, homemade|21.2|13.4|8.5
+Wine, mulled wine, homemade|0.3|20.2|0.2
+Wine, red|0.1|0.2|0.0
+Wine, rose, medium|0.1|2.5|0.0
+Wine, white, dry|0.1|0.6|0.0
+Wine, white, medium|0.1|3.0|0.0
+Wine, white, sparkling|0.3|5.1|0.0
+Wine, white, sweet|0.2|5.9|0.0
+Winkles, boiled|15.4|0.0|1.2
+Winkles, boiled, weighed with shells|2.9|0.0|0.2
+Worcestershire sauce|1.4|28.3|0.1
+Yam, baked|2.1|37.5|0.4
+Yam, flesh only, boiled in unsalted water|1.6|29.3|0.2
+Yam, flesh only, raw|1.5|28.2|0.3
+Yam, steamed|1.5|28.2|0.3
+Yeast extract|40.7|3.5|0.4
+Yeast, bakers, compressed|11.4|1.1|0.4
+Yeast, dried|35.6|3.5|1.5
+Yogurt, Greek style, fruit|4.8|11.2|8.4
+Yogurt, Greek style, plain|5.7|4.8|10.2
+Yogurt, low fat, fruit|4.2|13.7|1.1
+Yogurt, low fat, hazelnut|4.4|16.0|1.5
+Yogurt, low fat, plain|4.8|7.8|1.0
+Yogurt, low fat, toffee|3.8|18.0|0.9
+Yogurt, soya, non-dairy alternative to yogurt, fruit, fortified|3.3|11.0|2.0
+Yogurt, virtually fat free/diet, fruit|4.8|10.1|0.2
+Yogurt, virtually fat free/diet, plain|5.4|8.2|0.2
+Yogurt, whole milk, fruit|4.0|17.7|3.0
+Yogurt, whole milk, infant, fruit flavour|3.8|11.1|3.7
+Yogurt, whole milk, plain|5.7|7.8|3.0
+Yogurt, whole milk, twin pot, not fruit|4.2|21.5|5.6
+Yogurt, whole milk, twin pot, thick and creamy with fruit|4.1|16.2|3.2
+Yorkshire pudding, made with semi-skimmed milk, homemade|6.7|25.6|8.3
+Yorkshire pudding, made with skimmed milk, homemade|6.8|25.9|7.4
+Yorkshire pudding, made with whole milk|6.7|25.8|9.8

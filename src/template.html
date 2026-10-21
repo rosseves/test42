@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Close Nutrition · Performance Plan Builder</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root{
+  /* Close Nutrition brand palette — light theme (white pages, black brandmark) */
+  --bg:#eef1ea; --bg2:#ffffff; --panel:#ffffff; --panel2:#f5f8f2; --line:#dbe2d5;
+  --ink:#17231b; --muted:#586158; --faint:#8b968b;
+  --green:#007934; --green-d:#00611f; --gold:#c98a00; --orange:#ef6d00; --grey:#a1a0a4;
+  /* legacy aliases resolve to brand colours */
+  --teal:#007934; --teal-d:#00611f; --amber:#c98a00; --red:#ef6d00;
+  --accent:#007934;
+  --shadow:0 10px 30px rgba(25,50,30,.10);
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;padding:0}
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,"Segoe UI",Roboto,sans-serif;
+  background:radial-gradient(1200px 600px at 80% -10%,#eef4ec 0,var(--bg) 55%) fixed;
+  color:var(--ink); font-size:14px; line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:.2px}
+.thin{font-weight:300}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select{font-family:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 80px}
+
+/* Top bar */
+.topbar{display:flex;align-items:center;gap:16px;padding:6px 2px 18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{height:52px;width:auto;display:block}
+.brand .sub{font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;margin-top:3px}
+.brand h1{font-size:18px;letter-spacing:1px}
+.topbar .spacer{flex:1}
+.btn{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:10px 16px;border-radius:10px;font-size:13px;font-weight:500;display:inline-flex;align-items:center;gap:8px;transition:.15s}
+.btn:hover{background:var(--panel2);border-color:#bcd8b4}
+.btn.primary{background:linear-gradient(135deg,#12904a,#007934);border-color:transparent;color:#f4fff5;font-weight:600}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.ghost{background:transparent}
+
+/* Layout */
+.grid{display:grid;grid-template-columns:340px 1fr;gap:20px;align-items:start}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.card{background:linear-gradient(180deg,var(--panel),var(--bg2));border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.card .hd{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+.card .hd h3{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+.card .bd{padding:16px 18px}
+.side{position:sticky;top:16px;display:flex;flex-direction:column;gap:18px}
+
+label.fl{display:block;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--faint);margin:0 0 6px}
+.inp{width:100%;background:#f4f7f0;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:11px 12px;font-size:14px;outline:none;transition:.15s}
+.inp:focus{border-color:var(--teal)}
+.row{display:flex;gap:10px}
+.row>*{flex:1}
+.mb14{margin-bottom:14px}
+
+/* Macro editor */
+.macrogrid{display:grid;grid-template-columns:1fr;gap:12px}
+.macro{background:#f4f7f0;border:1px solid var(--line);border-radius:12px;padding:12px}
+.macro .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.macro .nm{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;font-weight:600}
+.macro .kcal{font-size:11px;color:var(--muted)}
+.macro .dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:7px;vertical-align:middle}
+.mini{display:flex;gap:8px;align-items:flex-end}
+.mini .g{flex:1.2}.mini .k{flex:1}
+.mini small{display:block;font-size:9.5px;letter-spacing:1px;color:var(--faint);text-transform:uppercase;margin-bottom:4px}
+.mini input{width:100%;background:#e9ede6;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 9px;font-size:13px;text-align:center;outline:none}
+.mini input:focus{border-color:var(--teal)}
+.mini .eq{color:var(--faint);padding-bottom:9px;font-size:12px}
+.kcalbig{text-align:center;padding:12px;background:#f4f7f0;border:1px solid var(--line);border-radius:12px;margin-bottom:12px}
+.kcalbig .v{font-size:30px;font-weight:300;letter-spacing:1px}
+.kcalbig .v input{width:130px;background:transparent;border:none;color:var(--ink);font-size:30px;font-weight:300;text-align:center;outline:none;border-bottom:1px dashed var(--line)}
+.kcalbig .l{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+/* Day tabs */
+.daytabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.daytab{padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);font-size:13px;font-weight:500;color:var(--muted);position:relative}
+.daytab:hover{color:var(--ink)}
+.daytab.active{background:linear-gradient(135deg,var(--teal),var(--teal-d));color:#e4f1e0;border-color:transparent;font-weight:600}
+.daytab .gd{position:absolute;top:-6px;right:-6px;font-size:8.5px;background:var(--amber);color:#fbf3dc;border-radius:6px;padding:1px 5px;font-weight:700;letter-spacing:.5px}
+
+/* Day header controls */
+.dayhd{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.dayhd .title{font-size:22px;font-weight:300;letter-spacing:1px}
+.chipset{display:flex;gap:6px;flex-wrap:wrap}
+.chip{padding:7px 12px;border-radius:20px;border:1px solid var(--line);background:var(--panel);font-size:12px;color:var(--muted);transition:.15s}
+.chip:hover{color:var(--ink)}
+.chip.on{background:#e6f2e4;border-color:var(--teal);color:var(--teal)}
+.chip.on.amber{background:#f7edcf;border-color:var(--amber);color:var(--amber)}
+
+/* Meal card */
+.meal{background:linear-gradient(180deg,var(--panel),var(--bg2));border:1px solid var(--line);border-radius:var(--r);margin-bottom:16px;overflow:hidden;box-shadow:var(--shadow)}
+.meal .mhd{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line);position:relative}
+.meal .statusbar{width:6px;align-self:stretch;border-radius:6px;margin:-14px 4px -14px -6px;min-height:44px}
+.meal .mname{font-size:16px;font-weight:600;background:transparent;border:none;color:var(--ink);outline:none;border-bottom:1px dashed transparent;padding:2px 0;min-width:120px}
+.meal .mname:focus{border-bottom-color:var(--line)}
+.meal .time{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+.meal .time input{width:66px;background:#f4f7f0;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:5px 7px;font-size:12px;outline:none}
+.meal .mtools{display:flex;gap:4px;margin-left:auto}
+.icb{width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--muted);display:flex;align-items:center;justify-content:center;font-size:14px;transition:.15s}
+.icb:hover{color:var(--ink);border-color:#bcd8b4}
+.icb:disabled{opacity:.3;cursor:default}
+.carbtag{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:4px 9px;border-radius:6px}
+.carbtag.low{background:rgba(239,109,0,.12);color:#c05400}
+.carbtag.medium{background:rgba(201,138,0,.14);color:#8a6000}
+.carbtag.high{background:rgba(63,158,43,.13);color:#2c7a1c}
+/* carb-status colour coding of the whole meal card */
+.meal.low{border-color:rgba(239,109,0,.45);background:linear-gradient(180deg,rgba(239,109,0,.06),var(--bg2))}
+.meal.medium{border-color:rgba(201,138,0,.42);background:linear-gradient(180deg,rgba(201,138,0,.06),var(--bg2))}
+.meal.high{border-color:rgba(63,158,43,.42);background:linear-gradient(180deg,rgba(63,158,43,.06),var(--bg2))}
+.meal.low .mhd{border-bottom-color:rgba(239,109,0,.25)}
+.meal.medium .mhd{border-bottom-color:rgba(201,138,0,.25)}
+.meal.high .mhd{border-bottom-color:rgba(63,158,43,.25)}
+/* carb tier toggle */
+.tiertoggle{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-left:2px}
+.tiertoggle button{font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:5px 9px;color:var(--faint);background:var(--panel2);border-right:1px solid var(--line)}
+.tiertoggle button:last-child{border-right:none}
+.tiertoggle button.on.low{background:#ef6d00;color:#fff}
+.tiertoggle button.on.medium{background:#d99a00;color:#2a1f00}
+.tiertoggle button.on.high{background:#3f9e2b;color:#fff}
+.tierwrap{display:flex;align-items:center;gap:8px;margin:2px 0 14px}
+.tierwrap .tl{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint)}
+/* empty state */
+.emptystate{background:linear-gradient(180deg,var(--panel),var(--bg2));border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:46px 40px;text-align:center}
+.emptystate h2{font-size:22px;margin-bottom:10px}
+.emptystate p{color:var(--muted);max-width:520px;margin:0 auto 8px}
+.emptystate ol{color:var(--muted);text-align:left;max-width:360px;margin:18px auto 26px;line-height:1.9;padding-left:22px}
+.emptystate ol b{color:var(--ink)}
+/* per-day target grid */
+.dttools{display:flex;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap;margin:6px 0 14px}
+.dttools .btn.small{font-size:12px;padding:8px 14px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--ink)}
+.dttools .btn.small:hover{border-color:var(--accent)}
+.dthint{font-size:12px;color:var(--faint)}
+.libstat{font-size:12px;color:var(--muted);background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 10px;margin-bottom:12px}
+.libstat.live{color:#1c6b2f;border-color:rgba(0,121,52,.35);background:rgba(0,121,52,.07)}
+.libstat.err{color:#b34a00;border-color:rgba(239,109,0,.4);background:rgba(239,109,0,.07)}
+.quickwk{display:flex;gap:6px;margin:6px 0 2px}
+.quickwk .qw{flex:1;font-size:11px;padding:6px 4px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--muted)}
+.quickwk .qw:hover{border-color:var(--accent);color:var(--green)}
+.prow .btn.small.primary{background:linear-gradient(180deg,#12904a,#007934);color:#f4fff5;border-color:transparent;font-weight:600}
+.prow{display:flex;gap:8px;align-items:center;margin-bottom:4px}
+.prow .inp{flex:1}
+.prow .btn.small{padding:8px 11px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--ink)}
+.librow{display:flex;gap:8px;margin:10px 0 4px}
+.librow .btn.small{flex:1;font-size:12px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--ink)}
+.librow .btn.small:hover{border-color:var(--accent)}
+.liblist{margin-top:12px;display:flex;flex-direction:column;gap:5px}
+.libempty{font-size:11.5px;color:var(--faint);line-height:1.5}
+.librow2{display:flex;align-items:center;gap:8px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 9px}
+.librow2 .ln{flex:1;font-size:12px;color:var(--ink)}
+.librow2 .lm{font-size:10px;color:var(--faint);white-space:nowrap}
+.libdel{color:var(--faint);background:none;border:none;font-size:12px}
+.libwarn{margin-top:10px;font-size:11px;color:#b34a00;background:rgba(239,109,0,.07);border:1px solid rgba(239,109,0,.3);border-radius:9px;padding:8px 10px;max-height:150px;overflow:auto;line-height:1.5}
+.dtwrap{overflow-x:auto;margin:0 auto 24px;max-width:640px}
+.daytargets{width:100%;border-collapse:separate;border-spacing:0 6px}
+.daytargets th{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--faint);font-weight:600;text-align:center;padding:0 6px 4px}
+.daytargets th:first-child{text-align:left}
+.daytargets td{background:var(--panel2);padding:8px 6px;text-align:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.daytargets td:first-child{border-left:1px solid var(--line);border-radius:9px 0 0 9px;text-align:left;padding-left:14px;font-weight:600;color:var(--ink)}
+.daytargets td:last-child{border-right:1px solid var(--line);border-radius:0 9px 9px 0}
+.daytargets input{width:56px;background:var(--bg2);border:1px solid var(--line);border-radius:7px;color:var(--ink);padding:7px 6px;text-align:center;font-size:13px;font-family:inherit}
+.daytargets input:focus{outline:none;border-color:var(--accent)}
+.daytargets select{background:var(--bg2);border:1px solid var(--line);border-radius:7px;color:var(--ink);padding:7px 6px;font-size:12px;font-family:inherit;max-width:96px}
+.daytargets .kc{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.daytargets tr.today td:first-child{color:var(--accent)}
+/* stacked grams + g/kg per macro cell */
+.dtcell{display:flex;flex-direction:column;align-items:center;gap:3px}
+.dtcell input.g{width:60px}
+.dtcell .kgline{display:flex;align-items:center;gap:3px}
+.dtcell .kgline input.kg{width:44px;padding:4px 4px;font-size:11px}
+.dtcell .kgline span{font-size:9px;color:var(--faint);letter-spacing:.3px}
+/* read-only kcal total under default targets */
+.kcaltotal{display:flex;align-items:center;justify-content:space-between;margin:14px 0 4px;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:var(--panel2)}
+.kcaltotal .l{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--faint)}
+.kcaltotal .v{font-size:20px;font-weight:700;color:var(--green);font-variant-numeric:tabular-nums}
+/* default targets folded into the week panel */
+.defaultbar{border:1px solid var(--line);border-radius:14px;background:var(--panel2);padding:16px;margin:8px auto 18px;text-align:left;max-width:760px}
+.defaultbar .defhd{display:flex;align-items:baseline;gap:10px;margin-bottom:12px}
+.defaultbar .defhd span:first-child{font-size:12px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink)}
+.defaultbar .defhd .sub{font-size:12px;color:var(--faint)}
+.defaultbar .macrogrid{grid-template-columns:repeat(3,1fr)}
+.defaultbar .deffoot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px}
+.defaultbar .kcaltotal{margin:0;flex:1}
+@media(max-width:620px){.defaultbar .macrogrid{grid-template-columns:1fr}}
+/* editable day targets (after generation) */
+.dayeditor{margin-bottom:14px}
+.dewrap{display:flex;gap:14px;flex-wrap:wrap;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.dewrap .detitle{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--faint);font-weight:700}
+.demac{flex:1;min-width:158px}
+.demac .l{font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-weight:600}
+.demac .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+.demac .ins{display:flex;align-items:center;gap:6px}
+.demac input{width:58px;background:var(--bg2);border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:7px 6px;text-align:center;font-size:13px;font-family:inherit}
+.demac input:focus{outline:none;border-color:var(--accent)}
+.demac input.kg{width:46px;font-size:12px}
+.demac .x{color:var(--faint)}
+.demac .u{font-size:10px;color:var(--faint)}
+.dekcal{text-align:center;min-width:78px}
+.dekcal .v{font-size:18px;font-weight:700;color:var(--green);font-variant-numeric:tabular-nums}
+.dekcal .l{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--faint)}
+.gen-big{font-size:15px;font-weight:700;letter-spacing:.3px;padding:14px 30px;border-radius:12px;background:linear-gradient(180deg,#12904a,#007934);color:#f4fff5;box-shadow:0 8px 24px rgba(0,121,52,.4)}
+.gen-big:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.genbar{margin-top:14px}
+.btn.primary:disabled{opacity:.4;cursor:not-allowed}
+
+.meal .mbd{padding:16px}
+.mealtop{display:flex;gap:18px;flex-wrap:wrap}
+.recipeblock{flex:1;min-width:260px}
+.recipeblock .rtitle{font-size:17px;font-weight:600;margin-bottom:3px}
+.recipeblock .rmeta{font-size:11.5px;color:var(--faint);letter-spacing:.5px;margin-bottom:12px}
+.ings{list-style:none;padding:0;margin:0 0 10px}
+.ings li{font-size:12.5px;color:var(--muted);padding:2.5px 0 2.5px 14px;position:relative}
+.ings li:before{content:"";position:absolute;left:0;top:10px;width:4px;height:4px;border-radius:50%;background:var(--teal)}
+.ings li.anchor{color:var(--ink)}
+.ings li.anchor b{color:var(--teal)}
+.dirtoggle{font-size:11px;color:var(--teal);letter-spacing:.5px;text-transform:uppercase;background:none;border:none;padding:0}
+.reftoggles{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+.macrotoggle{font-size:11px;color:var(--teal);letter-spacing:.5px;text-transform:uppercase;background:none;border:none;padding:0}
+.dirs{margin:8px 0 0;padding-left:16px;font-size:12px;color:var(--muted)}
+.dirs li{margin-bottom:4px}
+/* nutritionist cross-reference table (app only, not PDF) */
+.ingmacros{margin-top:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel2)}
+.ingmacros table{width:100%;border-collapse:collapse;font-size:12px}
+.ingmacros th,.ingmacros td{padding:6px 10px;text-align:right;font-variant-numeric:tabular-nums;border-bottom:1px solid var(--line)}
+.ingmacros th.in,.ingmacros td.in{text-align:left;color:var(--ink)}
+.ingmacros thead th{font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);font-weight:600}
+.ingmacros tbody td{color:var(--muted)}
+.ingmacros td.kc,.ingmacros th.kc{color:var(--green);font-weight:600}
+.ingmacros tfoot td{font-weight:700;color:var(--ink);border-bottom:none;background:var(--bg2)}
+.ingmacros th.am,.ingmacros td.am{text-align:center;white-space:nowrap}
+.ingmacros input.gedit{width:52px;background:var(--bg2);border:1px solid var(--line);border-radius:6px;color:var(--ink);padding:3px 4px;text-align:center;font-size:12px;font-family:inherit;font-variant-numeric:tabular-nums}
+.ingmacros input.gedit:focus{outline:none;border-color:var(--accent);background:#fff}
+.ingmacros .gu{font-size:10px;color:var(--faint);margin-left:2px}
+.ingmacros tr.editedrow td{background:rgba(0,121,52,.06)}
+.ingmacros tr.editedrow input.gedit{border-color:var(--accent);font-weight:700}
+.addrow{display:flex;gap:10px;flex-wrap:wrap}
+.addrow 
+.amalong{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);
+  margin-top:10px;cursor:pointer}
+.amhint{font-size:11.5px;color:var(--faint);margin:5px 0 7px}
+.amlist{max-height:38vh;overflow:auto;border:1px solid var(--line);border-radius:10px;
+  background:#fbfdfa;padding:5px}
+.amhead{font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+  color:var(--faint);padding:9px 11px 4px}
+.amitem{display:block;width:100%;text-align:left;background:none;border:none;
+  border-radius:8px;padding:9px 11px;cursor:pointer;font:inherit}
+.amitem:hover{background:#f0f5ee}
+.amitem.on{background:#e4f0e0;box-shadow:inset 0 0 0 1px var(--brand)}
+.amitem .amn{display:block;font-size:13.5px;color:var(--ink)}
+.amitem .amm{display:block;font-size:11.5px;color:var(--faint);margin-top:2px}
+.amitem .cs-low{color:#c05400}.amitem .cs-medium{color:#a85c00}.amitem .cs-high{color:#0a7a33}
+/* an insert point between two meals */
+.insertgap{display:flex;justify-content:center;margin:-4px 0 10px}
+.insertgap button{background:var(--bg2);border:1px dashed var(--line);border-radius:999px;
+  color:var(--faint);font:inherit;font-size:11.5px;padding:4px 14px;cursor:pointer;
+  opacity:0;transition:opacity .12s}
+.insertgap:hover button,.insertgap button:focus{opacity:1}
+.insertgap button:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+@media (hover:none){ .insertgap button{opacity:1} }
+
+.shlist{max-height:46vh;overflow:auto;border:1px solid var(--line);border-radius:10px;
+  background:#fbfdfa;padding:6px;margin-top:10px}
+.shhead{font-size:10px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  color:#fff;background:var(--teal);border-radius:5px;padding:4px 9px;margin:8px 2px 5px}
+.shhead:first-child{margin-top:2px}
+.shrow{display:grid;grid-template-columns:1fr 128px 30px;gap:8px;align-items:center;
+  padding:5px 8px;border-radius:6px}
+.shrow:hover{background:#f1f6ef}
+.shrow.edited{background:#fdfaf1}
+.shrow .shn{font-size:13px;color:var(--ink);overflow:hidden}
+.shrow .shfrom{display:block;font-size:10.5px;color:var(--faint)}
+.shrow .shtag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:#7a5f10;background:#f5eed9;border-radius:4px;
+  padding:1px 5px;margin-left:6px}
+.shrow .shq{display:flex;align-items:center;gap:5px;justify-content:flex-end}
+.shrow .shq input{width:78px;padding:4px 7px;font-size:13px;text-align:right}
+.shrow .shu{font-size:11px;color:var(--faint)}
+.shrow .shtaste{font-size:11.5px;color:var(--muted)}
+.shrow .shx{background:none;border:none;color:var(--faint);cursor:pointer;font-size:13px;
+  padding:3px}
+.shrow .shx:hover{color:#b3261e}
+.shadd{display:grid;grid-template-columns:1fr 110px auto;gap:7px;margin-top:10px}
+@media(max-width:760px){ .shrow{grid-template-columns:1fr auto 26px}
+  .shadd{grid-template-columns:1fr} }
+.addmeal{flex:1;min-width:200px}
+.addmeal.alt{border-style:solid;border-color:var(--accent);color:var(--green)}
+.authwrap{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px;z-index:200}
+.authbox{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:30px;width:100%;max-width:380px;text-align:center}
+.authbox img{width:92px;margin:0 auto 14px;display:block}
+.authbox h2{font-size:17px;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:4px}
+.authsub{font-size:12.5px;color:var(--faint);margin-bottom:20px}
+.authbox .fl{text-align:left;display:block}
+.autherr{margin-top:12px;font-size:12px;color:#b34a00;background:rgba(239,109,0,.08);border:1px solid rgba(239,109,0,.3);border-radius:9px;padding:9px 11px;text-align:left}
+.authnote{margin-top:16px;font-size:11px;color:var(--faint);line-height:1.5}
+
+.whoami{font-size:11px;color:var(--faint);margin-right:10px}
+.signout{font-size:11px;color:var(--faint);background:none;border:none;padding:0}
+.modalwrap{position:fixed;inset:0;background:rgba(20,30,22,.45);display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:60;overflow:auto}
+/* A screen opened from another screen has to sit above it. All the modals share
+   one z-index, so whichever comes last in the page wins — and the recipe editor
+   is written before the database it opens from. */
+.modalwrap.over{background:rgba(20,30,22,.55)}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.25);width:100%;max-width:620px}
+.modal .mhead{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--line)}
+.modal .mhead h3{font-size:15px;letter-spacing:1.2px;text-transform:uppercase;margin:0}
+.mclose{font-size:16px;color:var(--faint);background:none;border:none}
+.modal .mbody{padding:18px 20px}
+.modal .mfoot{display:flex;gap:10px;justify-content:flex-end;padding:14px 20px;border-top:1px solid var(--line)}
+.cmrow{display:grid;grid-template-columns:1fr 160px 130px;gap:12px;margin-bottom:12px}
+.inp.ta{width:100%;font-family:inherit;font-size:13px;line-height:1.6;resize:vertical}
+.bkguide{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:14px;font-size:12px}
+.bkguide b{font-size:10.5px;letter-spacing:.7px;text-transform:uppercase;color:var(--ink);display:block;margin-bottom:8px}
+.bkcols{width:100%;border-collapse:collapse}
+.bkcols td{padding:3px 6px 3px 0;vertical-align:top;color:var(--muted);font-size:11.5px}
+.bkcols td:first-child{color:var(--ink);font-weight:600;white-space:nowrap}
+.bkcols td:nth-child(2){color:var(--faint);font-size:10.5px;white-space:nowrap}
+.bknote{margin-top:9px;font-size:11px;color:var(--faint);line-height:1.6}
+.bkrow{display:flex;gap:8px;margin-bottom:12px}
+.bkrow .btn.small{flex:1;font-size:12px;padding:9px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--ink);text-align:center;cursor:pointer}
+
+.bksteps{margin:4px 0 14px;padding:12px 14px 12px 32px;background:#f7faf5;
+  border:1px solid var(--line);border-radius:10px;font-size:12.5px;color:var(--muted);
+  line-height:1.65}
+.bksteps li{padding:2px 0}
+.bksteps li b{color:var(--ink)}
+.bkfile{display:block}
+.bksum{margin:12px 0;padding:11px 13px;border-radius:10px;background:var(--panel2);border:1px solid var(--line);font-size:12.5px}
+.bklist{display:flex;flex-direction:column;gap:5px;max-height:300px;overflow:auto;margin-top:10px}
+.bkrow2{display:flex;align-items:flex-start;gap:9px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:12px}
+.bkrow2.warn{border-color:rgba(201,138,0,.5);background:rgba(201,138,0,.07)}
+.bkrow2.bad{border-color:rgba(239,109,0,.5);background:rgba(239,109,0,.07)}
+.bkrow2 .bn{flex:1}
+.bkrow2 .bs{font-size:10.5px;color:var(--faint);display:block;margin-top:2px}
+.bkrow2 .bm{font-size:10.5px;white-space:nowrap;color:var(--muted)}
+.pmlist,.wmlist{display:flex;flex-direction:column;gap:6px;max-height:240px;overflow:auto;margin-bottom:14px}
+.pmrow,.wmrow{display:flex;align-items:center;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
+.pmrow .pn,.wmrow .pn{flex:1;font-size:13px;color:var(--ink);font-weight:600}
+.wmmain{flex:1;min-width:0}
+.wmtop{display:flex;align-items:baseline;gap:8px}
+.wmdate{font-size:11.5px;color:var(--green);font-weight:600;white-space:nowrap}
+.wmsub{font-size:11px;color:var(--faint);margin-top:2px}
+.pmrow .pd,.wmrow .pd{font-size:11px;color:var(--faint);white-space:nowrap}
+.pmrow button,.wmrow button{font-size:11px;color:var(--teal);background:none;border:none;padding:2px 4px}
+.pmrow button.del,.wmrow button.del{color:#c05400}
+.pmmac{display:flex;flex-direction:column;gap:8px;margin-bottom:6px}
+.pmm{display:flex;align-items:center;gap:7px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 11px}
+.pmm .pml{width:74px;font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.pmm .pml .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+.pmm input{width:66px;padding:6px;text-align:center;font-size:13px}
+.pmm .pmu{font-size:9.5px;color:var(--faint)}
+.pmm .pmeq{color:var(--faint);margin:0 2px}
+
+/* ---- player profile ---- */
+.pmtabs{display:flex;gap:4px;margin:10px 0 14px;border-bottom:1px solid var(--line)}
+.pmtab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);
+  font:inherit;font-size:13px;padding:8px 14px;cursor:pointer;border-radius:6px 6px 0 0}
+.pmtab:hover{background:#f0f5ee;color:var(--ink)}
+.pmtab.on{color:var(--brand);border-bottom-color:var(--brand);font-weight:600}
+.pmpane{min-height:210px}
+.pmdaygrid{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.pmdayhd{display:grid;grid-template-columns:120px repeat(3,1fr) 84px;gap:8px;
+  padding:0 10px 2px;font-size:10px;text-transform:uppercase;letter-spacing:.6px;
+  color:var(--faint);font-weight:700}
+.pmdayhd span:nth-child(1){text-align:left}
+.pmdayhd span:last-child{text-align:right}
+@media(max-width:760px){ .pmdayhd{display:none} }
+.pmdayrow{display:grid;grid-template-columns:120px repeat(3,1fr) 84px;gap:8px;align-items:center;
+  background:#f7faf5;border:1px solid var(--line);border-radius:9px;padding:8px 10px}
+.pmdayname{font-size:13px;font-weight:600;color:var(--ink)}
+.pmdaycell{display:flex;align-items:center;gap:5px}
+.pmdaycell input{width:62px;padding:5px 7px;font-size:13px}
+.pmk{display:none;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);font-weight:700;min-width:52px}
+@media(max-width:760px){.pmk{display:inline}}
+.pmdaygram{font-size:11px;color:var(--faint);min-width:38px}
+.pmdaykcal{font-size:11px;color:var(--muted);text-align:right}
+.pmavoidlist{display:flex;flex-direction:column;gap:6px;margin-top:12px;max-height:200px;overflow:auto}
+.pmavoid{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);
+  border-left:4px solid var(--line);border-radius:9px;padding:8px 10px;font-size:13px}
+.pmavoid .sev{font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;
+  color:var(--muted);min-width:82px}
+.pmavoid .what{flex:1;color:var(--ink)}
+.pmavoid.sev-allergy{border-left-color:#d32f2f}
+.pmavoid.sev-allergy .sev{color:#d32f2f}
+.pmavoid.sev-intolerance{border-left-color:var(--orange,#FF8300)}
+.pmavoid.sev-intolerance .sev{color:var(--orange,#FF8300)}
+.pmavoid.sev-dislike{border-left-color:var(--faint)}
+.pmavoid .del{background:none;border:1px solid var(--line);color:var(--muted);
+  border-radius:7px;padding:4px 9px;font-size:12px;cursor:pointer}
+.pmavoid .del:hover{border-color:#d32f2f;color:#d32f2f}
+.acbox{position:relative;background:#fff;border:1px solid var(--line);border-radius:9px;
+  margin-top:4px;max-height:190px;overflow:auto;z-index:5}
+.acitem{display:block;width:100%;text-align:left;background:none;border:none;
+  padding:8px 11px;font:inherit;font-size:13px;color:var(--ink);cursor:pointer}
+.acitem:hover{background:#f0f5ee}
+.acsub{font-size:11px;color:var(--faint);margin-left:6px}
+.cmhint.warn{color:var(--orange,#FF8300)}
+
+.adapted{font-size:11.5px;margin-top:4px;padding:4px 8px;border-radius:6px;
+  background:#f3f7f1;color:var(--muted);border-left:3px solid var(--faint)}
+.adapted.intolerance{background:#fff6ec;color:#a85c00;border-left-color:var(--orange,#FF8300)}
+.adapted.dropped{background:#fdf3f2;color:#8a3a33;border-left-color:#c9847c}
+.adapted.allergy{background:#fdecec;color:#b3261e;border-left-color:#d32f2f;font-weight:600}
+
+.librow3{display:flex;gap:6px;margin-top:8px}
+.librow3 .btn{flex:1}
+.mbox.wide{max-width:1020px;width:96vw}
+.rdbbar{display:grid;grid-template-columns:1fr 170px 170px auto;gap:8px;align-items:center;margin-bottom:12px}
+.rdbcount{font-size:12px;color:var(--muted);white-space:nowrap;padding-left:6px}
+.rdbtable{max-height:min(58vh,520px);overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+
+.valhead{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 12px;background:#f7faf5;border:1px solid var(--line);border-radius:10px;
+  margin-bottom:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.valhead b{color:var(--ink)}
+.vhtoggle{display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap}
+.valrow{display:grid;grid-template-columns:1fr 110px 120px 64px auto;gap:12px;
+  align-items:center;padding:10px 12px;border-bottom:1px solid var(--line)}
+.valrow:last-child{border-bottom:none}
+.valrow.off{background:#fdf6f5}
+.valrow.near{background:#fffaf2}
+.valrow .vn b{display:block;font-size:13.5px;color:var(--ink)}
+.valrow .vdone{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:#2c7a1c;background:#eaf6ed;border-radius:4px;
+  padding:1px 6px;margin-top:3px}
+.valrow .vzero{display:inline-block;font-size:10.5px;color:#b3261e;margin-top:3px}
+.valrow .vnum{font-size:13px;color:var(--ink);text-align:right}
+.valrow .vl{display:block;font-size:9.5px;font-weight:700;letter-spacing:.5px;
+  text-transform:uppercase;color:var(--faint)}
+.valrow .vgap{font-size:14px;font-weight:700;text-align:right}
+.valrow .vgap.ok{color:#0a7a33}
+.valrow .vgap.near{color:#a85c00}
+.valrow .vgap.off{color:#b3261e}
+.valrow .vact{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:760px){ .valrow{grid-template-columns:1fr 1fr}
+  .valrow .vn{grid-column:1 / -1} .valrow .vact{grid-column:1 / -1} }
+.rdbrow{display:grid;grid-template-columns:1fr 120px 150px auto;gap:10px;align-items:center;
+  padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px}
+.rdbrow:last-child{border-bottom:none}
+.rdbrow:hover{background:#f7faf5}
+.rdbrow .rn{font-weight:600;color:var(--ink)}
+.rdbrow .rs{font-size:11px;color:var(--faint);text-transform:capitalize}
+.rdbrow .rm{font-size:12px;color:var(--muted)}
+.rdbrow .ra{display:flex;gap:6px}
+.rdbrow .ra button{background:none;border:1px solid var(--line);border-radius:7px;
+  padding:4px 9px;font-size:12px;color:var(--muted);cursor:pointer}
+.rdbrow .ra button:hover{border-color:var(--brand);color:var(--brand)}
+.rdbrow .ra button.danger:hover{border-color:#d32f2f;color:#d32f2f}
+.rdbflag{font-size:11px;color:#a85c00;background:#fff6ec;border-radius:5px;padding:2px 7px;
+  display:inline-block;margin-top:3px}
+.rdbtag{font-size:10px;letter-spacing:.4px;text-transform:uppercase;color:var(--faint);
+  border:1px solid var(--line);border-radius:4px;padding:1px 5px;margin-left:6px}
+
+
+/* supplements sit in the day among the meals, but clearly not meals */
+
+.rdbtools{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;padding-bottom:12px;
+  border-bottom:1px solid var(--line)}
+/* excluded ingredients as tags */
+.extags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.extag{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--line);
+  border-radius:999px;padding:5px 11px;font-size:12.5px;color:var(--ink);cursor:pointer}
+.extag:hover{border-color:var(--brand)}
+.extag.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.extag.frmplayer{background:#fdecec;border-color:#e8b4b0;color:#b3261e;cursor:default}
+.extag.frmplayer.intolerance{background:#fff6ec;border-color:#f0c896;color:#a85c00}
+.extag.frmplayer.dislike{background:#f2f5f0;border-color:var(--line);color:var(--muted)}
+.extag .x{font-size:10px;opacity:.7}
+.exfrom{font-size:11px;color:var(--muted);margin:2px 0 8px}
+
+
+
+.scamt{display:flex;align-items:center;gap:7px;padding:2px 4px 10px;flex-wrap:wrap}
+.scamt label{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--faint);font-weight:700}
+.scamt input{width:78px;padding:5px 7px;font-size:13px}
+.scamt .scu{font-size:12px;color:var(--muted)}
+.scamt .scauto{font-size:10.5px;color:var(--faint);font-style:italic}
+.scamt .screset{background:none;border:none;color:var(--brand);font-size:11px;cursor:pointer;
+  text-decoration:underline;padding:0}
+
+
+
+
+/* the dropdown's carb grouping. Option colours are ignored by some browsers,
+   which is why the status is in the text too — this is decoration on top. */
+optgroup.og-fav{color:#8a6400;font-weight:700}
+optgroup.og-high{color:#3f9e2b}
+optgroup.og-medium{color:#d99a00}
+optgroup.og-low{color:#ef6d00}
+option.opt-high{color:#3f9e2b}
+option.opt-medium{color:#d99a00}
+option.opt-low{color:#ef6d00}
+
+/* batch cooking panel */
+
+.rtitle .rname{cursor:pointer;border-bottom:1px dashed transparent}
+.rtitle .rname:hover{border-bottom-color:var(--line)}
+.aliastag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:#6b57a0;background:#f2effa;border-radius:4px;
+  padding:1px 6px;margin-left:7px;vertical-align:middle}
+.aliasreal{font-size:11.5px;color:var(--faint);margin-top:1px}
+.portions{display:inline-block;font-size:11.5px;font-weight:700;color:#7a5f10;
+  background:#fdfaf1;border:1px solid #e0d9c4;border-radius:999px;
+  padding:2px 10px;margin-top:5px}
+.batch{margin-top:10px;border:1px solid #e0d9c4;background:#fdfaf1;border-radius:10px;
+  overflow:hidden}
+.batch summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;
+  padding:9px 13px;font-size:12.5px}
+.batch summary::-webkit-details-marker{display:none}
+.batch summary:before{content:"▸";color:#a07c1e;font-size:11px;transition:transform .12s}
+.batch[open] summary:before{transform:rotate(90deg)}
+.batch .bt{font-weight:700;color:#7a5f10;letter-spacing:.3px;text-transform:uppercase;font-size:10.5px}
+.batch .bmeta{color:var(--muted);font-size:11.5px}
+.batchbody{padding:2px 13px 12px}
+.batchctl{display:flex;align-items:center;gap:7px;margin-bottom:9px}
+.batchctl label{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);font-weight:700}
+.batchctl input{width:64px;padding:4px 7px;font-size:13px}
+.batchctl .bu{font-size:11.5px;color:var(--muted)}
+.batchctl .breset{background:none;border:none;color:var(--brand);font-size:11px;
+  text-decoration:underline;cursor:pointer;padding:0}
+.batchlist{list-style:none;margin:0;padding:0;columns:2;column-gap:18px}
+.batchlist li{font-size:12px;color:var(--ink);padding:2px 0;break-inside:avoid}
+.batchlist .bq{font-weight:700;color:#7a5f10}
+.batchnote{font-size:11px;color:var(--muted);margin-top:9px;line-height:1.45}
+@media(max-width:760px){ .batchlist{columns:1} }
+
+.altbar .recfind{width:100%;margin:6px 0 6px;padding:7px 10px;font-size:13px;
+  border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--ink);
+  font-family:inherit}
+.altbar .recfind:focus{outline:none;border-color:var(--brand)}
+.altbar .recfind.none{border-color:#d32f2f;color:#b3261e}
+@media(max-width:760px){ .altbar .recfind{font-size:16px} }
+
+.refoot{display:flex;align-items:center;gap:8px}
+.refoot .respacer{flex:1}
+.btn.danger{border-color:#e8b4b0;color:#b3261e;background:#fff}
+.btn.danger:hover{background:#fdecec;border-color:#d32f2f}
+@media(max-width:760px){ .refoot{flex-wrap:wrap} .refoot .respacer{display:none}
+  .refoot .btn{flex:1 1 auto} }
+.reflag{margin-top:8px;background:#fff6ec;border:1px solid #f0c896;border-radius:8px;
+  padding:8px 11px;font-size:12.5px;color:#a85c00;line-height:1.45}
+.reings{display:flex;flex-direction:column;gap:5px;max-height:34vh;overflow:auto;
+  border:1px solid var(--line);border-radius:10px;padding:8px;background:#fbfdfa}
+.reing{display:grid;grid-template-columns:1fr 84px 96px 32px;gap:8px;align-items:center}
+.reing .rn{font-size:13px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.reing .rn small{display:block;color:var(--faint);font-size:10.5px;white-space:normal}
+.reing input,.reing select{padding:5px 7px;font-size:13px}
+.reing .rx{background:none;border:1px solid var(--line);border-radius:7px;color:var(--muted);
+  cursor:pointer;font-size:12px;padding:4px 0}
+.reing .rx:hover{border-color:#d32f2f;color:#d32f2f}
+.readdrow{position:relative;margin-top:8px}
+.remacros{margin-top:10px;background:#f2f7f0;border-radius:9px;padding:9px 12px;
+  font-size:12.5px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap}
+.remacros b{color:var(--ink)}
+@media(max-width:760px){ .reing{grid-template-columns:1fr 1fr;gap:5px}
+  .reing .rn{grid-column:1 / -1} }
+
+.toastbtn{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);
+  color:#fff;border-radius:7px;padding:4px 11px;font-size:12px;cursor:pointer;
+  font-family:inherit;margin-left:4px}
+.toastbtn:hover{background:rgba(255,255,255,.3)}
+
+.bkdupsum{margin-top:6px;font-size:12px;color:var(--muted)}
+.bkdupsum b{color:#a85c00}
+.bkdup{display:inline-block;font-size:9.5px;text-transform:uppercase;letter-spacing:.4px;
+  font-weight:700;border-radius:4px;padding:1px 6px;margin-left:8px;vertical-align:middle}
+.bkdup.new{background:#eaf6ed;color:#0a7a33}
+.bkdup.same{background:#f2f5f0;color:var(--faint)}
+.bkdup.diff{background:#fff6ec;color:#a85c00}
+.bkreplace{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink);
+  margin-right:12px;cursor:pointer}
+
+
+.bkfailpanel{background:#fdf6f5;border:1px solid #e8b4b0;border-radius:10px;
+  padding:10px;margin-bottom:10px;max-height:44vh;overflow:auto}
+.bkfailhd{font-size:12.5px;color:#7a2b25;padding:2px 4px 10px;line-height:1.5}
+.bkfailhd b{color:#b3261e}
+.bkfailrow{display:flex;align-items:center;gap:10px;padding:7px 4px;
+  border-bottom:1px solid #f0dcda}
+.bkfailrow:last-of-type{border-bottom:none}
+.bkfailrow .bfnm{flex:1;min-width:0}
+.bkfailrow .bfnm b{display:block;font-size:13px;color:var(--ink)}
+.bkfailrow .bfnm span{font-size:11.5px;color:#b3261e}
+.bkfailrow .bfact{display:flex;gap:5px;flex-shrink:0}
+.bkfailfoot{padding-top:10px;display:flex;justify-content:flex-end}
+@media(max-width:760px){ .bkfailrow{flex-wrap:wrap} .bkfailrow .bfact{width:100%} }
+.bknewfoods{margin-top:8px;background:#fff6ec;border:1px solid #f0c896;border-radius:8px;
+  padding:8px 11px;font-size:12.5px;color:#7a4a00}
+.bknewfoods b{color:#a85c00}
+.bkreview{background:#fff;border:1px solid #d99a00;border-radius:7px;color:#a85c00;
+  padding:3px 11px;font-size:11.5px;cursor:pointer;margin-left:8px;font-family:inherit}
+.bknfpanel{background:#fbfdfa;border:1px solid var(--line);border-radius:10px;
+  padding:10px;margin-bottom:10px;max-height:44vh;overflow:auto}
+.bknfhd{font-size:12px;color:var(--muted);padding:2px 4px 10px;line-height:1.5}
+.bknfrow{display:grid;grid-template-columns:1.3fr 1.5fr 1.4fr auto;gap:10px;align-items:center;
+  padding:7px 0;border-bottom:1px solid var(--line)}
+.bknfrow:last-child{border-bottom:none}
+.bknfrow .nfn b{font-size:13px;color:var(--ink);display:block}
+.bknfrow .nfn span{font-size:11px;color:var(--faint)}
+.bknfrow .nfm{display:flex;align-items:center;gap:5px}
+.bknfrow .nfm input{width:52px;padding:5px 6px;font-size:12.5px}
+.bknfrow .nfk{font-size:11.5px;color:var(--muted);white-space:nowrap;margin-left:4px}
+.bknfrow .nfs{position:relative}
+.bknfrow .nfs input{width:100%;padding:5px 8px;font-size:12.5px}
+.bknfrow .nfdrop{background:none;border:1px solid var(--line);border-radius:7px;
+  color:var(--muted);font-size:11.5px;padding:5px 9px;cursor:pointer;white-space:nowrap}
+.bknfrow .nfdrop:hover{border-color:#d32f2f;color:#d32f2f}
+@media(max-width:760px){ .bknfrow{grid-template-columns:1fr} }
+.bkfix{display:inline-block;margin-left:10px;background:#fff6ec;border:1px solid #f0c896;
+  color:#a85c00;border-radius:7px;padding:3px 10px;font-size:11.5px;cursor:pointer;font-family:inherit}
+.bkfix:hover{background:#ffedd8;border-color:#d99a00}
+.bkfixpanel{background:#fbfdfa;border:1px solid var(--line);border-radius:10px;
+  padding:10px;margin:4px 0 10px 28px}
+.bkfixline{display:grid;grid-template-columns:1fr 1.2fr auto;gap:10px;align-items:start;
+  padding:6px 0;border-bottom:1px solid var(--line)}
+.bkfixline:last-child{border-bottom:none}
+.bkfixline .bfw b{font-size:13px;color:var(--ink);display:block}
+.bkfixline .bfw span{font-size:11px;color:#b3261e}
+.bkfixline .bfs{position:relative}
+.bkfixline .bfs input{width:100%;padding:6px 9px;font-size:13px}
+.bkfixline .bfacts{display:flex;gap:6px}
+.bkfixline .bfnew{background:#eef6ec;border:1px solid #bcd9b4;border-radius:7px;color:#2c7a1c;
+  font-size:11.5px;padding:6px 10px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.bkfixline .bfnew:hover{background:#e2f0de}
+.bkfixline .bfform{grid-column:1 / -1;display:grid;
+  grid-template-columns:1.4fr .8fr .8fr .8fr 1fr auto;gap:6px;margin-top:8px;
+  background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px}
+.bkfixline .bfform input,.bkfixline .bfform select{padding:6px 8px;font-size:12.5px}
+@media(max-width:760px){ .bkfixline .bfform{grid-template-columns:1fr 1fr} }
+.bkfixline .bfskip{background:none;border:1px solid var(--line);border-radius:7px;
+  color:var(--muted);font-size:11.5px;padding:6px 10px;cursor:pointer;white-space:nowrap}
+.bkfixline .bfskip:hover{border-color:var(--brand);color:var(--brand)}
+@media(max-width:760px){ .bkfixline{grid-template-columns:1fr} .bkfixpanel{margin-left:0} }
+
+.dayempty{background:#f7faf5;border:2px dashed var(--line);border-radius:18px;
+  padding:64px 28px;text-align:center}
+.dayempty .deicon{font-size:46px;color:var(--line);line-height:1;margin-bottom:14px;
+  letter-spacing:-4px}
+.dayempty .deh{font-size:26px;color:var(--ink);font-weight:600;letter-spacing:-.3px}
+.dayempty .ded{font-size:14px;color:var(--muted);margin:12px auto 26px;max-width:440px;
+  line-height:1.65}
+
+.integrity{margin-top:9px;font-size:11.5px;line-height:1.5}
+.integrity span{display:block;border-radius:7px;padding:6px 10px}
+.integrity .iqok{color:#2c7a1c;background:#f1f8ef}
+.integrity .iqbad{color:#b3261e;background:#fdecec;font-weight:600;margin-bottom:4px}
+.integrity .iqnote{color:#a85c00;background:#fff6ec;margin-top:4px}
+.mealfoot{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.servings{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:700;
+  text-transform:uppercase;letter-spacing:.5px;color:var(--faint)}
+.servings input{width:66px;padding:5px 7px;font-size:13px}
+
+.copybtn{background:none;border:1px dashed var(--line);border-radius:8px;color:var(--muted);
+  font:inherit;font-size:12px;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.copybtn:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+.mealfoot{position:relative}
+.copymenu{position:absolute;z-index:40;right:0;bottom:calc(100% + 8px);
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 12px 32px rgba(0,0,0,.16);padding:12px 14px;min-width:330px;max-width:400px}
+.copymenu .cmhd{font-size:13px;color:var(--ink);line-height:1.45;margin-bottom:10px}
+.copymenu .cmdays{display:flex;flex-direction:column;gap:2px;max-height:230px;overflow:auto}
+.cmday{display:flex;align-items:center;gap:9px;padding:6px 8px;border-radius:7px;cursor:pointer}
+.cmday:hover{background:#f2f7f0}
+.cmday.off{opacity:.45;cursor:default}
+.cmday .cmd{font-size:13px;color:var(--ink);min-width:78px}
+.cmday .cmw{font-size:11.5px;color:var(--faint);overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.copymenu .cmnote{font-size:11px;color:var(--muted);margin-top:9px;line-height:1.45}
+.copymenu .cmbtns{display:flex;gap:6px;justify-content:flex-end;margin-top:11px}
+@media(max-width:760px){ .copymenu{position:fixed;left:4vw;right:4vw;bottom:14px;
+  min-width:0;max-width:none} }
+.alongbtn{flex:1;background:none;border:1px dashed var(--line);border-radius:8px;
+  color:var(--muted);font:inherit;font-size:12px;padding:6px 12px;cursor:pointer}
+.alongbtn:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+.alongside-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:var(--brand);background:#eef6ec;border-radius:4px;
+  padding:1px 6px;margin-left:7px;vertical-align:middle}
+@media(max-width:760px){ 
+.integrity{margin-top:9px;font-size:11.5px;line-height:1.5}
+.integrity span{display:block;border-radius:7px;padding:6px 10px}
+.integrity .iqok{color:#2c7a1c;background:#f1f8ef}
+.integrity .iqbad{color:#b3261e;background:#fdecec;font-weight:600;margin-bottom:4px}
+.integrity .iqnote{color:#a85c00;background:#fff6ec;margin-top:4px}
+.mealfoot{flex-direction:column;align-items:stretch}
+  
+.copybtn{background:none;border:1px dashed var(--line);border-radius:8px;color:var(--muted);
+  font:inherit;font-size:12px;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.copybtn:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+.mealfoot{position:relative}
+.copymenu{position:absolute;z-index:40;right:0;bottom:calc(100% + 8px);
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 12px 32px rgba(0,0,0,.16);padding:12px 14px;min-width:330px;max-width:400px}
+.copymenu .cmhd{font-size:13px;color:var(--ink);line-height:1.45;margin-bottom:10px}
+.copymenu .cmdays{display:flex;flex-direction:column;gap:2px;max-height:230px;overflow:auto}
+.cmday{display:flex;align-items:center;gap:9px;padding:6px 8px;border-radius:7px;cursor:pointer}
+.cmday:hover{background:#f2f7f0}
+.cmday.off{opacity:.45;cursor:default}
+.cmday .cmd{font-size:13px;color:var(--ink);min-width:78px}
+.cmday .cmw{font-size:11.5px;color:var(--faint);overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.copymenu .cmnote{font-size:11px;color:var(--muted);margin-top:9px;line-height:1.45}
+.copymenu .cmbtns{display:flex;gap:6px;justify-content:flex-end;margin-top:11px}
+@media(max-width:760px){ .copymenu{position:fixed;left:4vw;right:4vw;bottom:14px;
+  min-width:0;max-width:none} }
+.alongbtn{width:100%} }
+.addingbtn{background:none;border:1px dashed var(--line);border-radius:8px;color:var(--muted);
+  font:inherit;font-size:12px;padding:6px 12px;margin-top:8px;cursor:pointer;width:100%}
+.addingbtn:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+.swapped.nomatch{color:#b3261e;background:#fdecec;font-weight:700}
+.reing .rn.bad{color:#b3261e}
+.reing .renote{display:inline-block;font-size:9.5px;text-transform:uppercase;letter-spacing:.4px;
+  background:#fdecec;color:#b3261e;border-radius:4px;padding:1px 6px;margin-left:6px;font-weight:700}
+.swapped.added{color:#0a7a33;background:#eaf6ed}
+.imsearch{padding:2px 4px 6px}
+.imsearch input{width:100%;padding:6px 9px;font-size:12.5px}
+.imopts{max-height:190px;overflow:auto}
+.swapopt .sg.far{color:#a85c00;border-color:#f0c896;background:#fff6ec}
+.imamt{padding:2px 2px 6px}
+.imamt .scamt{padding:4px 4px 8px}
+.imdiff{padding:0 4px}
+.imdiff .sctab{margin-bottom:6px}
+.imnote{font-size:11px;color:var(--muted);padding:2px 4px 8px;line-height:1.45}
+.imnochange{font-size:11.5px;color:var(--faint);padding:4px 4px 8px;font-style:italic}
+.imv{font-size:10px;color:var(--faint);margin-left:5px}
+.swaphd.sep{border-top:1px solid var(--line);border-bottom:none;margin-top:2px;
+  padding-top:9px;font-weight:600}
+
+/* how far an ingredient has been moved from the recipe to hit the targets */
+.ings li .scaled{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.2px;
+  border-radius:999px;padding:1px 6px;margin-left:6px;vertical-align:middle;cursor:help}
+.ings li .scaled.up{background:#e8f4e4;color:#2c7a1c}
+.ings li .scaled.down{background:#fdeee2;color:#b45309}
+
+.ings li .dropbtn{background:none;border:1px solid var(--line);border-radius:6px;
+  color:var(--faint);font-size:10px;line-height:1;padding:3px 6px;margin-left:4px;
+  cursor:pointer;vertical-align:middle;opacity:0;transition:opacity .12s}
+.ings li:hover .dropbtn,.ings li .dropbtn:focus{opacity:1}
+.ings li .dropbtn:hover{border-color:#d32f2f;color:#d32f2f;background:#fdecec}
+@media (hover:none){ .ings li .dropbtn{opacity:1} }
+.dropconfirm{position:absolute;z-index:40;background:#fff;border:1px solid var(--line);
+  border-radius:11px;box-shadow:0 10px 28px rgba(0,0,0,.16);padding:12px 14px;
+  min-width:290px;max-width:360px;left:0;margin-top:6px}
+.dropconfirm .dch{font-size:13px;color:var(--ink);line-height:1.45}
+.dropconfirm .dcw{font-size:12px;color:#a85c00;background:#fff6ec;border-radius:7px;
+  padding:6px 9px;margin-top:8px;line-height:1.45}
+.dropconfirm .dcm{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+.dropconfirm .dcb{display:flex;gap:6px;justify-content:flex-end;margin-top:12px}
+@media(max-width:760px){ .dropconfirm{position:fixed;left:4vw;right:4vw;min-width:0;
+  max-width:none;bottom:14px;margin-top:0} }
+.ings li.swappable{cursor:pointer;border-radius:6px}
+.ings li.swappable:hover{background:#f2f7f0}
+.swapconfirm{padding:4px 6px}
+.swapconfirm .schd{font-size:12.5px;color:var(--ink);padding:6px 4px 10px;line-height:1.45}
+.sctab{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:8px}
+.sctab th{text-align:right;font-weight:600;color:var(--faint);font-size:10.5px;
+  text-transform:uppercase;letter-spacing:.4px;padding:0 6px 4px}
+.sctab th:first-child{text-align:left}
+.sctab td{text-align:right;padding:3px 6px;color:var(--muted);border-top:1px solid var(--line)}
+.sctab td:first-child{text-align:left;color:var(--ink)}
+.sctab td.ok{color:#0a7a33;font-weight:600}
+.sctab td.near{color:#a85c00;font-weight:600}
+.sctab td.off{color:#b3261e;font-weight:700}
+.scwarn{font-size:11.5px;color:#b3261e;background:#fdecec;border-radius:7px;padding:7px 9px;
+  margin-bottom:8px;line-height:1.45}
+.scbtns{display:flex;gap:6px;justify-content:flex-end;padding:2px 0 4px}
+
+
+/* how far an ingredient has been moved from the recipe to hit the targets */
+.ings li .scaled{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.2px;
+  border-radius:999px;padding:1px 6px;margin-left:6px;vertical-align:middle;cursor:help}
+.ings li .scaled.up{background:#e8f4e4;color:#2c7a1c}
+.ings li .scaled.down{background:#fdeee2;color:#b45309}
+
+.ings li .dropbtn{background:none;border:1px solid var(--line);border-radius:6px;
+  color:var(--faint);font-size:10px;line-height:1;padding:3px 6px;margin-left:4px;
+  cursor:pointer;vertical-align:middle;opacity:0;transition:opacity .12s}
+.ings li:hover .dropbtn,.ings li .dropbtn:focus{opacity:1}
+.ings li .dropbtn:hover{border-color:#d32f2f;color:#d32f2f;background:#fdecec}
+@media (hover:none){ .ings li .dropbtn{opacity:1} }
+.dropconfirm{position:absolute;z-index:40;background:#fff;border:1px solid var(--line);
+  border-radius:11px;box-shadow:0 10px 28px rgba(0,0,0,.16);padding:12px 14px;
+  min-width:290px;max-width:360px;left:0;margin-top:6px}
+.dropconfirm .dch{font-size:13px;color:var(--ink);line-height:1.45}
+.dropconfirm .dcw{font-size:12px;color:#a85c00;background:#fff6ec;border-radius:7px;
+  padding:6px 9px;margin-top:8px;line-height:1.45}
+.dropconfirm .dcm{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+.dropconfirm .dcb{display:flex;gap:6px;justify-content:flex-end;margin-top:12px}
+@media(max-width:760px){ .dropconfirm{position:fixed;left:4vw;right:4vw;min-width:0;
+  max-width:none;bottom:14px;margin-top:0} }
+.ings li.swappable{position:relative}
+.ings li .swapbtn{opacity:0;transition:opacity .12s}
+.ings li:hover .swapbtn,.ings li .swapbtn:focus{opacity:1}
+@media (hover:none){ .ings li .swapbtn{opacity:1} }
+.swapbtn{background:none;border:1px solid var(--line);border-radius:6px;color:var(--faint);
+  font-size:10.5px;line-height:1;padding:2px 6px;margin-left:7px;cursor:pointer;vertical-align:middle;
+  white-space:nowrap}
+.swapbtn:hover{border-color:var(--brand);color:var(--brand)}
+.swapped{font-size:9.5px;text-transform:uppercase;letter-spacing:.4px;color:#6b57a0;
+  background:#f2effa;border-radius:4px;padding:1px 5px;margin-left:6px}
+.swapmenu{position:absolute;z-index:40;background:#fff;border:1px solid var(--line);
+  border-radius:11px;box-shadow:0 10px 28px rgba(0,0,0,.14);padding:6px;min-width:270px;
+  max-height:290px;overflow:auto}
+.swaphd{font-size:11.5px;color:var(--muted);padding:6px 9px 8px;border-bottom:1px solid var(--line);
+  margin-bottom:4px}
+.swapopt{display:block;width:100%;text-align:left;background:none;border:none;border-radius:7px;
+  padding:7px 9px;cursor:pointer;font:inherit}
+.swapopt:hover{background:#f0f5ee}
+.swapopt .sn{display:block;font-size:13px;color:var(--ink)}
+.swapopt .sm{display:block;font-size:11px;color:var(--faint);margin-top:1px}
+.swapopt .sg{display:inline-block;font-size:9.5px;text-transform:uppercase;letter-spacing:.4px;
+  color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-top:3px}
+.swapopt.remove{color:#b3261e;font-size:12.5px;border-top:1px solid var(--line);margin-top:4px}
+.swapopt.undo{color:var(--brand);font-size:12.5px;border-top:1px solid var(--line);margin-top:4px}
+.swapempty{font-size:12px;color:var(--muted);padding:10px}
+.ingmacros td.in{position:relative}
+.supp{display:grid;grid-template-columns:132px 1fr 116px 168px 32px;gap:10px;align-items:center;
+  background:#f6f4fb;border:1px solid #ddd6ee;border-left:4px solid #7a5bb5;
+  border-radius:11px;padding:10px 13px;margin-bottom:8px}
+.supp .sptime{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;color:#6b57a0;font-weight:700}
+.supp .spname{font-size:14px;font-weight:600;color:var(--ink)}
+.supp .spdose{display:flex;align-items:center;gap:6px}
+.supp .spdose input{width:70px;padding:5px 7px;font-size:13px}
+.supp .spu{font-size:12px;color:var(--muted)}
+.supp select.spslot{padding:5px 7px;font-size:12.5px}
+.supp .spdel{background:none;border:none;color:var(--faint);font-size:14px;cursor:pointer;padding:4px}
+.supp .spdel:hover{color:#d32f2f}
+.suppbar{display:flex;align-items:center;gap:8px;margin:10px 0 4px}
+.suppnote{font-size:11.5px;color:#6b57a0}
+.pmfavs{display:flex;flex-direction:column;gap:6px;margin-top:12px;max-height:230px;overflow:auto}
+.pmfav{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);
+  border-radius:9px;padding:8px 11px;font-size:13px}
+.pmfav .cat{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);
+  min-width:86px}
+.pmfav .nm{flex:1;color:var(--ink)}
+.pmfav .dz{color:var(--muted);font-size:12px}
+.pmfav .del{background:none;border:1px solid var(--line);color:var(--muted);border-radius:7px;
+  padding:4px 9px;font-size:12px;cursor:pointer}
+.pmfav .del:hover{border-color:#d32f2f;color:#d32f2f}
+.pmgrouphd{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--brand);
+  font-weight:700;margin:8px 0 2px}
+.pmlist .pname{cursor:pointer}
+.pmlist .pname:hover{color:var(--brand);text-decoration:underline}
+
+.favbtn{display:inline-flex;align-items:center;gap:5px;width:auto!important;padding:0 10px!important;
+  font-size:13px;color:var(--muted)}
+.favbtn span{font-size:11.5px;letter-spacing:.2px}
+.favbtn:hover{color:var(--gold,#FFC627);border-color:var(--gold,#FFC627)}
+.favbtn.on{color:#b8860b;border-color:var(--gold,#FFC627);background:#fffaeb}
+.favtag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.5px;
+  text-transform:uppercase;color:#8a6400;background:#fff4d1;border:1px solid #f0d98a;
+  border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+.favstar{background:none;border:none;cursor:pointer;font-size:15px;line-height:1;
+  color:var(--faint);padding:2px 4px}
+.favstar:hover{color:var(--gold,#FFC627)}
+.favstar.on{color:var(--gold,#FFC627)}
+.pmhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:2px}
+.pmweeks{display:flex;flex-direction:column;gap:6px;margin-top:12px;max-height:250px;overflow:auto}
+.pmweek{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);
+  border-radius:9px;padding:9px 11px;font-size:13px;cursor:pointer}
+.pmweek:hover{border-color:var(--brand);background:#f7faf5}
+.pmweek .wk{font-weight:600;color:var(--ink);min-width:128px}
+.pmweek .mm{flex:1;color:var(--muted);font-size:12px}
+.pmweek .go{font-size:12px;color:var(--brand);font-weight:600}
+.pmhr{border:none;border-top:1px solid var(--line);margin:6px 0 14px}
+.fmtabs{display:flex;gap:8px;margin-bottom:12px}
+.fmtab{flex:1;font-size:12px;padding:9px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--muted)}
+.fmtab.on{border-color:var(--accent);color:var(--green);font-weight:600;background:rgba(0,121,52,.07)}
+.fmgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}
+@media(max-width:600px){.fmgrid{grid-template-columns:repeat(2,1fr)}}
+.cmsearch{position:relative}
+.cmresults{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.14);max-height:260px;overflow:auto;z-index:5}
+.cmres{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 12px;cursor:pointer;border-bottom:1px solid var(--line)}
+.cmres:last-child{border-bottom:none}
+.cmres:hover,.cmres.sel{background:var(--panel2)}
+.cmres .nm{font-size:13px;color:var(--ink)}
+.cmres .mc{font-size:10.5px;color:var(--faint);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cmres .tagc{font-size:9px;letter-spacing:.5px;text-transform:uppercase;color:var(--green);border:1px solid rgba(0,121,52,.3);border-radius:5px;padding:1px 5px;margin-left:6px}
+.cmnores{padding:10px 12px;font-size:12px;color:var(--faint)}
+.cmpicked{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+.pk{display:flex;align-items:center;gap:8px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:7px 10px}
+.pk .pknm{flex:1;font-size:13px;color:var(--ink)}
+.pk input{width:58px;background:var(--bg2);border:1px solid var(--line);border-radius:7px;color:var(--ink);padding:5px;text-align:center;font-size:12px;font-family:inherit}
+.pk select{background:var(--bg2);border:1px solid var(--line);border-radius:7px;color:var(--ink);padding:5px;font-size:11.5px;font-family:inherit}
+.pk .pkkc{font-size:11px;color:var(--green);font-weight:700;min-width:62px;text-align:right;font-variant-numeric:tabular-nums}
+.pk .pkx{color:var(--faint);background:none;border:none;font-size:14px;padding:0 2px}
+.addfoodlink{font-size:11.5px;color:var(--teal);background:none;border:none;padding:6px 0 0;text-align:left}
+.cmhint{font-size:11px;color:var(--faint);margin:6px 0 14px;line-height:1.5}
+.cmpreview{margin-top:14px;padding:12px 14px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;font-size:13px;color:var(--muted)}
+.cmpreview b{color:var(--ink)}
+.cmpreview .kc{color:var(--green);font-weight:700}
+.cmwarn{margin-top:10px;font-size:11px;color:#b34a00;background:rgba(239,109,0,.07);border:1px solid rgba(239,109,0,.3);border-radius:9px;padding:8px 10px;line-height:1.5}
+.manbadge{font-size:9.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;background:rgba(0,121,52,.12);color:var(--green);border:1px solid rgba(0,121,52,.3);border-radius:6px;padding:3px 7px;margin-left:8px}
+.rescalebtn{font-size:10px;letter-spacing:.4px;text-transform:uppercase;color:var(--teal);background:none;border:none;padding:0 0 0 8px}
+.ingmacros tr.negrow td{color:var(--faint)}
+.ingmacros tr.resrow td{color:var(--faint);font-style:italic}
+.ingmacros .q{display:inline-block;width:13px;height:13px;line-height:13px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:9px;font-style:normal;cursor:help;margin-left:4px}
+.ingmacros .imnote{font-size:10.5px;color:var(--faint);padding:8px 10px;line-height:1.5}
+
+.macbox.static .macrow{display:flex;align-items:center;justify-content:space-between;
+  gap:10px;padding:5px 0}
+.macbox.static .mval{font-size:17px;font-weight:700;color:var(--ink);letter-spacing:-.3px}
+.macbox.static .mval .u{font-size:11px;font-weight:400;color:var(--faint);margin-left:2px}
+.macbox{width:210px;flex-shrink:0}
+.macrow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:9px 12px;background:#f4f7f0;border:1px solid var(--line);border-radius:10px;margin-bottom:8px}
+.macrow{display:flex;flex-direction:column;align-items:flex-start;gap:7px;padding:10px 12px}
+.macrow .ml{font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);font-weight:600;white-space:nowrap}
+.macrow .ml .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}
+.macrow .mfields{display:flex;align-items:center;gap:8px;width:100%}
+.macrow .ipwrap{display:flex;align-items:center;gap:3px}
+.macrow .ipwrap input{width:62px;background:var(--bg2);border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:6px 5px;text-align:center;font-size:13px;font-family:inherit;font-variant-numeric:tabular-nums}
+.macrow .ipwrap input:focus{outline:none;border-color:var(--accent)}
+.macrow .ipwrap .u{font-size:9.5px;color:var(--faint)}
+input[type=number]{-moz-appearance:textfield}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.macrow .kgwrap input.kg{width:52px;font-size:12px}
+.tsel{background:var(--bg2);border:1px solid var(--line);border-radius:7px;color:var(--ink);font-family:inherit;font-size:12px;padding:5px 4px}
+.tsel:focus{outline:none;border-color:var(--accent)}
+.tsel.ampm{margin-left:4px}
+.tcolon{color:var(--faint);margin:0 1px}
+.macrow label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint)}
+.macrow .ipwrap{display:flex;align-items:center;gap:4px}
+.macrow input{width:52px;background:#e9ede6;border:1px solid var(--line);color:var(--ink);border-radius:7px;padding:6px;font-size:13px;text-align:center;outline:none}
+.macrow input:focus{border-color:var(--teal)}
+.macrow .u{font-size:11px;color:var(--faint)}
+.mealwarn{margin-top:10px;background:rgba(201,138,0,.09);border:1px solid rgba(201,138,0,.4);border-radius:10px;padding:9px 11px;font-size:11.5px;color:#8a6000;line-height:1.5}
+.mealwarn b{display:block;margin-bottom:4px;font-size:10.5px;letter-spacing:.6px;text-transform:uppercase}
+.mealwarn ul{margin:0;padding-left:15px}
+.mealwarn li{margin-bottom:2px}
+.mealwarn .wok{margin-top:6px;font-size:10.5px;color:#8a6000;background:none;border:none;padding:0;text-decoration:underline}
+.achieved{font-size:11px;color:var(--muted);text-align:center;margin-top:2px;padding:6px;border:1px dashed var(--line);border-radius:8px}
+.achieved b{color:var(--ink)}
+.altbar{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.altbar .lab{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+.altselect{width:100%;max-width:520px;background:#f4f7f0;border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:9px 10px;font-size:13px;font-family:inherit;outline:none}
+.altselect:focus{border-color:var(--teal)}
+.altselect optgroup{font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);background:var(--panel2)}
+.altselect option{font-size:13px;padding:4px}
+.altselect.status-low{border-color:rgba(239,109,0,.5);color:#c05400}
+.altselect.status-medium{border-color:rgba(201,138,0,.5);color:#8a6000}
+.altselect.status-high{border-color:rgba(63,158,43,.5);color:#2c7a1c}
+.altselect:hover{border-color:var(--teal)}
+.altchips{display:flex;gap:8px;flex-wrap:wrap}
+.altchip{font-size:12px;padding:7px 11px;border-radius:9px;border:1px solid var(--line);background:#f4f7f0;color:var(--muted);text-align:left;transition:.15s;max-width:230px}
+.altchip:hover{border-color:var(--teal);color:var(--ink)}
+.altchip .ac{display:block;font-size:9.5px;color:var(--faint);margin-top:2px}
+
+
+.amalong{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);
+  margin-top:10px;cursor:pointer}
+.amhint{font-size:11.5px;color:var(--faint);margin:5px 0 7px}
+.amlist{max-height:38vh;overflow:auto;border:1px solid var(--line);border-radius:10px;
+  background:#fbfdfa;padding:5px}
+.amhead{font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+  color:var(--faint);padding:9px 11px 4px}
+.amitem{display:block;width:100%;text-align:left;background:none;border:none;
+  border-radius:8px;padding:9px 11px;cursor:pointer;font:inherit}
+.amitem:hover{background:#f0f5ee}
+.amitem.on{background:#e4f0e0;box-shadow:inset 0 0 0 1px var(--brand)}
+.amitem .amn{display:block;font-size:13.5px;color:var(--ink)}
+.amitem .amm{display:block;font-size:11.5px;color:var(--faint);margin-top:2px}
+.amitem .cs-low{color:#c05400}.amitem .cs-medium{color:#a85c00}.amitem .cs-high{color:#0a7a33}
+/* an insert point between two meals */
+.insertgap{display:flex;justify-content:center;margin:-4px 0 10px}
+.insertgap button{background:var(--bg2);border:1px dashed var(--line);border-radius:999px;
+  color:var(--faint);font:inherit;font-size:11.5px;padding:4px 14px;cursor:pointer;
+  opacity:0;transition:opacity .12s}
+.insertgap:hover button,.insertgap button:focus{opacity:1}
+.insertgap button:hover{border-color:var(--brand);color:var(--brand);border-style:solid}
+@media (hover:none){ .insertgap button{opacity:1} }
+
+.shlist{max-height:46vh;overflow:auto;border:1px solid var(--line);border-radius:10px;
+  background:#fbfdfa;padding:6px;margin-top:10px}
+.shhead{font-size:10px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  color:#fff;background:var(--teal);border-radius:5px;padding:4px 9px;margin:8px 2px 5px}
+.shhead:first-child{margin-top:2px}
+.shrow{display:grid;grid-template-columns:1fr 128px 30px;gap:8px;align-items:center;
+  padding:5px 8px;border-radius:6px}
+.shrow:hover{background:#f1f6ef}
+.shrow.edited{background:#fdfaf1}
+.shrow .shn{font-size:13px;color:var(--ink);overflow:hidden}
+.shrow .shfrom{display:block;font-size:10.5px;color:var(--faint)}
+.shrow .shtag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:#7a5f10;background:#f5eed9;border-radius:4px;
+  padding:1px 5px;margin-left:6px}
+.shrow .shq{display:flex;align-items:center;gap:5px;justify-content:flex-end}
+.shrow .shq input{width:78px;padding:4px 7px;font-size:13px;text-align:right}
+.shrow .shu{font-size:11px;color:var(--faint)}
+.shrow .shtaste{font-size:11.5px;color:var(--muted)}
+.shrow .shx{background:none;border:none;color:var(--faint);cursor:pointer;font-size:13px;
+  padding:3px}
+.shrow .shx:hover{color:#b3261e}
+.shadd{display:grid;grid-template-columns:1fr 110px auto;gap:7px;margin-top:10px}
+@media(max-width:760px){ .shrow{grid-template-columns:1fr auto 26px}
+  .shadd{grid-template-columns:1fr} }
+.addmeal{width:100%;padding:13px;border:1px dashed var(--line);border-radius:12px;background:transparent;color:var(--muted);font-size:13px;letter-spacing:.5px;transition:.15s}
+.addmeal:hover{border-color:var(--teal);color:var(--teal)}
+
+/* Exclusions */
+.exgrid{display:flex;flex-wrap:wrap;gap:7px}
+.ex{padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:#f4f7f0;font-size:12px;color:var(--muted);transition:.15s}
+.ex:hover{color:var(--ink)}
+.ex.on{background:rgba(255,131,0,.14);border-color:var(--red);color:#c05400;text-decoration:line-through}
+
+
+/* Running totals, pinned once the full panel has scrolled out of view.
+   position:sticky cannot be used here — overflow-x:hidden on the body (needed
+   to stop sideways scrolling on a phone) stops sticky working at all. Fixed to
+   the viewport is immune to that. */
+/* Running totals. Always on screen, using the same colours as the rest of the
+   app: teal when it lands, amber when short, orange when over — the carb key
+   language the kitchen already reads. */
+.stickytotals{position:fixed;top:0;left:0;right:0;z-index:45;
+  display:flex;align-items:stretch;gap:0;
+  background:#fff;border-bottom:1px solid var(--line);padding:0 16px;
+  box-shadow:0 2px 16px rgba(20,30,22,.1);
+  padding-top:env(safe-area-inset-top, 0px)}
+body{padding-top:76px}
+@media(max-width:760px){ body{padding-top:calc(64px + env(safe-area-inset-top, 0px))} }
+
+.stickytotals .st-day{display:flex;align-items:center;font-weight:700;font-size:12px;
+  letter-spacing:1.4px;text-transform:uppercase;color:var(--ink);
+  padding:0 20px 0 4px;white-space:nowrap;border-right:1px solid var(--line)}
+.stickytotals .st-k,.stickytotals .st-m{flex:1;padding:11px 14px 12px;
+  border-right:1px solid var(--line)}
+.stickytotals .st-m:last-child{border-right:none}
+.stickytotals .st-lbl{display:block;font-size:10px;font-weight:700;letter-spacing:1.1px;
+  text-transform:uppercase;color:var(--faint);margin-bottom:3px}
+.stickytotals .st-num{display:block;font-size:19px;font-weight:700;line-height:1.05;
+  color:var(--ink);letter-spacing:-.4px}
+.stickytotals .st-num i{font-style:normal;font-weight:400;font-size:13px;color:var(--faint)}
+.stickytotals .st-bar{display:block;height:6px;border-radius:3px;margin:7px 0 4px;
+  background:#e8eee4;overflow:hidden;position:relative}
+.stickytotals .st-bar b{display:block;height:100%;border-radius:3px;
+  transition:width .2s ease;background:var(--teal)}
+.stickytotals .st-bar u{position:absolute;top:0;right:0;height:100%;background:var(--red)}
+.stickytotals .st-gap{display:block;font-size:11.5px;font-weight:700;letter-spacing:.1px}
+
+.stickytotals .on   .st-bar b{background:var(--teal)}
+.stickytotals .on   .st-gap{color:var(--teal)}
+.stickytotals .under .st-bar b{background:var(--amber)}
+.stickytotals .under .st-gap{color:var(--amber)}
+.stickytotals .over  .st-bar b{background:var(--red)}
+.stickytotals .over  .st-gap{color:var(--red)}
+.stickytotals .on .st-num,.stickytotals .under .st-num,.stickytotals .over .st-num{color:var(--ink)}
+
+@media(max-width:760px){
+  .stickytotals{padding:0 4px}
+  .stickytotals .st-day{display:none}
+  .stickytotals .st-k,.stickytotals .st-m{padding:8px 7px 9px}
+  .stickytotals .st-lbl{font-size:8.5px;letter-spacing:.5px;margin-bottom:2px}
+  .stickytotals .st-num{font-size:15px}
+  .stickytotals .st-num i{font-size:10.5px}
+  .stickytotals .st-bar{height:5px;margin:5px 0 3px}
+  .stickytotals .st-gap{font-size:10px}
+}
+.daysummary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.sumcard{flex:1;min-width:90px;background:#f4f7f0;border:1px solid var(--line);border-radius:12px;padding:11px 14px;text-align:center}
+.sumcard .v{font-size:20px;font-weight:300}
+.sumcard .l{font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--faint);margin-top:2px}
+.sumcard.match .v{font-size:16px}
+.hint.okhint{color:var(--green)}
+.hint{font-size:11px;color:var(--faint);margin-top:8px;line-height:1.5}
+.footer{margin-top:30px;text-align:center;color:var(--faint);font-size:11px;letter-spacing:.5px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--teal);color:#e4f1e0;padding:12px 20px;border-radius:12px;font-weight:600;font-size:13px;opacity:0;transition:.3s;pointer-events:none;z-index:99;box-shadow:var(--shadow)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.cleardaybtn{color:#b3261e!important}
+.methodtick{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted);
+  cursor:pointer;white-space:nowrap;padding:6px 10px;border:1px dashed var(--line);
+  border-radius:8px}
+.methodtick:hover{border-color:var(--brand);color:var(--brand)}
+.copyfromall{font-size:11px;color:var(--teal);background:none;border:none;letter-spacing:.5px}
+
+/* ---- responsive: must come last so it overrides the sticky sidebar ---- */
+
+
+/* ============ iPHONE HARDENING ============
+   Three things break a layout on a phone even when the columns are right. */
+@media(max-width:760px){
+
+  /* 1. iOS zooms the page whenever you focus a field smaller than 16px, and it
+        never zooms back out. Everything after that looks broken. 16px stops it. */
+  input,select,textarea,.inp{font-size:16px!important}
+
+  /* 2. A grid or flex child will not shrink below its content by default, so one
+        wide table or long word pushes the whole page out and the rest gets
+        squashed. min-width:0 lets them shrink. */
+  .grid,.grid>*,.card,.bd,.meal,.recipeblock,.mbody,.pmpane,.modal{min-width:0}
+  .meal,.recipeblock,.card{overflow-wrap:anywhere}
+
+  /* 3. Wide tables scroll sideways on their own rather than stretching the page */
+  .ingmacros{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .ingmacros table{min-width:420px}
+  .sctab{min-width:0}
+
+
+  /* ---- the meal header ----
+     The base rule is ".meal .mhd", so a plain ".mhd" override never took. On a
+     phone the name, the time selects, the carb tag and the tool buttons cannot
+     share one row: the tag was getting squeezed to one letter per line. */
+  .meal .mhd{flex-wrap:wrap;row-gap:10px;padding:12px 14px;align-items:flex-start}
+  .meal .mhd .mname{flex:1 1 100%;min-width:0;font-size:16px}
+  .meal .mhd .time{flex:0 0 auto}
+  .meal .mhd .carbtag{flex:0 0 auto;white-space:nowrap;margin-left:auto;align-self:center}
+  .meal .mhd .mtools{flex:1 1 100%;margin-left:0;justify-content:flex-start;flex-wrap:wrap}
+  .meal .statusbar{margin:-12px 4px -12px -6px}
+
+  /* ---- the day summary cards ----
+     Four across is unreadable at this width; two is fine. */
+  
+/* Running totals, pinned once the full panel has scrolled out of view.
+   position:sticky cannot be used here — overflow-x:hidden on the body (needed
+   to stop sideways scrolling on a phone) stops sticky working at all. Fixed to
+   the viewport is immune to that. */
+.stickytotals{position:fixed;top:0;left:0;right:0;z-index:45;
+  display:flex;align-items:center;gap:0;
+  background:var(--brand,#007934);color:#fff;
+  border-bottom:1px solid rgba(0,0,0,.12);padding:0 18px;
+  box-shadow:0 2px 14px rgba(20,30,22,.18);
+  padding-top:env(safe-area-inset-top, 0px)}
+/* the page sits below it rather than under it */
+body{padding-top:52px}
+@media(max-width:760px){ body{padding-top:calc(46px + env(safe-area-inset-top, 0px))} }
+.stickytotals .st-day{font-weight:700;font-size:11.5px;letter-spacing:1.2px;
+  text-transform:uppercase;opacity:.82;padding:0 18px 0 0;white-space:nowrap}
+/* each figure gets its own share of the width, so the eye lands on it rather
+   than hunting in the corner */
+.stickytotals .st-k,.stickytotals .st-m{flex:1;text-align:center;padding:8px 10px 9px;
+  font-size:15px;font-weight:700;border-left:1px solid rgba(255,255,255,.18)}
+.stickytotals .st-num{display:block;line-height:1.1}
+/* a bar reads faster than two numbers to subtract */
+.stickytotals .st-bar{display:block;height:4px;border-radius:2px;margin:5px 0 3px;
+  background:rgba(255,255,255,.22);overflow:hidden;position:relative}
+.stickytotals .st-bar b{display:block;height:100%;background:#fff;border-radius:2px;
+  transition:width .18s ease}
+.stickytotals .st-bar u{position:absolute;top:0;right:0;height:100%;
+  background:#ff9b8c;border-radius:2px}
+.stickytotals .st-gap{display:block;font-size:9.5px;font-weight:600;letter-spacing:.3px;
+  opacity:.9;text-transform:none}
+.stickytotals .under .st-bar b{background:#ffd98a}
+.stickytotals .over .st-bar b{background:#ffb3a8}
+.stickytotals .st-lbl{display:block;font-size:9.5px;font-weight:700;letter-spacing:1px;
+  text-transform:uppercase;opacity:.72;margin-bottom:2px}
+.stickytotals i{font-style:normal;font-weight:400;opacity:.68;font-size:12px}
+.stickytotals .on{color:#fff}
+.stickytotals .under{color:#ffd98a}
+.stickytotals .over{color:#ffb3a8}
+@media(max-width:760px){
+  .stickytotals{padding:0 6px}
+  .stickytotals .st-day{display:none}
+  .stickytotals .st-k,.stickytotals .st-m{font-size:13px;padding:6px 4px 7px}
+  .stickytotals .st-bar{height:3px;margin:3px 0 2px}
+  .stickytotals .st-gap{font-size:8.5px}
+  .stickytotals .st-lbl{font-size:8.5px;letter-spacing:.6px}
+  .stickytotals i{font-size:10.5px}
+}
+.daysummary{gap:8px}
+  .daysummary .sumcard{flex:1 1 calc(50% - 4px);min-width:0;padding:9px 8px}
+  .daysummary .sumcard .v{font-size:17px}
+  .daysummary .sumcard .l{font-size:8.5px;letter-spacing:1px}
+
+  .tsel{font-size:16px!important;padding:5px 2px}
+
+  .topbar{gap:10px}
+  .daytabs{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;padding-bottom:4px}
+  .daytabs::-webkit-scrollbar{display:none}
+  .daytabs>*{flex:0 0 auto}
+  .mtools{flex-wrap:wrap;gap:5px}
+  .mtools .icb{flex:0 0 auto}
+  .defaultbar{max-width:100%}
+  .wrap{padding:14px 12px 70px}
+}
+
+/* ============ PHONES AND SMALL TABLETS ============
+   Most of the newer panels are laid out on fixed column widths, which is right
+   on a laptop and overflows on a phone. Below 760px they stack instead.
+   Inline grid-template-columns on the form rows needs !important to beat them. */
+@media(max-width:760px){
+  .modal{max-width:96vw!important;width:96vw;max-height:92vh;overflow:auto}
+  .mbody{max-height:none}
+
+  /* form rows: one field per line */
+  .cmrow{grid-template-columns:1fr!important;gap:10px!important}
+
+  /* player screen */
+  .pmtabs{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none}
+  .pmtabs::-webkit-scrollbar{display:none}
+  .pmtab{white-space:nowrap;padding:8px 11px;font-size:12.5px}
+  .pmdayrow{grid-template-columns:1fr 1fr;gap:6px}
+  .pmdayname{grid-column:1 / -1;font-size:12.5px}
+  .pmdaykcal{grid-column:1 / -1;text-align:left}
+  .pmdaycell input{width:100%}
+  .pmfav,.pmavoid{flex-wrap:wrap}
+  .pmfav .cat,.pmavoid .sev{min-width:0;width:100%}
+
+  /* recipe and supplement database */
+  .rdbbar{grid-template-columns:1fr 1fr;gap:6px}
+  .rdbbar input{grid-column:1 / -1}
+  .rdbcount{grid-column:1 / -1;padding-left:0}
+  
+.valhead{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 12px;background:#f7faf5;border:1px solid var(--line);border-radius:10px;
+  margin-bottom:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.valhead b{color:var(--ink)}
+.vhtoggle{display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap}
+.valrow{display:grid;grid-template-columns:1fr 110px 120px 64px auto;gap:12px;
+  align-items:center;padding:10px 12px;border-bottom:1px solid var(--line)}
+.valrow:last-child{border-bottom:none}
+.valrow.off{background:#fdf6f5}
+.valrow.near{background:#fffaf2}
+.valrow .vn b{display:block;font-size:13.5px;color:var(--ink)}
+.valrow .vdone{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;color:#2c7a1c;background:#eaf6ed;border-radius:4px;
+  padding:1px 6px;margin-top:3px}
+.valrow .vzero{display:inline-block;font-size:10.5px;color:#b3261e;margin-top:3px}
+.valrow .vnum{font-size:13px;color:var(--ink);text-align:right}
+.valrow .vl{display:block;font-size:9.5px;font-weight:700;letter-spacing:.5px;
+  text-transform:uppercase;color:var(--faint)}
+.valrow .vgap{font-size:14px;font-weight:700;text-align:right}
+.valrow .vgap.ok{color:#0a7a33}
+.valrow .vgap.near{color:#a85c00}
+.valrow .vgap.off{color:#b3261e}
+.valrow .vact{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:760px){ .valrow{grid-template-columns:1fr 1fr}
+  .valrow .vn{grid-column:1 / -1} .valrow .vact{grid-column:1 / -1} }
+.rdbrow{grid-template-columns:1fr;gap:5px;padding:12px}
+  .rdbrow .ra{flex-wrap:wrap}
+  .rdbrow .ra button{flex:1;min-width:88px}
+  .rdbtable{max-height:60vh}
+  .rdbtools button{flex:1 1 44%}
+
+  /* supplements inside a day */
+  .supp{grid-template-columns:1fr 1fr;gap:8px}
+  .supp .sptime{grid-column:1 / -1}
+  .supp .spname{grid-column:1 / -1}
+  .supp .spdose input{width:100%}
+  .supp .spdel{position:absolute;top:8px;right:8px}
+  .supp{position:relative}
+  .suppbar{flex-wrap:wrap}
+
+  /* the ingredient menu has to stay on screen */
+  .swapmenu{position:fixed;left:3vw;right:3vw;top:auto;bottom:12px;min-width:0;
+    width:94vw;max-height:70vh}
+  .ings li .swapbtn{opacity:1}
+  .scamt{gap:6px}
+  .scamt input{width:88px}
+  .sctab{font-size:11.5px}
+
+  /* exclusion tags */
+  .extag{font-size:12px;padding:6px 11px}
+}
+
+/* very narrow phones */
+@media(max-width:400px){
+  .pmdayrow{grid-template-columns:1fr}
+  .supp{grid-template-columns:1fr}
+  .rdbbar{grid-template-columns:1fr}
+  .rdbtools button{flex:1 1 100%}
+}
+@media(max-width:1040px){
+  .grid{grid-template-columns:1fr}
+  .side{position:static !important;top:auto !important}
+}
+@media(max-width:780px){
+  .wrap{padding:16px 12px 60px}
+  .daytargets{min-width:560px}          /* the grid scrolls sideways inside its own box */
+  .dtwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .topbar{flex-wrap:wrap;gap:10px}
+  .altselect{max-width:100%}
+  .mealtop{flex-direction:column}
+  .macbox.static .macrow{display:flex;align-items:center;justify-content:space-between;
+  gap:10px;padding:5px 0}
+.macbox.static .mval{font-size:17px;font-weight:700;color:var(--ink);letter-spacing:-.3px}
+.macbox.static .mval .u{font-size:11px;font-weight:400;color:var(--faint);margin-left:2px}
+.macbox{width:100%}
+  .recipeblock{min-width:0}
+  .ingmacros table{font-size:11.5px}
+  .ingmacros th,.ingmacros td{padding:5px 6px}
+  .cmrow{grid-template-columns:1fr}
+  .dtwrap{margin-left:-4px;margin-right:-4px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">
+      <img id="brandlogo" alt="Close Nutrition">
+      <div>
+        <h1>PERFORMANCE PLAN BUILDER</h1>
+        <div class="sub">Close Nutrition · Prof. Graeme Close</div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <span class="whoami" id="whoami"></span><button class="btn ghost" id="resetBtn">Reset week</button>
+    <button class="btn small" id="chefNotesBtn" type="button">✎ Notes for the chef</button>
+    <button class="btn" id="exportPlayerBtn">⤓ Player phone</button>
+    <button class="btn" id="exportPhoneBtn">⤓ Full phone</button>
+    <button class="btn primary" id="exportBtn">⤓ Export PDF</button>
+  </div>
+
+  <div class="grid">
+    <!-- SIDE -->
+    <div class="side">
+      <div class="card">
+        <div class="hd"><h3>Athlete &amp; Week</h3></div>
+        <div class="bd">
+          <label class="fl" for="playerSel">Player</label>
+          <div class="prow">
+            <select class="inp" id="playerSel"><option value="">— New / unsaved —</option></select>
+            <button class="btn small" id="managePlayers" type="button" title="Everything about this player — targets, foods they avoid, notes">Player data</button>
+          </div>
+          <label class="fl" for="playerName">Name on the plan</label>
+          <input class="inp" id="playerName" type="text" placeholder="e.g. Tosin Adarabioyo">
+          <label class="fl" for="bodyweight">Body weight (kg)</label>
+          <input class="inp" id="bodyweight" type="number" step="0.5" placeholder="e.g. 90">
+          <label class="fl" for="weekStart">Week commencing</label>
+          <div class="prow">
+            <input class="inp" id="weekStart" type="date">
+            <button class="btn small primary" id="applyWeek" type="button">Apply</button>
+          </div>
+          <div class="quickwk">
+            <button class="qw" data-wk="0" type="button">This week</button>
+            <button class="qw" data-wk="1" type="button">Next week</button>
+            <button class="qw" data-wk="-1" type="button">Last week</button>
+          </div>
+          <div class="librow">
+            <button class="btn small" id="saveWeek" type="button">💾 Save week</button>
+            <button class="btn small" id="openWeek" type="button">📂 Saved weeks</button>
+          </div>
+          <div class="librow">
+            <button class="btn small" id="saveAsNew" type="button" style="display:none">＋ Save as new week</button>
+          </div>
+          <div class="hint" id="weekHint">Save the week against a player, then reopen or reuse it later.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hd"><h3>Recipe Library</h3></div>
+        <div class="bd">
+          <div class="libstat" id="libStatus">Loading…</div>
+          <button class="btn primary" id="openRecipeDb" style="width:100%" type="button">Recipe database</button>
+          <button class="btn small" id="openSuppDb" style="width:100%;margin-top:6px" type="button">Supplements</button>
+          <div class="hint">Add, edit and import recipes and foods in the database. Everything
+            saved there is shared with everyone using this link.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="hd"><h3>Exclude Ingredients</h3></div>
+        <div class="bd">
+          <div class="exgrid" id="exclusions"></div>
+          <div class="hint">Tap to remove any recipe containing that ingredient from the auto-match.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+      <!-- empty state (before generation) -->
+      <div class="emptystate" id="emptyState">
+        <h2>Build a performance nutrition plan</h2>
+        <p>Set body weight (left) and the default daily targets below — that alone builds the whole week. Or go day-by-day and give any day its own targets. Either way you can fine-tune every day and meal after generating.</p>
+        <div class="defaultbar">
+          <div class="defhd"><span>Default daily targets</span><span class="sub">used for every day unless you override it below</span></div>
+          <div class="macrogrid" id="macroEditor"></div>
+          <div class="deffoot">
+            <div class="kcaltotal"><span class="l">Total energy</span><span class="v" id="kcalTotal">0 kcal</span></div>
+            <button class="btn small" id="fillAllDays" type="button">↧ Fill all days from these</button>
+          </div>
+        </div>
+        <div class="dtwrap"><table class="daytargets" id="dayTargetGrid"></table></div>
+        <button class="gen-big" id="generateBtnMain">Generate plan →</button>
+      </div>
+
+      <!-- plan area (after generation) -->
+      <div id="planArea" style="display:none">
+        <div class="daytabs" id="dayTabs"></div>
+
+        <div class="dayhd">
+          <div class="title" id="dayTitle"></div>
+          <div class="spacer" style="flex:1"></div>
+          <div class="chipset" id="dayTypeChips"></div>
+        </div>
+
+        <div class="dayeditor" id="dayEditor"></div>
+        <div class="stickytotals" id="stickyTotals"></div>
+        <div class="daysummary" id="daySummary"></div>
+
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <label class="fl" style="margin:0">Meals &amp; snacks</label>
+          <button class="copyfromall" id="applyAll">↳ Apply this day's targets to whole week</button>
+          <button class="copyfromall cleardaybtn" id="clearDayBtn">✕ Nothing planned this day</button>
+        </div>
+        <div id="meals"></div>
+        <div class="addrow">
+          <button class="addmeal" id="shopBtn">🛒 Shopping list</button>
+          <button class="addmeal" id="addMealBtn">+ Add a meal</button>
+          <button class="addmeal" id="addSnack">+ Add a snack</button>
+          <button class="addmeal alt" id="addCustom">✎ Build a new recipe</button>
+        </div>
+
+        <div class="footer">
+          Auto-matched from the Close Nutrition recipe book · every ingredient scaled to your macros using McCance &amp; Widdowson (2021) values<br>
+          Carb status &nbsp;<span style="color:#c05400">● Low &lt;40g</span> &nbsp; <span style="color:#8a6000">● Medium 40–70g</span> &nbsp; <span style="color:#2c7a1c">● High &gt;70g</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+  <div class="authwrap" id="authScreen" style="display:none">
+    <div class="authbox">
+      <img id="authlogo" alt="Close Nutrition">
+      <h2>Performance Plan Builder</h2>
+      <p class="authsub">Sign in to continue</p>
+      <label class="fl">Email</label>
+      <input class="inp" id="authEmail" type="email" autocomplete="username" placeholder="you@example.com">
+      <label class="fl">Password</label>
+      <input class="inp" id="authPass" type="password" autocomplete="current-password" placeholder="••••••••">
+      <button class="gen-big" id="authBtn" style="width:100%;margin-top:14px">Sign in</button>
+      <div class="autherr" id="authErr" style="display:none"></div>
+      <div class="authnote">Accounts are created by your administrator. If you can't get in, ask them to add your email.</div>
+    </div>
+  </div>
+
+  <!-- bulk import -->
+  <div class="modalwrap" id="bulkModal" style="display:none">
+    <div class="modal" style="max-width:760px">
+      <div class="mhead"><h3>Bulk import</h3><button class="mclose" id="bkClose">✕</button></div>
+      <div class="mbody">
+        <div class="fmtabs">
+          <button class="fmtab on" id="bkTabRec" type="button">Recipes</button>
+          <button class="fmtab" id="bkTabFood" type="button">Foods &amp; products</button>
+        </div>
+
+        <div class="bkguide" id="bkGuideRec">
+          <b>How the recipe sheet must look</b>
+          <table class="bkcols">
+            <tr><td>Recipe Name</td><td>required</td><td>e.g. Chicken &amp; Rice Power Bowl</td></tr>
+            <tr><td>Category</td><td>required</td><td>BREAKFAST · SMOOTHIE · SNACK · LUNCH &amp; DINNER</td></tr>
+            <tr><td>Servings</td><td>required</td><td>how many portions the amounts make</td></tr>
+            <tr><td>Ingredients</td><td>required</td><td>one per line in the cell — <b>amount then food</b></td></tr>
+            <tr><td>Method</td><td>optional</td><td>one step per line</td></tr>
+            <tr><td>Kcal / Carbs / Fats / Protein</td><td>optional</td><td>leave blank — worked out from the ingredients</td></tr>
+          </table>
+          <div class="bknote">Write ingredients the way you'd say them: <b>150g chicken breast</b>, <b>1 tbsp olive oil</b>, <b>2 eggs</b>, <b>200ml semi skimmed milk</b>. Use Alt+Enter for a new line inside a cell. If you fill in the macro columns we'll compare them to the ingredients and flag any disagreement.</div>
+        </div>
+
+        <div class="bkguide" id="bkGuideFood" style="display:none">
+          <b>How the food sheet must look</b>
+          <table class="bkcols">
+            <tr><td>Food Name</td><td>required</td><td>e.g. Chocolate Protein Bar</td></tr>
+            <tr><td>Brand</td><td>optional</td><td>e.g. Client Nutrition</td></tr>
+            <tr><td>Per</td><td>required</td><td><b>100g</b> or <b>serving</b> — whichever the label shows</td></tr>
+            <tr><td>Serving grams</td><td>if per serving</td><td>what one bar / scoop / bottle weighs</td></tr>
+            <tr><td>Protein / Carbs / Fat / Calories</td><td>required</td><td>straight off the packet</td></tr>
+            <tr><td>Measured in</td><td>required</td><td><b>g</b> for solids, <b>ml</b> for liquids</td></tr>
+            <tr><td>Piece name</td><td>optional</td><td>bar, scoop, sachet, bottle</td></tr>
+            <tr><td>Portioning</td><td>optional</td><td>free · half · whole (whole = never split a bar)</td></tr>
+          </table>
+        </div>
+
+        <ol class="bksteps">
+          <li><b>Start from the template.</b> It has the right columns and three
+              worked examples to type over.</li>
+          <li><b>One recipe per row.</b> Ingredients go one per line inside the
+              single Ingredients cell — press <b>Alt + Enter</b> for a new line
+              (<b>Ctrl + Option + Enter</b> on a Mac).</li>
+          <li><b>Servings is what the amounts make</b>, not what one person eats.
+              Twelve energy balls means 12.</li>
+          <li><b>Leave the macro columns blank.</b> They are worked out from the
+              ingredients. Fill them in only if you want them checked against.</li>
+          <li><b>Bring it in</b> — choose the file below, or just copy the rows
+              in Excel and paste them in. Pasting works, and saves converting
+              to CSV.</li>
+          <li><b>Check before importing.</b> Anything unrecognised is flagged and
+              can be fixed here. Nothing is saved until you press Import.</li>
+        </ol>
+
+        <div class="bkrow">
+          <button class="btn small" id="bkTemplate" type="button">⬇ Download the template</button>
+          <label class="btn small bkfile">⬆ Choose a CSV file<input type="file" id="bkFile" accept=".csv,text/csv" hidden></label>
+          <button class="btn small" id="bkBuiltin" type="button">Load the 74 built-in</button>
+        </div>
+        <label class="fl">…or paste rows straight from the spreadsheet (include the header row)</label>
+        <textarea class="inp ta" id="bkPaste" rows="4" placeholder="Paste here"></textarea>
+        <button class="btn" id="bkCheck" type="button">Check these rows</button>
+        <div class="bksum" id="bkSummary" style="display:none"></div>
+        <div class="bklist" id="bkList"></div>
+      </div>
+      <div class="mfoot">
+        <button class="btn" id="bkCancel">Close</button>
+        <label class="bkreplace" style="display:none">
+          <input type="checkbox" id="bkReplace">
+          <span id="bkReplaceLabel">Replace the ones that already exist and have changed</span>
+        </label>
+        <button class="btn primary" id="bkImport" style="display:none">Import selected</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- players -->
+  <!-- ======== RECIPE DATABASE ======== -->
+  <!-- ======== EDIT A RECIPE ======== -->
+  <!-- ======== ADD A MEAL ======== -->
+  <!-- ======== SHOPPING LIST ======== -->
+  <div class="modalwrap" id="shopModal" style="display:none">
+    <div class="modal" style="max-width:720px">
+      <div class="mhead"><h3>Shopping list</h3><button class="mclose" id="shClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmhint">Everything in the week, added up. Change an amount or take
+          something off and it stays changed when you export. Days with nothing planned
+          are left out.</div>
+        <div class="shlist" id="shopList"></div>
+        <div class="shadd">
+          <input class="inp" id="shAddName" placeholder="Add something that is not in a recipe…">
+          <input class="inp" id="shAddQty" type="number" placeholder="grams" min="0" step="5">
+          <button class="btn small" id="shAdd" type="button">Add</button>
+        </div>
+      </div>
+      <div class="mfoot">
+        <button class="btn ghost" id="shReset" type="button">Rebuild from the plan</button>
+        <button class="btn primary" id="shDone">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalwrap" id="addMealModal" style="display:none">
+    <div class="modal" style="max-width:720px">
+      <div class="mhead"><h3>Add to this day</h3><button class="mclose" id="amClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmrow" style="grid-template-columns:1.2fr 100px 1fr">
+          <div><label class="fl">Call it</label>
+            <input class="inp" id="amName" placeholder="Breakfast, Snack, Lunch…"></div>
+          <div><label class="fl">Time</label><input class="inp" id="amTime" placeholder="10:30"></div>
+          <div><label class="fl">Kind</label>
+            <select class="inp" id="amCat">
+              <option value="breakfast">Breakfast</option>
+              <option value="smoothie">Smoothie</option>
+              <option value="snack">Snack</option>
+              <option value="lunchdinner">Lunch / dinner</option>
+            </select></div>
+        </div>
+        <label class="amalong"><input type="checkbox" id="amAlongside">
+          Alongside the meal above — same sitting, shown as one meal</label>
+
+        <label class="fl" style="margin-top:12px">Choose from the library</label>
+        <input class="inp" id="amSearch" placeholder="Search by name or ingredient…" autocomplete="off">
+        <div class="amhint">Closest to what the day is still short of, first.</div>
+        <div class="amlist" id="amList"></div>
+        <input type="hidden" id="amPicked">
+      </div>
+      <div class="mfoot">
+        <button class="btn ghost" id="amCancel">Cancel</button>
+        <button class="btn primary" id="amAdd">Add it</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalwrap" id="recEditModal" style="display:none">
+    <div class="modal" style="max-width:900px">
+      <div class="mhead"><h3 id="reTitle">Edit recipe</h3><button class="mclose" id="reClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmrow" style="grid-template-columns:1fr 170px 120px">
+          <div><label class="fl">Name</label><input class="inp" id="reName"></div>
+          <div><label class="fl">Meal type</label>
+            <select class="inp" id="reSlot">
+              <option value="breakfast">Breakfast</option>
+              <option value="smoothie">Smoothie</option>
+              <option value="snack">Snack</option>
+              <option value="lunchdinner">Lunch / dinner</option>
+            </select></div>
+          <div><label class="fl">Servings</label><input class="inp" id="reServ" type="number" min="1" step="1"></div>
+        </div>
+
+        <label class="fl" style="margin-top:12px">Ingredients</label>
+        <div id="reIngs" class="reings"></div>
+        <div class="readdrow">
+          <input class="inp" id="reAddSearch" placeholder="Add an ingredient — start typing" autocomplete="off">
+          <div class="acbox" id="reAddAC" style="display:none"></div>
+        </div>
+        <div class="remacros" id="reMacros"></div>
+        <div class="reflag" id="reFlag" style="display:none"></div>
+
+        <label class="fl" style="margin-top:12px">Method — one step per line</label>
+        <textarea class="inp" id="reMethod" rows="6"></textarea>
+        <input type="hidden" id="reId">
+      </div>
+      <div class="mfoot refoot">
+        <button class="btn danger" id="reArchive" type="button">Archive</button>
+        <span class="respacer"></span>
+        <button class="btn ghost" id="reCancel">Cancel</button>
+        <button class="btn" id="reSave">Save</button>
+        <button class="btn primary" id="reSaveCheck" style="display:none">Save &amp; mark checked</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalwrap" id="chefNotesModal" style="display:none">
+    <div class="modal" style="max-width:620px">
+      <div class="mhead"><h3>Notes for the chef</h3><button class="mclose" id="cnClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmhint">All of this prints on the one Notes to Chefs page.</div>
+        <label class="fl" style="margin-top:10px">This week</label>
+        <textarea class="inp" id="chefNotes" rows="6" placeholder="Cook the chicken without oil — he does not like it browned.
+Rice can be made in bulk on Sunday for the week.
+Everything dairy must be lactose free."></textarea>
+        <label class="fl" style="margin-top:14px">Standing note about the carb coding</label>
+        <textarea class="inp" id="chefIntro" rows="4"></textarea>
+        <label class="fl" style="margin-top:14px">Ball-park carb sources — one per line</label>
+        <textarea class="inp" id="chefRefs" rows="5"></textarea>
+      </div>
+      <div class="mfoot"><button class="btn ghost" id="cnReset">Reset the standing notes</button><button class="btn" id="cnCancel">Cancel</button><button class="btn primary" id="cnSave">Save</button></div>
+    </div>
+  </div>
+
+  <div class="modalwrap" id="recipeDbModal" style="display:none">
+    <div class="modal" style="max-width:1000px">
+      <div class="mhead"><h3>Recipe database</h3><button class="mclose" id="rdbClose">✕</button></div>
+      <div class="mbody">
+        <div class="rdbtools">
+          <button class="btn primary small" id="newRecipeBtn" type="button">+ New recipe</button>
+          <button class="btn small" id="newFoodBtn" type="button">+ Add a food</button>
+          <button class="btn small" id="bulkBtn" type="button">&#8682; Import from a spreadsheet</button>
+          <button class="btn small" id="refreshLib" type="button">&#8635; Refresh</button>
+          <button class="btn small ghost" id="rdbExportR" type="button">&#8681; Back up recipes</button>
+          <button class="btn small ghost" id="rdbExportF" type="button">&#8681; Back up foods</button>
+        </div>
+        <div class="rdbbar">
+          <input class="inp" id="rdbSearch" placeholder="Search by name…" autocomplete="off">
+          <select class="inp" id="rdbSlot">
+            <option value="">All meal types</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="smoothie">Smoothie</option>
+            <option value="snack">Snack</option>
+            <option value="lunchdinner">Lunch / dinner</option>
+          </select>
+          <select class="inp" id="rdbView">
+            <option value="active">In use</option>
+            <option value="review">Needs checking</option>
+            <option value="validate">Check the numbers</option>
+            <option value="archived">Archived</option>
+          </select>
+          <span class="rdbcount" id="rdbCount"></span>
+        </div>
+        <div class="rdbtable" id="rdbList"></div>
+      </div>
+      <div class="mfoot"><button class="btn" id="rdbDone">Done</button></div>
+    </div>
+  </div>
+
+  <!-- ======== SUPPLEMENTS ======== -->
+  <div class="modalwrap" id="suppModal" style="display:none">
+    <div class="modal" style="max-width:900px">
+      <div class="mhead"><h3>Supplements</h3><button class="mclose" id="spClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmhint">Things that are not food. Anything with real nutrition — whey,
+          carbohydrate powder, recovery shakes — belongs in the food library instead, so it
+          counts towards the day&rsquo;s macros.</div>
+        <div class="rdbtable" id="spList" style="margin-top:10px"></div>
+        <hr class="pmhr">
+        <div id="spFormTitle" class="fl">Add a supplement</div>
+        <div class="cmrow" style="grid-template-columns:1fr 140px 84px 96px 150px">
+          <div><label class="fl">Name</label><input class="inp" id="spName" placeholder="e.g. Creatine Monohydrate"></div>
+          <div><label class="fl">Brand</label><input class="inp" id="spBrand" placeholder="optional"></div>
+          <div><label class="fl">Dose</label><input class="inp" id="spDose" type="number" step="0.5" min="0" placeholder="5"></div>
+          <div><label class="fl">Unit</label>
+            <select class="inp" id="spUnit">
+              <option value="g">g</option><option value="mg">mg</option>
+              <option value="ug">µg</option><option value="ml">ml</option>
+              <option value="capsule">capsule</option><option value="tablet">tablet</option>
+              <option value="scoop">scoop</option><option value="sachet">sachet</option>
+              <option value="gel">gel</option><option value="IU">IU</option>
+            </select></div>
+          <div><label class="fl">When</label><select class="inp" id="spSlot"></select></div>
+        </div>
+        <label class="fl" style="margin-top:8px">Notes</label>
+        <input class="inp" id="spNotes" placeholder="optional">
+        <input type="hidden" id="spId">
+      </div>
+      <div class="mfoot"><button class="btn" id="spCancel">Clear</button><button class="btn primary" id="spSave">Save supplement</button></div>
+    </div>
+  </div>
+
+  <div class="modalwrap" id="playerModal" style="display:none">
+    <div class="modal" style="max-width:620px">
+      <div class="mhead"><h3>Players</h3><button class="mclose" id="pmClose">✕</button></div>
+      <div class="mbody">
+        <div class="pmlist" id="pmList"></div>
+        <hr class="pmhr">
+        <div class="pmhead">
+          <div id="pmFormTitle" class="fl">Add a player</div>
+          <button class="btn small" id="pmNew" type="button">+ Add a new player</button>
+        </div>
+
+        <div class="pmtabs">
+          <button class="pmtab on" data-tab="pmTabAbout">About</button>
+          <button class="pmtab" data-tab="pmTabTargets">Targets by day</button>
+          <button class="pmtab" data-tab="pmTabAvoid">Foods to avoid</button>
+          <button class="pmtab" data-tab="pmTabFavs">Favourite meals</button>
+          <button class="pmtab" data-tab="pmTabSupps">Supplements</button>
+          <button class="pmtab" data-tab="pmTabWeeks">Previous weeks</button>
+          <button class="pmtab" data-tab="pmTabNotes">Notes</button>
+        </div>
+
+        <!-- ABOUT -->
+        <div class="pmpane" id="pmTabAbout">
+          <div class="cmrow" style="grid-template-columns:1fr 130px 130px">
+            <div><label class="fl">Name</label><input class="inp" id="pmName" placeholder="e.g. Tosin Adarabioyo"></div>
+            <div><label class="fl">Body weight (kg)</label><input class="inp" id="pmBw" type="number" step="0.5" placeholder="92"></div>
+            <div><label class="fl">Height (cm)</label><input class="inp" id="pmHt" type="number" step="1" placeholder="188"></div>
+          </div>
+          <div class="cmrow" style="grid-template-columns:200px 1fr">
+            <div><label class="fl">Weight taken on</label><input class="inp" id="pmBwAt" type="date"></div>
+            <div class="cmhint" id="pmBwAge" style="align-self:end"></div>
+          </div>
+          <label class="fl" style="margin-top:10px">Default daily targets — enter g/kg and the grams fill in</label>
+          <div class="pmmac">
+            <div class="pmm"><span class="pml"><span class="dot" style="background:#007934"></span>Protein</span>
+              <input class="inp kg" id="pmProKg" type="number" step="0.05" min="0" placeholder="2"><span class="pmu">g/kg</span>
+              <span class="pmeq">=</span><input class="inp" id="pmPro" type="number" min="0"><span class="pmu">g</span></div>
+            <div class="pmm"><span class="pml"><span class="dot" style="background:#c98a00"></span>Carbs</span>
+              <input class="inp kg" id="pmChoKg" type="number" step="0.05" min="0" placeholder="6"><span class="pmu">g/kg</span>
+              <span class="pmeq">=</span><input class="inp" id="pmCho" type="number" min="0"><span class="pmu">g</span></div>
+            <div class="pmm"><span class="pml"><span class="dot" style="background:#ef6d00"></span>Fat</span>
+              <input class="inp kg" id="pmFatKg" type="number" step="0.05" min="0" placeholder="1.2"><span class="pmu">g/kg</span>
+              <span class="pmeq">=</span><input class="inp" id="pmFat" type="number" min="0"><span class="pmu">g</span></div>
+          </div>
+          <div class="cmhint" id="pmKcal">Enter a body weight and your g/kg targets.</div>
+        </div>
+
+        <!-- TARGETS BY DAY TYPE -->
+        <div class="pmpane" id="pmTabTargets" style="display:none">
+          <div class="cmhint">Carbs move a long way between a match and a rest day. Set g/kg for each
+            type here and picking that day type in the plan fills the targets in for you.
+            Leave a row blank to use the defaults on the About tab.</div>
+          <div id="pmDayGrid" class="pmdaygrid"></div>
+        </div>
+
+        <!-- FOODS TO AVOID -->
+        <div class="pmpane" id="pmTabAvoid" style="display:none">
+          <div class="cmhint">An <b>allergy</b> is never included and the swap is printed on the plan.
+            An <b>intolerance</b> is swapped and flagged on screen. A <b>dislike</b> is swapped or
+            dropped quietly.</div>
+          <div class="cmrow" style="grid-template-columns:1fr 150px 110px">
+            <div><label class="fl">Food or whole category</label>
+              <input class="inp" id="pmAvoidSearch" placeholder="start typing, e.g. pork, onion, peanut" autocomplete="off">
+              <div class="acbox" id="pmAvoidAC" style="display:none"></div></div>
+            <div><label class="fl">How strict</label>
+              <select class="inp" id="pmAvoidSev">
+                <option value="dislike">Dislike</option>
+                <option value="intolerance">Intolerance</option>
+                <option value="allergy">Allergy</option>
+              </select></div>
+            <div style="align-self:end"><button class="btn" id="pmAvoidAdd" type="button">Add</button></div>
+          </div>
+          <div id="pmAvoidList" class="pmavoidlist"></div>
+        </div>
+
+        <!-- FAVOURITE MEALS -->
+        <div class="pmpane" id="pmTabFavs" style="display:none">
+          <div class="cmhint">Favourites come up more often when a plan is generated, without
+            crowding out the variety. Star a meal in the plan, or add one here.</div>
+          <div class="cmrow" style="grid-template-columns:1fr 110px">
+            <div><label class="fl">Find a meal</label>
+              <input class="inp" id="pmFavSearch" placeholder="start typing a recipe name" autocomplete="off">
+              <div class="acbox" id="pmFavAC" style="display:none"></div></div>
+            <div style="align-self:end"><button class="btn" id="pmFavAdd" type="button">Add</button></div>
+          </div>
+          <div id="pmFavList" class="pmfavs"></div>
+        </div>
+
+        <!-- SUPPLEMENTS -->
+        <div class="pmpane" id="pmTabSupps" style="display:none">
+          <div class="cmhint">Set them once here and they appear on every day of the plan.
+            Change the dose or the timing on any single day without affecting the rest.</div>
+          <div class="cmrow" style="grid-template-columns:1fr 84px 96px 150px 100px">
+            <div><label class="fl">Supplement</label><select class="inp" id="pmSuppPick"></select></div>
+            <div><label class="fl">Dose</label><input class="inp" id="pmSuppDose" type="number" step="0.5" min="0"></div>
+            <div><label class="fl">Unit</label><input class="inp" id="pmSuppUnit" readonly></div>
+            <div><label class="fl">When</label><select class="inp" id="pmSuppSlot"></select></div>
+            <div style="align-self:end"><button class="btn" id="pmSuppAdd" type="button">Add</button></div>
+          </div>
+          <div id="pmSuppList" class="pmfavs"></div>
+        </div>
+
+        <!-- PREVIOUS WEEKS -->
+        <div class="pmpane" id="pmTabWeeks" style="display:none">
+          <div class="cmhint">Every week saved against this player. Opening one loads it
+            into the builder — anything unsaved in the current week is replaced.</div>
+          <div id="pmWeekList" class="pmweeks"></div>
+        </div>
+
+        <!-- NOTES -->
+        <div class="pmpane" id="pmTabNotes" style="display:none">
+          <label class="fl">Anything worth knowing about this player</label>
+          <textarea class="inp" id="pmNotes" rows="7" placeholder="Private chef, prefers fish to red meat, Ramadan from March..."></textarea>
+        </div>
+
+        <input type="hidden" id="pmId">
+      </div>
+      <div class="mfoot"><button class="btn" id="pmCancelEdit">Clear</button><button class="btn primary" id="pmSave">Save player</button></div>
+    </div>
+  </div>
+
+  <!-- saved weeks -->
+  <div class="modalwrap" id="weekModal" style="display:none">
+    <div class="modal" style="max-width:660px">
+      <div class="mhead"><h3>Saved weeks</h3><button class="mclose" id="wmClose">✕</button></div>
+      <div class="mbody">
+        <label class="fl">Show</label>
+        <select class="inp" id="wmPlayer"><option value="">All players</option></select>
+        <div class="wmlist" id="wmList"></div>
+      </div>
+      <div class="mfoot"><button class="btn" id="wmCancel">Close</button></div>
+    </div>
+  </div>
+
+  <!-- add a food -->
+  <div class="modalwrap" id="foodModal" style="display:none">
+    <div class="modal" style="max-width:560px">
+      <div class="mhead"><h3>Add a food</h3><button class="mclose" id="fmClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmrow"><div><label class="fl">Food name</label><input class="inp" id="fmName" placeholder="e.g. Protein Bar, Chocolate"></div>
+          <div><label class="fl">Brand (optional)</label><input class="inp" id="fmBrand" placeholder="e.g. Nutrition Co"></div></div>
+        <label class="fl">The numbers on the packet are per…</label>
+        <div class="fmtabs">
+          <button class="fmtab on" id="fmPer100" type="button">100g / 100ml</button>
+          <button class="fmtab" id="fmPerServ" type="button">One serving / bar</button>
+        </div>
+        <div class="fmgrid">
+          <div><label class="fl">Protein (g)</label><input class="inp" id="fmP" type="number" min="0" step="0.1"></div>
+          <div><label class="fl">Carbs (g)</label><input class="inp" id="fmC" type="number" min="0" step="0.1"></div>
+          <div><label class="fl">Fat (g)</label><input class="inp" id="fmF" type="number" min="0" step="0.1"></div>
+          <div><label class="fl">Calories</label><input class="inp" id="fmK" type="number" min="0" step="1" placeholder="auto"></div>
+        </div>
+        <div id="fmServWrap" style="display:none">
+          <div class="cmrow"><div><label class="fl">One serving weighs (g)</label><input class="inp" id="fmServG" type="number" min="1" placeholder="e.g. 60"></div>
+            <div><label class="fl">Call it a…</label><input class="inp" id="fmPieceName" placeholder="bar / scoop / pot"></div></div>
+        </div>
+        <div class="cmrow"><div><label class="fl">Measured in</label><select class="inp" id="fmUnit"><option value="g">Grams (solid)</option><option value="ml">Millilitres (liquid)</option></select></div>
+          <div><label class="fl">Portioning</label><select class="inp" id="fmPort"><option value="free">Any amount</option><option value="half">Halves OK</option><option value="whole">Whole units only</option></select></div></div>
+        <div class="cmpreview" id="fmPreview">Enter the nutrition from the label</div>
+        <div class="cmwarn" id="fmWarn" style="display:none"></div>
+      </div>
+      <div class="mfoot"><button class="btn" id="fmCancel">Cancel</button><button class="btn primary" id="fmSave">Save food</button></div>
+    </div>
+  </div>
+
+  <!-- custom meal builder -->
+  <div class="modalwrap" id="customModal" style="display:none">
+    <div class="modal">
+      <div class="mhead"><h3>Add your own meal</h3><button class="mclose" id="cmClose">✕</button></div>
+      <div class="mbody">
+        <div class="cmrow">
+          <div><label class="fl">Meal name</label><input class="inp" id="cmName" placeholder="e.g. Scrambled Eggs on Toast"></div>
+          <div><label class="fl">Slot</label><select class="inp" id="cmCat">
+            <option value="snack">Snack</option><option value="breakfast">Breakfast</option>
+            <option value="lunchdinner">Lunch / Dinner</option><option value="smoothie">Smoothie</option>
+          </select></div>
+          <div><label class="fl">Makes (servings)</label><input class="inp" id="cmServings" type="number" min="1" value="1"></div>
+        </div>
+        <label class="fl">Ingredients — search the food database</label>
+        <div class="cmsearch">
+          <input class="inp" id="cmSearch" type="text" autocomplete="off" placeholder="Start typing a food, e.g. eggs, basmati rice, olive oil">
+          <div class="cmresults" id="cmResults" style="display:none"></div>
+        </div>
+        <div class="cmpicked" id="cmPicked"></div>
+        <button class="addfoodlink" id="cmAddFood" type="button">Can't find it? + Add a new food</button>
+        <div class="cmhint">Every ingredient is picked from the food database, so the macros and calories are always matched. Search a food, choose the amount, and it's added to the list.</div>
+        <textarea id="cmIngs" style="display:none"></textarea>
+        <label class="fl">Method (optional) — one step per line</label>
+        <textarea class="inp ta" id="cmMethod" rows="4" placeholder="Whisk the eggs&#10;Scramble over a low heat&#10;Toast the bread"></textarea>
+        <div class="cmpreview" id="cmPreview">Add ingredients to see the macros</div>
+        <div class="cmwarn" id="cmWarn" style="display:none"></div>
+      </div>
+      <div class="mfoot">
+        <button class="btn" id="cmCancel">Cancel</button>
+        <button class="btn" id="cmSaveLib">Save to library</button>
+        <button class="btn primary" id="cmSave">Add to day</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+/*__DATA__*/
+</script>
+</body>
+</html>
